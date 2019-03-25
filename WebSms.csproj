@@ -137,6 +137,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UploadSmsRefresh2.aspx.cs">
+      <DependentUpon>UploadSmsRefresh2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="UserMaintenance.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -169,6 +173,7 @@
     <Content Include="UploadSmsActionRefresh.aspx" />
     <Content Include="UploadSmsAgentRefresh.aspx" />
     <Content Include="UploadSmsRefresh.aspx" />
+    <Content Include="UploadSmsRefresh2.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

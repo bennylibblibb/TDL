@@ -42,6 +42,10 @@
                 {
                     list.Add(new TabItem("Account Action",string.Concat(new object[] {"SendByGroup.aspx?csindex=", num, "&sIndex=", list.Count})));
                 }
+                if (AppFlag.BulkFunction == true)
+                {
+                    list.Add(new TabItem(Session["LanguageEn"] == "en-US" ? "Upload Send 2" : "上載不同內容", string.Concat(new object[] { "SendByGroup.aspx?csindex=", num, "&sIndex=", list.Count })));
+                }
                 if (AppFlag.AgentFunction == true)
                 {
                     list.Add(new TabItem("SMS Agent", string.Concat(new object[] { "SendByGroup.aspx?csindex=", num, "&sIndex=", list.Count })));
