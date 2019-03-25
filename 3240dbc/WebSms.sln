@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSms", "WebSms.csproj", "{04B9DCEE-27F8-46CE-B513-151DC589655B}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = \u0022$/WebSms\u0022,\u0020UIEAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName1 = WebSms.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04B9DCEE-27F8-46CE-B513-151DC589655B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B9DCEE-27F8-46CE-B513-151DC589655B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B9DCEE-27F8-46CE-B513-151DC589655B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B9DCEE-27F8-46CE-B513-151DC589655B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

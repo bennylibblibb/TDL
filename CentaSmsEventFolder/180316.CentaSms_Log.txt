@@ -1,0 +1,264 @@
+﻿09:23:51  BEN login success.
+09:36:12  BEN logout success.
+09:36:20  BEN login success.
+09:38:23  BEN logout success.
+09:38:32  BEN login success.
+09:58:45  BEN logout success.
+10:01:57  BEN login success.
+10:08:25  BEN logout success.
+10:08:31  BEN login success.
+10:15:07  ( BEN)  更新 SE00000002 發送內容 agc 至 a
+10:19:28  ( BEN)  更新 SE00000004 發送內容 adfsd 至 q
+10:25:18  BEN logout success.
+10:25:26  BEN login success.
+10:31:01  BEN logout success.
+10:31:07  ( BEN)  Invalid UserName or Password,Login Failure！
+10:31:17  BEN login success.
+10:35:19  BEN logout success.
+10:35:26  BEN login success.
+10:39:45  BEN logout success.
+10:39:52  BEN login success.
+10:59:12  BEN logout success.
+10:59:19  BEN login success.
+10:59:40  ( BEN)  開始發送訊息！
+10:59:48  ( BEN)  設置即時發送成功! （No RemoteService）ID:BE00000004  
+ 短訊內容：
+ ABC
+ Unicode Msg: 004100420043
+ 發送號碼：
+ MST11(Private),   94566990,   64069345,   Group2(Private),   62505623[ACC_1C2N_MTR(共享組別)],   62505590[ACC_1C2N_MTR(共享組別)],   62505597[ACC_1C2N_MTR(共享組別)],   62505683[ACC_1C2N_MTR(共享組別)],   90268469[ACC_1C2N_MTR(共享組別)],   91795623[ACC_1C2N_MTR(共享組別)],   64080003[ACC_1C2N_MTR(共享組別)],   62505715[ACC_1C2N_MTR(共享組別)],   93094980[ACC_1C2N_MTR(共享組別)],   62505486[ACC_1C2N_MTR(共享組別)],   62505034[ACC_1C2N_MTR(共享組別)],   62500605[ACC_1C2N_MTR(共享組別)],   62500609[ACC_1C2N_MTR(共享組別)],   93411019[ACC_1C2N_MTR(共享組別)],   62505179[ACC_1C2N_MTR(共享組別)],   96706562[ACC_1C2N_MTR(共享組別)],   62505143[ACC_1C2N_MTR(共享組別)],   94714208[ACC_1C2N_MTR(共享組別)],   90393056[ACC_1C2N_MTR(共享組別)],   95855787[ACC_1C2N_MTR(共享組別)],   60295521[ACC_1C2N_MTR(共享組別)],   62507848[ACC_1C2N_MTR(共享組別)],   62507922[ACC_1C2N_MTR(共享組別)],   62507887[ACC_1C2N_MTR(共享組別)],   94389743[ACC_1C2N_MTR(共享組別)],   60133922[ACC_1C2N_MTR(共享組別)],   62507860[ACC_1C2N_MTR(共享組別)],   62507518[ACC_1C2N_MTR(共享組別)],   62507671[ACC_1C2N_MTR(共享組別)],   93603616[ACC_1C2N_MTR(共享組別)],   62505294[ACC_1C2N_MTR(共享組別)],   62507524[ACC_1C2N_MTR(共享組別)],   90375960[ACC_1C2N_MTR(共享組別)],   64421312[ACC_1C2N_MTR(共享組別)],   96336177[ACC_1C2N_MTR(共享組別)],   64421181[ACC_1C2N_MTR(共享組別)],   64421108[ACC_1C2N_MTR(共享組別)],   62507889[ACC_1C2N_MTR(共享組別)],   64421246[ACC_1C2N_MTR(共享組別)],   90818826[ACC_1C2N_MTR(共享組別)],   64421342[ACC_1C2N_MTR(共享組別)],   96292548[ACC_1C2N_MTR(共享組別)],   64421236[ACC_1C2N_MTR(共享組別)],   64421104[ACC_1C2N_MTR(共享組別)],   91082654[ACC_1C2N_MTR(共享組別)],   93289783[ACC_1C2N_MTR(共享組別)],   92158705[ACC_1C2N_MTR(共享組別)],   64995004[ACC_1C2N_MTR(共享組別)],   64995010[ACC_1C2N_MTR(共享組別)],   98648705[ACC_1C2N_MTR(共享組別)],   64995242[ACC_1C2N_MTR(共享組別)],   64421341[ACC_1C2N_MTR(共享組別)],   91389097[ACC_1C2N_MTR(共享組別)],   64997566[ACC_1C2N_MTR(共享組別)],   64997456[ACC_1C2N_MTR(共享組別)],   64997419[ACC_1C2N_MTR(共享組別)],   64997574[ACC_1C2N_MTR(共享組別)],   93706226[ACC_1C2N_MTR(共享組別)],   64995047[ACC_1C2N_MTR(共享組別)],   64997491[ACC_1C2N_MTR(共享組別)],   64996995[ACC_1C2N_MTR(共享組別)],   64996948[ACC_1C2N_MTR(共享組別)],   64996960[ACC_1C2N_MTR(共享組別)],   68320732[ACC_1C2N_MTR(共享組別)],   64996972[ACC_1C2N_MTR(共享組別)],   92825538[ACC_1C2N_MTR(共享組別)],   91703567[ACC_1C2N_MTR(共享組別)],   64996934[ACC_1C2N_MTR(共享組別)],   64997045[ACC_1C2N_MTR(共享組別)],   90380306[ACC_1C2N_MTR(共享組別)],   64996015[ACC_1C2N_MTR(共享組別)],   64996000[ACC_1C2N_MTR(共享組別)],   62505062[ACC_1C2N_MTR(共享組別)],   62891788[ACC_1C2N_MTR(共享組別)],   62507833[ACC_1C2N_MTR(共享組別)],   98190389[ACC_1C2N_MTR(共享組別)],   62500527[ACC_1C2N_MTR(共享組別)],   64426714[ACC_1C2N_MTR(共享組別)],   64997167[ACC_1C2N_MTR(共享組別)],   64996772[ACC_1C2N_MTR(共享組別)],   64996330[ACC_1C2N_MTR(共享組別)],   64996385[ACC_1C2N_MTR(共享組別)],   64996240[ACC_1C2N_MTR(共享組別)],   64996068[ACC_1C2N_MTR(共享組別)],   64996008[ACC_1C2N_MTR(共享組別)],   64996345[ACC_1C2N_MTR(共享組別)],   64996267[ACC_1C2N_MTR(共享組別)],   64996325[ACC_1C2N_MTR(共享組別)],   64995899[ACC_1C2N_MTR(共享組別)],   64995960[ACC_1C2N_MTR(共享組別)],   64997325[ACC_1C2N_MTR(共享組別)],   64997327[ACC_1C2N_MTR(共享組別)],   64997307[ACC_1C2N_MTR(共享組別)],   64997385[ACC_1C2N_MTR(共享組別)],   64995831[ACC_1C2N_MTR(共享組別)],   64996790[ACC_1C2N_MTR(共享組別)],   64995834[ACC_1C2N_MTR(共享組別)],   64995904[ACC_1C2N_MTR(共享組別)],   62500868[ACC_1C2N_MTR(共享組別)],   62507550[ACC_1C2N_MTR(共享組別)],   62507666[ACC_1C2N_MTR(共享組別)],   61483312[ACC_1C2N_MTR(共享組別)],   62500897[ACC_1C2N_MTR(共享組別)],   62505336[ACC_1C2N_MTR(共享組別)],   69707093[ACC_1C2N_MTR(共享組別)],   62505443[ACC_1C2N_MTR(共享組別)],   65898889[ACC_1C2N_MTR(共享組別)],   97526858[ACC_1C2N_MTR(共享組別)],   
+10:59:48  ( BEN)  結束即時發送訊息！
+
+11:00:49  ( BEN)  開始發送訊息！
+11:00:52  ( BEN)  設置即時發送成功! （No RemoteService）ID:BE00000005  
+ 短訊內容：
+ ABC
+ Unicode Msg: 004100420043
+ 發送號碼：
+ Group3(Private),   Group2(Private),   
+11:00:52  ( BEN)  結束即時發送訊息！
+
+11:04:02  BEN logout success.
+11:04:12  BEN login success.
+11:04:23  ( BEN)  開始發送訊息！
+11:04:26  ( BEN)  設置即時發送成功! （No RemoteService）ID:BE00000006  
+ 短訊內容：
+ ABC
+ Unicode Msg: 004100420043
+ 發送號碼：
+ 64069345[Group2(私人組別)],   94566990[Group2(私人組別)],   sfasfsdf[Group2(私人組別)],   94566990[Group3(私人組別)],   93653939[Group3(私人組別)],   62505597,   90268469,   
+11:04:26  ( BEN)  結束即時發送訊息！
+
+11:05:08  BEN logout success.
+11:05:20  BEN login success.
+11:05:34  BEN logout success.
+11:05:41  BEN login success.
+11:18:31  ( BEN)  開始發送訊息！
+11:18:33  Callback(DELETE)   BE00000007 
+11:18:33  ( BEN)  即時發送失敗,請重發！
+
+11:22:01  ( BEN)  開始發送訊息！
+11:23:11  Callback(DELETE)   BE00000007 
+11:23:11  ( BEN)  即時發送失敗,請重發！
+
+11:29:00  ( BEN)  開始發送訊息！
+11:29:05  Callback(DELETE)   BE00000007 
+11:29:05  ( BEN)  即時發送失敗,請重發！
+
+11:29:40  ( BEN)  開始發送訊息！
+11:29:42  Callback(DELETE)   BE00000007 
+11:29:42  ( BEN)  即時發送失敗,請重發！
+
+11:30:53  ( BEN)  開始發送訊息！
+11:30:55  Callback(DELETE)   BE00000007 
+11:30:55  ( BEN)  即時發送失敗,請重發！
+
+11:31:41  ( BEN)  開始發送訊息！
+11:34:10  Callback(DELETE)   BE00000007 
+11:34:10  ( BEN)  即時發送失敗,請重發！
+
+11:34:27  ( BEN)  開始發送訊息！
+11:34:37  Callback(DELETE)   BE00000007 
+11:34:37  ( BEN)  即時發送失敗,請重發！
+
+11:34:49  ( BEN)  開始發送訊息！
+11:35:45  Callback(DELETE)   BE00000007 
+11:35:45  ( BEN)  即時發送失敗,請重發！
+
+11:35:59  ( BEN)  開始發送訊息！
+11:36:21  Callback(DELETE)   BE00000007 
+11:36:21  ( BEN)  即時發送失敗,請重發！
+
+11:36:41  ( BEN)  開始發送訊息！
+11:37:15  Callback(DELETE)   BE00000007 
+11:37:15  ( BEN)  即時發送失敗,請重發！
+
+11:37:29  ( BEN)  開始發送訊息！
+11:44:55  ( BEN)  開始發送訊息！
+11:50:07  Callback(DELETE)   BE00000007 
+11:50:07  ( BEN)  即時發送失敗,請重發！
+
+11:52:05  ( BEN)  開始發送訊息！
+11:56:16  Callback(DELETE)   BE00000007 
+11:56:16  ( BEN)  即時發送失敗,請重發！
+
+11:59:54  ( BEN)  開始發送訊息！
+12:06:00  ( BEN)  開始發送訊息！
+12:06:13  ( BEN)  設置即時發送成功! （No RemoteService）ID:BE00000008  
+ 短訊內容：
+ A3
+ Unicode Msg: 00410033
+ 發送號碼：
+ 64069345[Group2(私人組別)],   94566990[Group2(私人組別)],   sfasfsdf[Group2(私人組別)],   
+12:06:13  ( BEN)  結束即時發送訊息！
+
+12:06:56  ( BEN)  開始發送訊息！
+12:06:59  ( BEN)  設置即時發送成功! （No RemoteService）ID:BE00000009  
+ 短訊內容：
+ GH
+ Unicode Msg: 00470048
+ 發送號碼：
+ 64069345[Group2(私人組別)],   94566990[Group2(私人組別)],   sfasfsdf[Group2(私人組別)],   94566990[Group3(私人組別)],   93653939[Group3(私人組別)],   51395925,   65464546[ACC_1C2N_MTR2(共享組別)],   
+12:06:59  ( BEN)  結束即時發送訊息！
+
+12:07:54  ( BEN)  開始發送訊息！
+12:07:57  ( BEN)  設置即時發送成功! （No RemoteService）ID:BE00000010  
+ 短訊內容：
+ ABC
+ Unicode Msg: 004100420043
+ 發送號碼：
+ 64069345[Group2(私人組別)],   94566990[Group2(私人組別)],   sfasfsdf[Group2(私人組別)],   62890174,   94566990[Group3(私人組別)],   93653939[Group3(私人組別)],   
+12:07:57  ( BEN)  結束即時發送訊息！
+
+12:09:25  ( BEN)  開始發送訊息！
+12:09:28  ( BEN)  設置即時發送成功! （No RemoteService）ID:BE00000011  
+ 短訊內容：
+ A1
+ Unicode Msg: 00410031
+ 發送號碼：
+ 64069345[Group2(私人組別)],   94566990[Group2(私人組別)],   sfasfsdf[Group2(私人組別)],   94566990[Group3(私人組別)],   93653939[Group3(私人組別)],   65464546,   62505590,   90268469,   93094980,   65464546[ACC_1C2N_MTR2(共享組別)],   
+12:09:28  ( BEN)  結束即時發送訊息！
+
+2018/03/16 12:09:58  ( BEN)  開始發送訊息！
+2018/03/16 12:09:59  ( BEN)  設置預設發送成功!  ID:SE00000005  預設發送時間：2018-03-16 12:12
+ 短訊內容：
+ A5
+ Unicode Msg: 00410035
+ 發送號碼： 
+64069345[Group2(私人組別)],   94566990[Group2(私人組別)],   sfasfsdf[Group2(私人組別)],   94566990[Group3(私人組別)],   93653939[Group3(私人組別)],   62505590,   62505597,   65464546[ACC_1C2N_MTR2(共享組別)],   
+2018/03/16 12:09:59  ( BEN)  結束預設發送訊息！
+
+12:10:38  BEN logout success.
+12:10:46  BEN login success.
+12:29:12  ( BEN)  開始發送訊息！
+12:29:16  ( BEN)  設置即時發送成功! （No RemoteService）ID:BE00000012  
+ 短訊內容：
+ adf
+ Unicode Msg: 006100640066
+ 發送號碼：
+ 64069345[Group2(私人組別)],   94566990[Group2(私人組別)],   sfasfsdf[Group2(私人組別)],   62505597,   62505715,   94566990[Group3(私人組別)],   93653939[Group3(私人組別)],   
+12:29:16  ( BEN)  結束即時發送訊息！
+
+12:29:33  BEN logout success.
+12:29:42  BEN login success.
+12:34:41  ( BEN)  開始發送訊息！
+12:34:44  ( BEN)  設置即時發送成功! （No RemoteService）ID:BE00000013  
+ 短訊內容：
+ af
+ Unicode Msg: 00610066
+ 發送號碼：
+ 64069345[Group2(Private)],   94566990[Group2(Private)],   sfasfsdf[Group2(Private)],   65464546[ACC_1C2N_MTR2(共享組別)],   62505590,   91795623,   
+12:34:44  ( BEN)  結束即時發送訊息！
+
+12:35:14  ( BEN)  開始發送訊息！
+12:35:18  ( BEN)  設置即時發送成功! （No RemoteService）ID:BE00000014  
+ 短訊內容：
+ fsd
+ Unicode Msg: 006600730064
+ 發送號碼：
+ 62505683,   93653939,   64069345[Group2(Private)],   94566990[Group2(Private)],   sfasfsdf[Group2(Private)],   65464546[ACC_1C2N_MTR2(共享組別)],   94566990[Group3(Private)],   93653939[Group3(Private)],   
+12:35:18  ( BEN)  結束即時發送訊息！
+
+12:36:25  ( BEN)  開始發送訊息！
+12:36:28  ( BEN)  設置即時發送成功! （No RemoteService）ID:BE00000015  
+ 短訊內容：
+ a
+ Unicode Msg: 0061
+ 發送號碼：
+ 64069345[Group2(Private)],   94566990[Group2(Private)],   sfasfsdf[Group2(Private)],   64069345,   94566990[Group3(Private)],   93653939[Group3(Private)],   65464546[ACC_1C2N_MTR2(共享組別)],   62505597,   
+12:36:28  ( BEN)  結束即時發送訊息！
+
+12:42:11  ( BEN)  開始發送訊息！
+12:42:15  ( BEN)  設置即時發送成功! （No RemoteService）ID:BE00000016  
+ 短訊內容：
+ adfgggggg
+ Unicode Msg: 006100640066006700670067006700670067
+ 發送號碼：
+ 64069345[Group2(私人組別)],   94566990[Group2(私人組別)],   sfasfsdf[Group2(私人組別)],   62505623[ACC_1C2N_MTR(共享組別)],   62505590[ACC_1C2N_MTR(共享組別)],   62505597[ACC_1C2N_MTR(共享組別)],   62505683[ACC_1C2N_MTR(共享組別)],   90268469[ACC_1C2N_MTR(共享組別)],   91795623[ACC_1C2N_MTR(共享組別)],   64080003[ACC_1C2N_MTR(共享組別)],   62505715[ACC_1C2N_MTR(共享組別)],   93094980[ACC_1C2N_MTR(共享組別)],   62505486[ACC_1C2N_MTR(共享組別)],   62505034[ACC_1C2N_MTR(共享組別)],   62500605[ACC_1C2N_MTR(共享組別)],   62500609[ACC_1C2N_MTR(共享組別)],   93411019[ACC_1C2N_MTR(共享組別)],   62505179[ACC_1C2N_MTR(共享組別)],   96706562[ACC_1C2N_MTR(共享組別)],   62505143[ACC_1C2N_MTR(共享組別)],   94714208[ACC_1C2N_MTR(共享組別)],   90393056[ACC_1C2N_MTR(共享組別)],   95855787[ACC_1C2N_MTR(共享組別)],   60295521[ACC_1C2N_MTR(共享組別)],   62507848[ACC_1C2N_MTR(共享組別)],   62507922[ACC_1C2N_MTR(共享組別)],   62507887[ACC_1C2N_MTR(共享組別)],   94389743[ACC_1C2N_MTR(共享組別)],   60133922[ACC_1C2N_MTR(共享組別)],   62507860[ACC_1C2N_MTR(共享組別)],   62507518[ACC_1C2N_MTR(共享組別)],   62507671[ACC_1C2N_MTR(共享組別)],   93603616[ACC_1C2N_MTR(共享組別)],   62505294[ACC_1C2N_MTR(共享組別)],   62507524[ACC_1C2N_MTR(共享組別)],   90375960[ACC_1C2N_MTR(共享組別)],   64421312[ACC_1C2N_MTR(共享組別)],   96336177[ACC_1C2N_MTR(共享組別)],   64421181[ACC_1C2N_MTR(共享組別)],   64421108[ACC_1C2N_MTR(共享組別)],   62507889[ACC_1C2N_MTR(共享組別)],   64421246[ACC_1C2N_MTR(共享組別)],   90818826[ACC_1C2N_MTR(共享組別)],   64421342[ACC_1C2N_MTR(共享組別)],   96292548[ACC_1C2N_MTR(共享組別)],   64421236[ACC_1C2N_MTR(共享組別)],   64421104[ACC_1C2N_MTR(共享組別)],   91082654[ACC_1C2N_MTR(共享組別)],   93289783[ACC_1C2N_MTR(共享組別)],   92158705[ACC_1C2N_MTR(共享組別)],   64995004[ACC_1C2N_MTR(共享組別)],   64995010[ACC_1C2N_MTR(共享組別)],   98648705[ACC_1C2N_MTR(共享組別)],   64995242[ACC_1C2N_MTR(共享組別)],   64421341[ACC_1C2N_MTR(共享組別)],   91389097[ACC_1C2N_MTR(共享組別)],   64997566[ACC_1C2N_MTR(共享組別)],   64997456[ACC_1C2N_MTR(共享組別)],   64997419[ACC_1C2N_MTR(共享組別)],   64997574[ACC_1C2N_MTR(共享組別)],   93706226[ACC_1C2N_MTR(共享組別)],   64995047[ACC_1C2N_MTR(共享組別)],   64997491[ACC_1C2N_MTR(共享組別)],   64996995[ACC_1C2N_MTR(共享組別)],   64996948[ACC_1C2N_MTR(共享組別)],   64996960[ACC_1C2N_MTR(共享組別)],   68320732[ACC_1C2N_MTR(共享組別)],   64996972[ACC_1C2N_MTR(共享組別)],   92825538[ACC_1C2N_MTR(共享組別)],   91703567[ACC_1C2N_MTR(共享組別)],   64996934[ACC_1C2N_MTR(共享組別)],   64997045[ACC_1C2N_MTR(共享組別)],   90380306[ACC_1C2N_MTR(共享組別)],   64996015[ACC_1C2N_MTR(共享組別)],   64996000[ACC_1C2N_MTR(共享組別)],   62505062[ACC_1C2N_MTR(共享組別)],   62891788[ACC_1C2N_MTR(共享組別)],   62507833[ACC_1C2N_MTR(共享組別)],   98190389[ACC_1C2N_MTR(共享組別)],   62500527[ACC_1C2N_MTR(共享組別)],   64426714[ACC_1C2N_MTR(共享組別)],   64997167[ACC_1C2N_MTR(共享組別)],   64996772[ACC_1C2N_MTR(共享組別)],   64996330[ACC_1C2N_MTR(共享組別)],   64996385[ACC_1C2N_MTR(共享組別)],   64996240[ACC_1C2N_MTR(共享組別)],   64996068[ACC_1C2N_MTR(共享組別)],   64996008[ACC_1C2N_MTR(共享組別)],   64996345[ACC_1C2N_MTR(共享組別)],   64996267[ACC_1C2N_MTR(共享組別)],   64996325[ACC_1C2N_MTR(共享組別)],   64995899[ACC_1C2N_MTR(共享組別)],   64995960[ACC_1C2N_MTR(共享組別)],   64997325[ACC_1C2N_MTR(共享組別)],   64997327[ACC_1C2N_MTR(共享組別)],   64997307[ACC_1C2N_MTR(共享組別)],   64997385[ACC_1C2N_MTR(共享組別)],   64995831[ACC_1C2N_MTR(共享組別)],   64996790[ACC_1C2N_MTR(共享組別)],   64995834[ACC_1C2N_MTR(共享組別)],   64995904[ACC_1C2N_MTR(共享組別)],   62500868[ACC_1C2N_MTR(共享組別)],   62507550[ACC_1C2N_MTR(共享組別)],   62507666[ACC_1C2N_MTR(共享組別)],   61483312[ACC_1C2N_MTR(共享組別)],   62500897[ACC_1C2N_MTR(共享組別)],   62505336[ACC_1C2N_MTR(共享組別)],   69707093[ACC_1C2N_MTR(共享組別)],   62505443[ACC_1C2N_MTR(共享組別)],   65898889[ACC_1C2N_MTR(共享組別)],   97526858[ACC_1C2N_MTR(共享組別)],   94566990,   51741976,   
+12:42:15  ( BEN)  結束即時發送訊息！
+
+12:42:43  BEN logout success.
+12:42:51  BEN login success.
+12:43:09  ( BEN)  開始發送訊息！
+12:43:12  ( BEN)  設置即時發送成功! （No RemoteService）ID:BE00000017  
+ 短訊內容：
+ AD
+ Unicode Msg: 00410044
+ 發送號碼：
+ 64069345[Group2(Private)],   94566990[Group2(Private)],   sfasfsdf[Group2(Private)],   65464546[ACC_1C2N_MTR2(Share)],   62505590,   51741976,   94566990[Group3(Private)],   93653939[Group3(Private)],   
+12:43:12  ( BEN)  結束即時發送訊息！
+
+13:32:45  BEN logout success.
+13:32:51  BEN login success.
+13:35:03 BEN 更新密碼 123 to 123.
+
+14:12:47  BEN logout success.
+14:12:55  BEN login success.
+14:13:00  (BEN)  新增私人組別 a ！
+14:34:38  BEN logout success.
+14:34:45  BEN login success.
+14:37:52  BEN logout success.
+14:37:59  BEN login success.
+14:38:00  BEN logout success.
+14:38:07  BEN login success.
+14:44:32  BEN logout success.
+14:44:39  BEN login success.
+14:46:51  BEN logout success.
+14:46:58  BEN login success.
+14:51:26  BEN logout success.
+14:51:33  BEN login success.
+14:52:14  (BEN)  設置有共享組別權限：TDLUSER BEN OPERATOR SYSOPR BEN1 ！
+14:55:09  BEN logout success.
+14:55:21  BEN login success.
+14:56:21  BEN logout success.
+14:56:28  BEN login success.
+15:26:41  BEN logout success.
+15:26:48  ( BEN)  驗證碼錯誤！
+15:26:56  BEN login success.
+15:28:09  BEN logout success.
+15:28:17  BEN login success.
+15:29:47  BEN logout success.
+15:29:53  BEN login success.
+15:30:34  BEN logout success.
+15:36:48  BEN login success.
+16:15:41  BEN logout success.
+16:15:49  BEN login success.
+16:30:57  BEN logout success.
+16:31:10  ( BEN)  Invalid UserName or Password,Login Failure！
+16:31:16  BEN login success.
+16:43:24  BEN logout success.
+16:43:42  BEN login success.
+16:43:44  BEN logout success.
+16:43:55  BEN login success.
+16:43:56  BEN logout success.
+16:44:06  BEN login success.
+16:44:07  BEN logout success.
+16:44:15  BEN login success.
+16:44:18  BEN logout success.
+16:44:25  BEN login success.
+16:44:27  BEN logout success.
+16:44:37  BEN login success.
+16:44:38  BEN logout success.
+16:44:45  BEN login success.
+16:44:46  BEN logout success.
+19:18:28  BEN login success.

@@ -1,0 +1,110 @@
+﻿15:14:37   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+15:34:13 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+15:35:44 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+15:39:17 Upload: SMS 4.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+15:48:32 Upload: SMS 4.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+15:53:21 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+15:54:27   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+15:55:24 Upload: SMS1.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+15:58:52 Upload: SMS1.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+15:59:59   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+16:01:24 Upload: SMS1.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+16:01:57 Upload: SMS12.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+16:02:58   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+16:03:51 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+16:08:08   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170

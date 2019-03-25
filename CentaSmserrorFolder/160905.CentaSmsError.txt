@@ -1,0 +1,233 @@
+﻿13:17:40 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:41 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:43 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:44 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:45 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:46 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:47 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:48 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:49 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:50 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:51 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:52 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:53 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:54 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:55 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:56 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:57 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:58 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:17:59 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:00 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:02 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:03 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:04 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:05 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:06 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:07 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:08 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:09 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:10 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:11 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:12 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:13 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:14 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:15 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:16 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:17 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:18 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:19 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:20 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:21 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:22 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:23 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:24 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:25 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:26 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:27 Received error:System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Net.Connection.CompleteStartConnection(Boolean async, HttpWebRequest httpWebRequest)
+   在 System.Net.Connection.CompleteStartRequest(Boolean onSubmitThread, HttpWebRequest request, TriState needReConnect)
+   在 System.Net.Connection.SubmitRequest(HttpWebRequest request)
+   在 System.Net.ServicePoint.SubmitRequest(HttpWebRequest request, String connName)
+   在 System.Net.HttpWebRequest.SubmitRequest(ServicePoint servicePoint)
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:18:27 Upload: TAPNGO_MRT_20160808.XLSX  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsActionLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 180
+13:19:27 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:28 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:29 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:30 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:31 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:32 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:33 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:34 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:35 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:36 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:38 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:39 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:40 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:41 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:42 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:43 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:44 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:45 Received error:System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Net.Connection.CompleteStartConnection(Boolean async, HttpWebRequest httpWebRequest)
+   在 System.Net.Connection.CompleteStartRequest(Boolean onSubmitThread, HttpWebRequest request, TriState needReConnect)
+   在 System.Net.Connection.SubmitRequest(HttpWebRequest request)
+   在 System.Net.ServicePoint.SubmitRequest(HttpWebRequest request, String connName)
+   在 System.Net.HttpWebRequest.SubmitRequest(ServicePoint servicePoint)
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:19:45 Upload: TAPNGO_MRT_20160808.XLSX  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsActionLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 180
+13:30:02 Received error:System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   在 System.Net.ConnectStream.ProcessWriteCallDone(ConnectionReturnResult returnResult)
+   在 System.Net.HttpWebRequest.WriteCallDone(ConnectStream stream, ConnectionReturnResult returnResult)
+   在 System.Net.ConnectStream.CallDone(ConnectionReturnResult returnResult)
+   在 System.Net.ConnectStream.CloseInternal(Boolean internalCall, Boolean aborting)
+   在 System.Net.ConnectStream.System.Net.ICloseEx.CloseEx(CloseExState closeState)
+   在 System.Net.ConnectStream.CloseInternal(Boolean internalCall)
+   在 System.Net.HttpWebRequest.EndWriteHeaders_Part2()
+   在 System.Net.HttpWebRequest.EndWriteHeaders(Boolean async)
+   在 System.Net.HttpWebRequest.WriteHeadersCallback(WebExceptionStatus errorStatus, ConnectStream stream, Boolean async)
+   在 System.Net.ConnectStream.WriteHeaders(Boolean async)
+   在 System.Net.HttpWebRequest.EndSubmitRequest()
+   在 System.Net.HttpWebRequest.SetRequestSubmitDone(ConnectStream submitStream)
+   在 System.Net.Connection.CompleteStartRequest(Boolean onSubmitThread, HttpWebRequest request, TriState needReConnect)
+   在 System.Net.Connection.SubmitRequest(HttpWebRequest request)
+   在 System.Net.ServicePoint.SubmitRequest(HttpWebRequest request, String connName)
+   在 System.Net.HttpWebRequest.SubmitRequest(ServicePoint servicePoint)
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 435
+13:30:02 Upload: TAPNGO_MRT_20160808.XLSX  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsActionLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 180

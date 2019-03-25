@@ -1,0 +1,914 @@
+﻿10:42:45  ( BEN)  Invalid UserName or Password,Login Failure！
+10:43:19  ( BEN)  驗證碼錯誤！
+10:43:26  BEN login success.
+
+10:43:45  (BEN)  開始上載Action 20161229-ADDED VOLTE ON DEC14-DEC27.XLSX！
+10:43:48  (BEN)  上載 (20161229-ADDED VOLTE ON DEC14-DEC27.XLSX-'$1$')
+10:43:49 028  (BEN)  上載 ('$1$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297004/content/P0051:已免費升級至VoLTE
+10:43:49 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:49 794  (BEN)  上載 ('$1$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297033/content/P0051:已免費升級至VoLTE
+10:43:49 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:50 031  (BEN)  上載 ('$1$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/60952200/content/P0051:已免費升級至VoLTE
+10:43:50 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:50 311  (BEN)  上載 ('$1$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/54040954/content/P0051:已免費升級至VoLTE
+10:43:50 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:50  (BEN)  上載 (20161229-ADDED VOLTE ON DEC14-DEC27.XLSX-'$2_Optin&USIM$')
+10:43:53 938  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452495/content/P0051:已免費升級至VoLTE
+10:43:54 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:54 250  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452498/content/P0051:已免費升級至VoLTE
+10:43:54 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:54 487  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452499/content/P0051:已免費升級至VoLTE
+10:43:54 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:54 721  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452500/content/P0051:已免費升級至VoLTE
+10:43:54 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:54 955  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452502/content/P0051:已免費升級至VoLTE
+10:43:55 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:55 189  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452503/content/P0051:已免費升級至VoLTE
+10:43:55 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:55 439  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452504/content/P0051:已免費升級至VoLTE
+10:43:55 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:55 673  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452505/content/P0051:已免費升級至VoLTE
+10:43:55 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:55 907  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452506/content/P0051:已免費升級至VoLTE
+10:43:57 Received error.
+10:43:57 255  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452513/content/P0051:已免費升級至VoLTE
+10:43:57 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:57 521  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452519/content/P0051:已免費升級至VoLTE
+10:43:57 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:57 739  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452521/content/P0051:已免費升級至VoLTE
+10:43:57 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:57 975  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452523/content/P0051:已免費升級至VoLTE
+10:43:58 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:58 209  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452524/content/P0051:已免費升級至VoLTE
+10:43:58 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:58 444  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452530/content/P0051:已免費升級至VoLTE
+10:43:58 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:58 678  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452533/content/P0051:已免費升級至VoLTE
+10:43:58 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:58 912  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452535/content/P0051:已免費升級至VoLTE
+10:43:58 Received:{"status":-1001,"data":"cc.mango.exception.RbwiException: -1001: Account not found"}
+10:43:59 101  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452537/content/P0051:已免費升級至VoLTE
+10:43:59 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:59 335  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452542/content/P0051:已免費升級至VoLTE
+10:43:59 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:43:59 569  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452544/content/P0051:已免費升級至VoLTE
+10:43:59 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:00 024  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452546/content/P0051:已免費升級至VoLTE
+10:44:00 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:00 258  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452549/content/P0051:已免費升級至VoLTE
+10:44:00 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:00 476  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452552/content/P0051:已免費升級至VoLTE
+10:44:00 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:00 774  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452553/content/P0051:已免費升級至VoLTE
+10:44:00 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:01 025  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452556/content/P0051:已免費升級至VoLTE
+10:44:01 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:01 245  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452559/content/P0051:已免費升級至VoLTE
+10:44:01 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:01 494  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452561/content/P0051:已免費升級至VoLTE
+10:44:01 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:01 760  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452562/content/P0051:已免費升級至VoLTE
+10:44:01 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:01 995  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452566/content/P0051:已免費升級至VoLTE
+10:44:02 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:02 213  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452571/content/P0051:已免費升級至VoLTE
+10:44:02 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:02 431  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452573/content/P0051:已免費升級至VoLTE
+10:44:02 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:02 681  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452582/content/P0051:已免費升級至VoLTE
+10:44:02 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:02 900  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452583/content/P0051:已免費升級至VoLTE
+10:44:02 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:03 134  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452586/content/P0051:已免費升級至VoLTE
+10:44:03 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:03 368  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452588/content/P0051:已免費升級至VoLTE
+10:44:03 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:03 603  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452597/content/P0051:已免費升級至VoLTE
+10:44:03 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:03 837  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452602/content/P0051:已免費升級至VoLTE
+10:44:03 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:04 058  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452605/content/P0051:已免費升級至VoLTE
+10:44:04 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:04 293  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452608/content/P0051:已免費升級至VoLTE
+10:44:04 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:04 542  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452610/content/P0051:已免費升級至VoLTE
+10:44:04 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:04 776  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452612/content/P0051:已免費升級至VoLTE
+10:44:04 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:04 996  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452616/content/P0051:已免費升級至VoLTE
+10:44:05 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:05 230  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452620/content/P0051:已免費升級至VoLTE
+10:44:05 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:05 448  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452622/content/P0051:已免費升級至VoLTE
+10:44:05 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:05 682  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452625/content/P0051:已免費升級至VoLTE
+10:44:05 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:05 917  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452626/content/P0051:已免費升級至VoLTE
+10:44:05 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:06 136  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452629/content/P0051:已免費升級至VoLTE
+10:44:06 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:06 370  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452630/content/P0051:已免費升級至VoLTE
+10:44:06 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:06 573  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452632/content/P0051:已免費升級至VoLTE
+10:44:06 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:06 792  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452640/content/P0051:已免費升級至VoLTE
+10:44:06 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:07 012  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452641/content/P0051:已免費升級至VoLTE
+10:44:07 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:07 232  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452645/content/P0051:已免費升級至VoLTE
+10:44:07 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:07 450  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452650/content/P0051:已免費升級至VoLTE
+10:44:07 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:07 684  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452651/content/P0051:已免費升級至VoLTE
+10:44:07 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:07 920  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452653/content/P0051:已免費升級至VoLTE
+10:44:08 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:08 186  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452655/content/P0051:已免費升級至VoLTE
+10:44:08 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:08 405  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452660/content/P0051:已免費升級至VoLTE
+10:44:08 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:08 607  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452661/content/P0051:已免費升級至VoLTE
+10:44:08 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:08 811  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452663/content/P0051:已免費升級至VoLTE
+10:44:08 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:09 032  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452664/content/P0051:已免費升級至VoLTE
+10:44:09 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:09 266  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452665/content/P0051:已免費升級至VoLTE
+10:44:09 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:09 485  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452668/content/P0051:已免費升級至VoLTE
+10:44:09 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:09 703  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452672/content/P0051:已免費升級至VoLTE
+10:44:09 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:09 922  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452677/content/P0051:已免費升級至VoLTE
+10:44:09 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:10 140  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452680/content/P0051:已免費升級至VoLTE
+10:44:10 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:10 360  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452681/content/P0051:已免費升級至VoLTE
+10:44:10 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:10 578  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452684/content/P0051:已免費升級至VoLTE
+10:44:10 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:10 812  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452685/content/P0051:已免費升級至VoLTE
+10:44:10 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:11 002  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452687/content/P0051:已免費升級至VoLTE
+10:44:11 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:11 221  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452688/content/P0051:已免費升級至VoLTE
+10:44:11 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:11 470  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452689/content/P0051:已免費升級至VoLTE
+10:44:11 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:11 689  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452692/content/P0051:已免費升級至VoLTE
+10:44:11 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:11 908  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452693/content/P0051:已免費升級至VoLTE
+10:44:11 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:12 128  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452695/content/P0051:已免費升級至VoLTE
+10:44:12 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:12 362  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452700/content/P0051:已免費升級至VoLTE
+10:44:12 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:12 597  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452701/content/P0051:已免費升級至VoLTE
+10:44:12 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:12 831  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452704/content/P0051:已免費升級至VoLTE
+10:44:12 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:13 067  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452705/content/P0051:已免費升級至VoLTE
+10:44:13 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:13 271  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452709/content/P0051:已免費升級至VoLTE
+10:44:13 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:13 474  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452715/content/P0051:已免費升級至VoLTE
+10:44:13 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:13 692  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452717/content/P0051:已免費升級至VoLTE
+10:44:13 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:13 911  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452718/content/P0051:已免費升級至VoLTE
+10:44:13 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:14 130  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452722/content/P0051:已免費升級至VoLTE
+10:44:14 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:14 349  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452723/content/P0051:已免費升級至VoLTE
+10:44:14 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:14 551  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452726/content/P0051:已免費升級至VoLTE
+10:44:14 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:14 755  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452727/content/P0051:已免費升級至VoLTE
+10:44:14 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:14 976  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452728/content/P0051:已免費升級至VoLTE
+10:44:15 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:15 194  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452729/content/P0051:已免費升級至VoLTE
+10:44:15 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:15 412  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452733/content/P0051:已免費升級至VoLTE
+10:44:15 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:15 616  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452734/content/P0051:已免費升級至VoLTE
+10:44:15 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:15 850  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452737/content/P0051:已免費升級至VoLTE
+10:44:15 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:16 069  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452744/content/P0051:已免費升級至VoLTE
+10:44:16 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:16 304  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452755/content/P0051:已免費升級至VoLTE
+10:44:16 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:16 584  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452756/content/P0051:已免費升級至VoLTE
+10:44:16 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:16 850  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452762/content/P0051:已免費升級至VoLTE
+10:44:16 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:17 118  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452765/content/P0051:已免費升級至VoLTE
+10:44:17 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:17 336  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452767/content/P0051:已免費升級至VoLTE
+10:44:17 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:17 555  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452769/content/P0051:已免費升級至VoLTE
+10:44:17 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:17 805  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452771/content/P0051:已免費升級至VoLTE
+10:44:17 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:18 041  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452772/content/P0051:已免費升級至VoLTE
+10:44:18 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:18 275  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452775/content/P0051:已免費升級至VoLTE
+10:44:18 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:18 510  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452779/content/P0051:已免費升級至VoLTE
+10:44:18 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:18 729  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452794/content/P0051:已免費升級至VoLTE
+10:44:18 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:18 947  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452795/content/P0051:已免費升級至VoLTE
+10:44:18 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:19 165  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452797/content/P0051:已免費升級至VoLTE
+10:44:19 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:19 400  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452798/content/P0051:已免費升級至VoLTE
+10:44:19 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:19 634  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452799/content/P0051:已免費升級至VoLTE
+10:44:19 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:19 837  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452801/content/P0051:已免費升級至VoLTE
+10:44:19 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:20 043  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452803/content/P0051:已免費升級至VoLTE
+10:44:20 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:20 261  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452807/content/P0051:已免費升級至VoLTE
+10:44:20 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:20 480  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452808/content/P0051:已免費升級至VoLTE
+10:44:20 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:20 698  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452809/content/P0051:已免費升級至VoLTE
+10:44:20 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:20 918  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452810/content/P0051:已免費升級至VoLTE
+10:44:20 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:21 122  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452812/content/P0051:已免費升級至VoLTE
+10:44:21 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:21 341  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452815/content/P0051:已免費升級至VoLTE
+10:44:21 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:21 545  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452818/content/P0051:已免費升級至VoLTE
+10:44:21 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:21 779  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452820/content/P0051:已免費升級至VoLTE
+10:44:21 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:21 983  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452822/content/P0051:已免費升級至VoLTE
+10:44:22 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:22 217  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452823/content/P0051:已免費升級至VoLTE
+10:44:22 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:22 421  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452830/content/P0051:已免費升級至VoLTE
+10:44:22 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:22 655  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452832/content/P0051:已免費升級至VoLTE
+10:44:22 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:22 858  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452833/content/P0051:已免費升級至VoLTE
+10:44:22 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:23 079  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452834/content/P0051:已免費升級至VoLTE
+10:44:23 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:23 298  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452835/content/P0051:已免費升級至VoLTE
+10:44:23 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:23 501  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452836/content/P0051:已免費升級至VoLTE
+10:44:23 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:23 736  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452838/content/P0051:已免費升級至VoLTE
+10:44:23 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:23 987  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452839/content/P0051:已免費升級至VoLTE
+10:44:24 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:24 190  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452850/content/P0051:已免費升級至VoLTE
+10:44:24 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:24 424  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452852/content/P0051:已免費升級至VoLTE
+10:44:24 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:24 643  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452853/content/P0051:已免費升級至VoLTE
+10:44:24 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:24 846  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452855/content/P0051:已免費升級至VoLTE
+10:44:24 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:25 065  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452858/content/P0051:已免費升級至VoLTE
+10:44:25 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:25 268  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452859/content/P0051:已免費升級至VoLTE
+10:44:25 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:25 471  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452860/content/P0051:已免費升級至VoLTE
+10:44:25 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:25 674  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452861/content/P0051:已免費升級至VoLTE
+10:44:25 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:25 877  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452862/content/P0051:已免費升級至VoLTE
+10:44:25 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:26 083  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452863/content/P0051:已免費升級至VoLTE
+10:44:26 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:26 285  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452864/content/P0051:已免費升級至VoLTE
+10:44:26 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:26 504  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452866/content/P0051:已免費升級至VoLTE
+10:44:26 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:26 722  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452867/content/P0051:已免費升級至VoLTE
+10:44:26 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:26 942  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452869/content/P0051:已免費升級至VoLTE
+10:44:26 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:27 144  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452872/content/P0051:已免費升級至VoLTE
+10:44:27 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:27 363  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452876/content/P0051:已免費升級至VoLTE
+10:44:27 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:27 567  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452877/content/P0051:已免費升級至VoLTE
+10:44:27 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:27 769  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452880/content/P0051:已免費升級至VoLTE
+10:44:27 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:27 974  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452885/content/P0051:已免費升級至VoLTE
+10:44:28 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:28 177  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452886/content/P0051:已免費升級至VoLTE
+10:44:28 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:28 396  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452890/content/P0051:已免費升級至VoLTE
+10:44:28 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:28 615  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452892/content/P0051:已免費升級至VoLTE
+10:44:28 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:28 835  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452894/content/P0051:已免費升級至VoLTE
+10:44:28 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:29 057  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452906/content/P0051:已免費升級至VoLTE
+10:44:29 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:29 275  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452908/content/P0051:已免費升級至VoLTE
+10:44:29 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:29 509  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452911/content/P0051:已免費升級至VoLTE
+10:44:29 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:29 712  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452913/content/P0051:已免費升級至VoLTE
+10:44:29 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:29 916  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452923/content/P0051:已免費升級至VoLTE
+10:44:29 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:30 167  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452924/content/P0051:已免費升級至VoLTE
+10:44:30 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:30 386  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452925/content/P0051:已免費升級至VoLTE
+10:44:30 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:30 589  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452926/content/P0051:已免費升級至VoLTE
+10:44:30 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:30 792  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452927/content/P0051:已免費升級至VoLTE
+10:44:30 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:31 028  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452928/content/P0051:已免費升級至VoLTE
+10:44:31 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:31 232  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452929/content/P0051:已免費升級至VoLTE
+10:44:31 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:31 435  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452932/content/P0051:已免費升級至VoLTE
+10:44:31 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:31 669  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452935/content/P0051:已免費升級至VoLTE
+10:44:31 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:31 872  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452937/content/P0051:已免費升級至VoLTE
+10:44:31 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:32 093  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452939/content/P0051:已免費升級至VoLTE
+10:44:32 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:32 296  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452940/content/P0051:已免費升級至VoLTE
+10:44:32 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:32 514  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452942/content/P0051:已免費升級至VoLTE
+10:44:32 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:32 734  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452944/content/P0051:已免費升級至VoLTE
+10:44:32 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:32 936  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452945/content/P0051:已免費升級至VoLTE
+10:44:32 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:33 124  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452950/content/P0051:已免費升級至VoLTE
+10:44:33 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:33 326  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452952/content/P0051:已免費升級至VoLTE
+10:44:33 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:33 546  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452954/content/P0051:已免費升級至VoLTE
+10:44:33 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:33 749  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452956/content/P0051:已免費升級至VoLTE
+10:44:33 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:33 953  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452959/content/P0051:已免費升級至VoLTE
+10:44:34 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:34 172  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452963/content/P0051:已免費升級至VoLTE
+10:44:34 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:34 391  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452971/content/P0051:已免費升級至VoLTE
+10:44:34 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:34 610  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452977/content/P0051:已免費升級至VoLTE
+10:44:34 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:34 828  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452980/content/P0051:已免費升級至VoLTE
+10:44:34 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:35 034  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452981/content/P0051:已免費升級至VoLTE
+10:44:35 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:35 252  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452982/content/P0051:已免費升級至VoLTE
+10:44:35 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:35 471  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452986/content/P0051:已免費升級至VoLTE
+10:44:35 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:35 689  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452988/content/P0051:已免費升級至VoLTE
+10:44:35 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:35 942  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452989/content/P0051:已免費升級至VoLTE
+10:44:35 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:36 162  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452990/content/P0051:已免費升級至VoLTE
+10:44:36 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:36 365  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452994/content/P0051:已免費升級至VoLTE
+10:44:36 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:36 584  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452996/content/P0051:已免費升級至VoLTE
+10:44:36 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:36 787  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55452998/content/P0051:已免費升級至VoLTE
+10:44:36 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:37 023  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453006/content/P0051:已免費升級至VoLTE
+10:44:37 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:37 242  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453009/content/P0051:已免費升級至VoLTE
+10:44:37 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:37 492  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453010/content/P0051:已免費升級至VoLTE
+10:44:37 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:37 695  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453018/content/P0051:已免費升級至VoLTE
+10:44:37 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:37 898  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453021/content/P0051:已免費升級至VoLTE
+10:44:37 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:38 117  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453022/content/P0051:已免費升級至VoLTE
+10:44:38 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:38 320  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453023/content/P0051:已免費升級至VoLTE
+10:44:38 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:38 523  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453025/content/P0051:已免費升級至VoLTE
+10:44:38 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:38 742  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453026/content/P0051:已免費升級至VoLTE
+10:44:38 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:38 945  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453028/content/P0051:已免費升級至VoLTE
+10:44:38 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:39 148  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453049/content/P0051:已免費升級至VoLTE
+10:44:39 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:39 350  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453054/content/P0051:已免費升級至VoLTE
+10:44:39 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:39 554  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453057/content/P0051:已免費升級至VoLTE
+10:44:39 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:39 773  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453058/content/P0051:已免費升級至VoLTE
+10:44:39 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:39 993  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453062/content/P0051:已免費升級至VoLTE
+10:44:40 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:40 211  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453069/content/P0051:已免費升級至VoLTE
+10:44:40 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:40 431  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453073/content/P0051:已免費升級至VoLTE
+10:44:40 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:40 634  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453074/content/P0051:已免費升級至VoLTE
+10:44:40 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:40 852  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453075/content/P0051:已免費升級至VoLTE
+10:44:40 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:41 058  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453077/content/P0051:已免費升級至VoLTE
+10:44:41 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:41 276  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453084/content/P0051:已免費升級至VoLTE
+10:44:41 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:41 495  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453087/content/P0051:已免費升級至VoLTE
+10:44:41 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:41 713  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453089/content/P0051:已免費升級至VoLTE
+10:44:41 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:41 934  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453092/content/P0051:已免費升級至VoLTE
+10:44:41 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:42 137  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453095/content/P0051:已免費升級至VoLTE
+10:44:42 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:42 371  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453097/content/P0051:已免費升級至VoLTE
+10:44:42 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:42 575  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453099/content/P0051:已免費升級至VoLTE
+10:44:42 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:42 794  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453101/content/P0051:已免費升級至VoLTE
+10:44:42 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:42 996  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453103/content/P0051:已免費升級至VoLTE
+10:44:43 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:43 199  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453106/content/P0051:已免費升級至VoLTE
+10:44:43 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:43 403  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453108/content/P0051:已免費升級至VoLTE
+10:44:43 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:43 606  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453112/content/P0051:已免費升級至VoLTE
+10:44:43 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:43 809  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453114/content/P0051:已免費升級至VoLTE
+10:44:43 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:44 014  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453119/content/P0051:已免費升級至VoLTE
+10:44:44 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:44 217  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453121/content/P0051:已免費升級至VoLTE
+10:44:44 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:44 436  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453123/content/P0051:已免費升級至VoLTE
+10:44:44 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:44 654  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453125/content/P0051:已免費升級至VoLTE
+10:44:44 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:44 873  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453126/content/P0051:已免費升級至VoLTE
+10:44:44 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:45 078  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453133/content/P0051:已免費升級至VoLTE
+10:44:45 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:45 281  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453134/content/P0051:已免費升級至VoLTE
+10:44:45 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:45 485  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453135/content/P0051:已免費升級至VoLTE
+10:44:45 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:45 734  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453136/content/P0051:已免費升級至VoLTE
+10:44:45 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:45 937  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453138/content/P0051:已免費升級至VoLTE
+10:44:45 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:46 156  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453139/content/P0051:已免費升級至VoLTE
+10:44:46 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:46 361  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453147/content/P0051:已免費升級至VoLTE
+10:44:46 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:46 564  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453151/content/P0051:已免費升級至VoLTE
+10:44:46 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:46 767  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453152/content/P0051:已免費升級至VoLTE
+10:44:46 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:47 002  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453154/content/P0051:已免費升級至VoLTE
+10:44:47 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:47 220  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453158/content/P0051:已免費升級至VoLTE
+10:44:47 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:47 423  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453162/content/P0051:已免費升級至VoLTE
+10:44:47 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:47 626  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453163/content/P0051:已免費升級至VoLTE
+10:44:47 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:47 830  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453164/content/P0051:已免費升級至VoLTE
+10:44:47 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:48 070  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453165/content/P0051:已免費升級至VoLTE
+10:44:48 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:48 288  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453166/content/P0051:已免費升級至VoLTE
+10:44:48 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:48 492  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453174/content/P0051:已免費升級至VoLTE
+10:44:48 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:48 710  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453179/content/P0051:已免費升級至VoLTE
+10:44:48 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:48 929  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453180/content/P0051:已免費升級至VoLTE
+10:44:48 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:49 147  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453184/content/P0051:已免費升級至VoLTE
+10:44:49 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:49 367  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453188/content/P0051:已免費升級至VoLTE
+10:44:49 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:49 585  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453192/content/P0051:已免費升級至VoLTE
+10:44:49 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:49 788  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453193/content/P0051:已免費升級至VoLTE
+10:44:50 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:50 851  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453198/content/P0051:已免費升級至VoLTE
+10:44:50 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:51 071  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453201/content/P0051:已免費升級至VoLTE
+10:44:51 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:51 289  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453203/content/P0051:已免費升級至VoLTE
+10:44:51 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:51 493  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453209/content/P0051:已免費升級至VoLTE
+10:44:51 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:51 712  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453212/content/P0051:已免費升級至VoLTE
+10:44:51 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:51 914  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453215/content/P0051:已免費升級至VoLTE
+10:44:51 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:52 117  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453216/content/P0051:已免費升級至VoLTE
+10:44:52 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:52 321  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453220/content/P0051:已免費升級至VoLTE
+10:44:52 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:52 524  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453224/content/P0051:已免費升級至VoLTE
+10:44:52 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:52 727  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453225/content/P0051:已免費升級至VoLTE
+10:44:52 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:52 947  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453226/content/P0051:已免費升級至VoLTE
+10:44:52 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:53 166  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453227/content/P0051:已免費升級至VoLTE
+10:44:53 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:53 385  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453229/content/P0051:已免費升級至VoLTE
+10:44:53 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:53 588  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453231/content/P0051:已免費升級至VoLTE
+10:44:53 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:53 791  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453232/content/P0051:已免費升級至VoLTE
+10:44:53 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:54 010  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453235/content/P0051:已免費升級至VoLTE
+10:44:54 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:54 228  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453236/content/P0051:已免費升級至VoLTE
+10:44:54 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:54 431  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453239/content/P0051:已免費升級至VoLTE
+10:44:54 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:54 635  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453240/content/P0051:已免費升級至VoLTE
+10:44:54 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:54 838  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453243/content/P0051:已免費升級至VoLTE
+10:44:54 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:55 074  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453245/content/P0051:已免費升級至VoLTE
+10:44:55 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:55 277  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453246/content/P0051:已免費升級至VoLTE
+10:44:55 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:55 480  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453248/content/P0051:已免費升級至VoLTE
+10:44:55 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:55 714  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453249/content/P0051:已免費升級至VoLTE
+10:44:55 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:55 917  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453252/content/P0051:已免費升級至VoLTE
+10:44:55 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:56 138  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453258/content/P0051:已免費升級至VoLTE
+10:44:56 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:56 372  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453259/content/P0051:已免費升級至VoLTE
+10:44:56 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:56 591  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453263/content/P0051:已免費升級至VoLTE
+10:44:56 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:56 795  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453265/content/P0051:已免費升級至VoLTE
+10:44:56 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:56 997  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453266/content/P0051:已免費升級至VoLTE
+10:44:57 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:57 216  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453267/content/P0051:已免費升級至VoLTE
+10:44:57 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:57 419  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453268/content/P0051:已免費升級至VoLTE
+10:44:57 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:57 622  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453269/content/P0051:已免費升級至VoLTE
+10:44:57 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:57 825  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453273/content/P0051:已免費升級至VoLTE
+10:44:57 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:58 028  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453277/content/P0051:已免費升級至VoLTE
+10:44:58 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:58 247  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453278/content/P0051:已免費升級至VoLTE
+10:44:58 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:58 481  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453282/content/P0051:已免費升級至VoLTE
+10:44:58 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:58 684  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453283/content/P0051:已免費升級至VoLTE
+10:44:58 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:58 903  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453284/content/P0051:已免費升級至VoLTE
+10:44:58 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:59 122  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453287/content/P0051:已免費升級至VoLTE
+10:44:59 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:59 340  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453293/content/P0051:已免費升級至VoLTE
+10:44:59 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:59 543  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453296/content/P0051:已免費升級至VoLTE
+10:44:59 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:44:59 747  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453297/content/P0051:已免費升級至VoLTE
+10:44:59 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:00 014  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453298/content/P0051:已免費升級至VoLTE
+10:45:00 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:00 233  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453299/content/P0051:已免費升級至VoLTE
+10:45:00 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:00 435  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453300/content/P0051:已免費升級至VoLTE
+10:45:00 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:00 670  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453301/content/P0051:已免費升級至VoLTE
+10:45:00 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:00 873  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453306/content/P0051:已免費升級至VoLTE
+10:45:00 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:01 092  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453312/content/P0051:已免費升級至VoLTE
+10:45:01 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:01 327  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453313/content/P0051:已免費升級至VoLTE
+10:45:01 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:01 529  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453314/content/P0051:已免費升級至VoLTE
+10:45:02 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:02 640  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453315/content/P0051:已免費升級至VoLTE
+10:45:02 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:02 875  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453316/content/P0051:已免費升級至VoLTE
+10:45:02 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:03 093  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453320/content/P0051:已免費升級至VoLTE
+10:45:03 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:03 298  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453321/content/P0051:已免費升級至VoLTE
+10:45:03 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:03 502  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453325/content/P0051:已免費升級至VoLTE
+10:45:03 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:03 736  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453326/content/P0051:已免費升級至VoLTE
+10:45:03 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:03 956  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453327/content/P0051:已免費升級至VoLTE
+10:45:03 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:04 159  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453329/content/P0051:已免費升級至VoLTE
+10:45:04 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:04 363  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453341/content/P0051:已免費升級至VoLTE
+10:45:04 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:04 581  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453342/content/P0051:已免費升級至VoLTE
+10:45:04 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:04 815  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453344/content/P0051:已免費升級至VoLTE
+10:45:04 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:05 052  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453347/content/P0051:已免費升級至VoLTE
+10:45:05 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:05 271  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453349/content/P0051:已免費升級至VoLTE
+10:45:05 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:05 474  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453359/content/P0051:已免費升級至VoLTE
+10:45:05 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:05 692  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453360/content/P0051:已免費升級至VoLTE
+10:45:05 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:05 911  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453361/content/P0051:已免費升級至VoLTE
+10:45:05 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:06 117  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453362/content/P0051:已免費升級至VoLTE
+10:45:06 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:06 353  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453367/content/P0051:已免費升級至VoLTE
+10:45:06 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:06 557  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453370/content/P0051:已免費升級至VoLTE
+10:45:06 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:06 760  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453378/content/P0051:已免費升級至VoLTE
+10:45:06 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:06 963  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453379/content/P0051:已免費升級至VoLTE
+10:45:07 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:07 181  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453380/content/P0051:已免費升級至VoLTE
+10:45:07 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:07 385  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453382/content/P0051:已免費升級至VoLTE
+10:45:07 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:07 603  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453387/content/P0051:已免費升級至VoLTE
+10:45:07 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:07 806  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453390/content/P0051:已免費升級至VoLTE
+10:45:07 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:08 010  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453391/content/P0051:已免費升級至VoLTE
+10:45:08 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:08 228  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453392/content/P0051:已免費升級至VoLTE
+10:45:08 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:08 447  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453393/content/P0051:已免費升級至VoLTE
+10:45:08 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:08 727  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453396/content/P0051:已免費升級至VoLTE
+10:45:08 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:08 962  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453399/content/P0051:已免費升級至VoLTE
+10:45:08 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:09 165  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453400/content/P0051:已免費升級至VoLTE
+10:45:09 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:09 384  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453402/content/P0051:已免費升級至VoLTE
+10:45:09 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:09 603  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453404/content/P0051:已免費升級至VoLTE
+10:45:09 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:09 821  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453407/content/P0051:已免費升級至VoLTE
+10:45:09 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:10 057  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453408/content/P0051:已免費升級至VoLTE
+10:45:10 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:10 277  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453410/content/P0051:已免費升級至VoLTE
+10:45:10 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:10 495  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453415/content/P0051:已免費升級至VoLTE
+10:45:10 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:10 745  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453416/content/P0051:已免費升級至VoLTE
+10:45:10 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:10 963  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453418/content/P0051:已免費升級至VoLTE
+10:45:11 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:11 183  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453421/content/P0051:已免費升級至VoLTE
+10:45:11 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:11 401  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453423/content/P0051:已免費升級至VoLTE
+10:45:11 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:11 619  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453427/content/P0051:已免費升級至VoLTE
+10:45:11 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:11 839  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453428/content/P0051:已免費升級至VoLTE
+10:45:11 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:12 057  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453429/content/P0051:已免費升級至VoLTE
+10:45:12 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:12 291  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453430/content/P0051:已免費升級至VoLTE
+10:45:12 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:12 495  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453432/content/P0051:已免費升級至VoLTE
+10:45:12 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:12 713  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453433/content/P0051:已免費升級至VoLTE
+10:45:12 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:12 916  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453437/content/P0051:已免費升級至VoLTE
+10:45:12 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:13 121  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453438/content/P0051:已免費升級至VoLTE
+10:45:13 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:13 340  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453441/content/P0051:已免費升級至VoLTE
+10:45:13 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:13 543  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453443/content/P0051:已免費升級至VoLTE
+10:45:13 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:13 762  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453446/content/P0051:已免費升級至VoLTE
+10:45:13 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:13 966  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453449/content/P0051:已免費升級至VoLTE
+10:45:13 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:14 170  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453454/content/P0051:已免費升級至VoLTE
+10:45:14 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:14 389  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453457/content/P0051:已免費升級至VoLTE
+10:45:14 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:14 591  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453463/content/P0051:已免費升級至VoLTE
+10:45:14 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:14 811  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453465/content/P0051:已免費升級至VoLTE
+10:45:14 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:15 031  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453471/content/P0051:已免費升級至VoLTE
+10:45:15 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:15 265  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453472/content/P0051:已免費升級至VoLTE
+10:45:15 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:15 500  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453474/content/P0051:已免費升級至VoLTE
+10:45:15 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:15 703  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453475/content/P0051:已免費升級至VoLTE
+10:45:15 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:15 906  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453479/content/P0051:已免費升級至VoLTE
+10:45:15 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:16 126  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453482/content/P0051:已免費升級至VoLTE
+10:45:16 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:16 330  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453486/content/P0051:已免費升級至VoLTE
+10:45:16 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:16 611  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453488/content/P0051:已免費升級至VoLTE
+10:45:16 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:16 814  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453490/content/P0051:已免費升級至VoLTE
+10:45:16 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:17 019  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453495/content/P0051:已免費升級至VoLTE
+10:45:17 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:17 253  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453496/content/P0051:已免費升級至VoLTE
+10:45:17 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:17 472  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453497/content/P0051:已免費升級至VoLTE
+10:45:17 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:17 690  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453498/content/P0051:已免費升級至VoLTE
+10:45:17 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:17 910  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453504/content/P0051:已免費升級至VoLTE
+10:45:17 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:18 144  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453509/content/P0051:已免費升級至VoLTE
+10:45:18 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:18 378  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453510/content/P0051:已免費升級至VoLTE
+10:45:18 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:18 566  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453511/content/P0051:已免費升級至VoLTE
+10:45:18 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:18 769  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453515/content/P0051:已免費升級至VoLTE
+10:45:18 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:18 987  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453516/content/P0051:已免費升級至VoLTE
+10:45:19 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:19 221  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453518/content/P0051:已免費升級至VoLTE
+10:45:19 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:19 440  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453522/content/P0051:已免費升級至VoLTE
+10:45:19 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:19 643  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453523/content/P0051:已免費升級至VoLTE
+10:45:19 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:19 846  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453524/content/P0051:已免費升級至VoLTE
+10:45:19 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:20 050  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453530/content/P0051:已免費升級至VoLTE
+10:45:20 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:20 268  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453534/content/P0051:已免費升級至VoLTE
+10:45:20 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:20 471  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453536/content/P0051:已免費升級至VoLTE
+10:45:20 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:20 660  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453539/content/P0051:已免費升級至VoLTE
+10:45:20 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:20 864  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453540/content/P0051:已免費升級至VoLTE
+10:45:20 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:21 067  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453543/content/P0051:已免費升級至VoLTE
+10:45:21 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:21 270  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453544/content/P0051:已免費升級至VoLTE
+10:45:21 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:21 472  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453549/content/P0051:已免費升級至VoLTE
+10:45:21 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:21 676  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453550/content/P0051:已免費升級至VoLTE
+10:45:21 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:21 879  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453553/content/P0051:已免費升級至VoLTE
+10:45:21 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:22 084  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453559/content/P0051:已免費升級至VoLTE
+10:45:22 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:22 319  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453561/content/P0051:已免費升級至VoLTE
+10:45:22 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:22 537  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453562/content/P0051:已免費升級至VoLTE
+10:45:22 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:22 756  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453563/content/P0051:已免費升級至VoLTE
+10:45:22 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:22 958  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453564/content/P0051:已免費升級至VoLTE
+10:45:22 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:23 162  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453565/content/P0051:已免費升級至VoLTE
+10:45:23 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:23 381  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453566/content/P0051:已免費升級至VoLTE
+10:45:23 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:23 583  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453568/content/P0051:已免費升級至VoLTE
+10:45:23 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:23 803  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453569/content/P0051:已免費升級至VoLTE
+10:45:23 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:23 992  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453579/content/P0051:已免費升級至VoLTE
+10:45:24 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:24 195  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453583/content/P0051:已免費升級至VoLTE
+10:45:24 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:24 413  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453587/content/P0051:已免費升級至VoLTE
+10:45:24 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:24 633  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453589/content/P0051:已免費升級至VoLTE
+10:45:24 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:24 835  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453591/content/P0051:已免費升級至VoLTE
+10:45:24 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:25 040  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453592/content/P0051:已免費升級至VoLTE
+10:45:25 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:25 244  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453594/content/P0051:已免費升級至VoLTE
+10:45:25 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:25 462  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453597/content/P0051:已免費升級至VoLTE
+10:45:25 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:25 681  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453605/content/P0051:已免費升級至VoLTE
+10:45:25 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:25 915  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453613/content/P0051:已免費升級至VoLTE
+10:45:25 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:26 136  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453614/content/P0051:已免費升級至VoLTE
+10:45:26 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:26 370  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453615/content/P0051:已免費升級至VoLTE
+10:45:26 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:26 604  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453618/content/P0051:已免費升級至VoLTE
+10:45:26 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:26 824  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453619/content/P0051:已免費升級至VoLTE
+10:45:26 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:27 028  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453620/content/P0051:已免費升級至VoLTE
+10:45:27 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:27 231  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453621/content/P0051:已免費升級至VoLTE
+10:45:27 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:27 434  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453622/content/P0051:已免費升級至VoLTE
+10:45:27 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:27 653  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453625/content/P0051:已免費升級至VoLTE
+10:45:27 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:27 872  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453628/content/P0051:已免費升級至VoLTE
+10:45:27 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:28 090  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453629/content/P0051:已免費升級至VoLTE
+10:45:28 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:28 294  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453637/content/P0051:已免費升級至VoLTE
+10:45:28 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:28 497  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453638/content/P0051:已免費升級至VoLTE
+10:45:28 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:28 715  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453645/content/P0051:已免費升級至VoLTE
+10:45:28 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:28 934  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453647/content/P0051:已免費升級至VoLTE
+10:45:28 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:29 153  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453651/content/P0051:已免費升級至VoLTE
+10:45:29 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:29 371  (BEN)  上載 ('$2_Optin&USIM$')  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/55453656/content/P0051:已免費升級至VoLTE
+10:45:29 Received:{"status":100,"data":"Added: P0051:已免費升級至VoLTE"}
+10:45:29  (BEN)  停止上載 ACTION 20161229-ADDED VOLTE ON DEC14-DEC27.XLSX !
+10:45:37  BEN login success.
+10:46:01  BEN login success.
+
+10:46:08  (BEN)  開始上載Sms 20161229-ADDED VOLTE ON DEC14-DEC27.XLSX！
+10:46:57  (BEN)  上載 (CENTASMS.DoSmsLoad+SheetName)
+10:47:09  (BEN)  上載 (CENTASMS.DoSmsLoad+SheetName)
+10:47:09  (BEN)  上載 (CENTASMS.DoSmsLoad+SheetName)
+10:47:09  (BEN)  上載 (CENTASMS.DoSmsLoad+SheetName)
+10:47:09  (BEN)  上載 (CENTASMS.DoSmsLoad+SheetName)
+10:47:09  (BEN)  上載 (CENTASMS.DoSmsLoad+SheetName)
+10:48:18  ( BEN)  驗證碼錯誤！
+10:48:22  ( BEN)  驗證碼錯誤！
+10:48:24  ( BEN)  驗證碼錯誤！
+10:48:30  ( BEN)  驗證碼錯誤！
+10:48:36  ( BEN)  驗證碼錯誤！
+10:48:41  BEN login success.
+
+10:48:47  (BEN)  開始上載Sms 20161229-ADDED VOLTE ON DEC14-DEC27.XLSX！
+10:52:33  (BEN)  上載 ('$1$')
+10:53:14  (BEN)  上載 ('$1$') BM00032158 發送成功!  
+ 短訊內容：
+ SUN Mobile 通知：閣下已免費升級至VoLTE服務， 4G網絡高速話音接駁讓您更快速接駁通話，現更可以優惠價購買Samsung Galaxy C7 ，於手機設定啟動VoLTE，更快速致電親友，歡渡佳節！服務詳情:  m.sunmobile.com.hk/ad/VoLTE/ 。查詢:77771010
+ Unicode Msg: 00530055004E0020004D006F00620069006C00650020901A77E5FF1A95A34E0B5DF2514D8CBB53477D1A81F30056006F004C00540045670D52D9FF0C0020003400477DB27D619AD8901F8A7197F363A599C18B9360A866F45FEB901F63A599C1901A8A71FF0C73FE66F453EF4EE5512A60E050F98CFC8CB700530061006D00730075006E0067002000470061006C0061007800790020004300370020FF0C65BC624B6A5F8A2D5B9A555F52D50056006F004C00540045FF0C66F45FEB901F81F496FB89AA53CBFF0C6B616E214F737BC0FF01670D52D98A7360C5003A00200020006D002E00730075006E006D006F00620069006C0065002E0063006F006D002E0068006B002F00610064002F0056006F004C00540045002F0020300267E58A62003A00370037003700370031003000310030
+ 發送號碼： 
+92297004,92297033,60952200,54040954
+10:53:39  (BEN)  上載 ('$1$') 完成.
+10:53:39  (BEN)  上載 ('$1$')  Action 完成. 
+ 
+10:53:39  (BEN)  上載 ('$2_Optin&USIM$')
+10:58:29  (BEN)  停止上載 20161229-ADDED VOLTE ON DEC14-DEC27.XLSX !
+10:58:38  BEN login success.
+
+10:58:46  (BEN)  開始上載Sms 20161229-ADDED VOLTE ON DEC14-DEC27.XLSX！
+10:58:51  (BEN)  上載 ('$1$')
+10:59:55  (BEN)  上載 ('$1$') BM00032160 發送成功!  
+ 短訊內容：
+ SUN Mobile 通知：閣下已免費升級至VoLTE服務， 4G網絡高速話音接駁讓您更快速接駁通話，現更可以優惠價購買Samsung Galaxy C7 ，於手機設定啟動VoLTE，更快速致電親友，歡渡佳節！服務詳情:  m.sunmobile.com.hk/ad/VoLTE/ 。查詢:77771010
+ Unicode Msg: 00530055004E0020004D006F00620069006C00650020901A77E5FF1A95A34E0B5DF2514D8CBB53477D1A81F30056006F004C00540045670D52D9FF0C0020003400477DB27D619AD8901F8A7197F363A599C18B9360A866F45FEB901F63A599C1901A8A71FF0C73FE66F453EF4EE5512A60E050F98CFC8CB700530061006D00730075006E0067002000470061006C0061007800790020004300370020FF0C65BC624B6A5F8A2D5B9A555F52D50056006F004C00540045FF0C66F45FEB901F81F496FB89AA53CBFF0C6B616E214F737BC0FF01670D52D98A7360C5003A00200020006D002E00730075006E006D006F00620069006C0065002E0063006F006D002E0068006B002F00610064002F0056006F004C00540045002F0020300267E58A62003A00370037003700370031003000310030
+ 發送號碼： 
+92297004,92297033,60952200,54040954
+10:59:58  (BEN)  上載 ('$1$') 完成.
+10:59:58  (BEN)  上載 ('$1$')  Action 完成. 
+ 
+11:00:04  (BEN)  上載 ('$2_Optin&USIM$')
+11:01:37  ( BEN)  驗證碼錯誤！
+11:01:47  ( BEN)  驗證碼錯誤！
+11:01:53  BEN login success.
+11:07:48  BEN login success.
+11:19:59  BEN login success.
+11:35:33  BEN login success.

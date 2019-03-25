@@ -1,0 +1,179 @@
+﻿11:06:05  BEN login success.
+11:08:07  BEN login success.
+
+11:08:13  (BEN)  開始上載 TNG CUSTOMER LIST UAT_09131026.XLS！
+11:08:13  (BEN)  上載 (UAT$)
+11:08:13 444  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297004/content/
+11:08:13 610  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297033/content/
+11:08:13 780  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/54040954/content/
+11:08:13 946  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/61705724/content/
+
+11:08:57  (BEN)  開始上載 TNG CUSTOMER LIST UAT_09131026.XLS！
+11:09:10  (BEN)  上載 (UAT$)
+11:09:16 461  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297004/content/
+11:09:17 211  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297033/content/
+11:09:17 911  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/54040954/content/
+11:09:18 175  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/61705724/content/
+
+11:11:14  (BEN)  開始上載 TNG CUSTOMER LIST UAT_09131026.XLS！
+11:11:14  (BEN)  上載 (UAT$)
+11:11:59  (BEN)  上載 (UAT$) BM00000225 發送成功!  
+ 短訊內容：
+ SUN Mobile：HK$10回贈！新客戶成功啟動「拍住賞」有HK$10回贈！立即使用你的NFC SIM 卡下載「拍住賞」應用程式並啟動就可享優惠。優惠受條款及細則約束。查詢/取消28880000
+ Unicode Msg: 00530055004E0020004D006F00620069006C0065FF1A0048004B00240031003056DE8D08FF0165B05BA262366210529F555F52D5300C62CD4F4F8CDE300D67090048004B00240031003056DE8D08FF017ACB53734F7F75284F607684004E00460043002000530049004D002053614E0B8F09300C62CD4F4F8CDE300D61C975287A0B5F0F4E26555F52D55C3153EF4EAB512A60E03002512A60E053D7689D6B3E53CA7D3052477D04675F300267E58A62002F53D66D8800320038003800380030003000300030
+ 發送號碼： 
+92297004,92297033,54040954,61705724
+11:11:59  (BEN)  上載 (UAT$) 完成.
+
+11:12:01  (BEN) 上載 TNG CUSTOMER LIST UAT_09131026.XLS成功! （No RemoteService）
+11:17:43  BEN login success.
+
+11:17:51  (BEN)  開始上載 TNG CUSTOMER LIST UAT.XLS！
+11:17:51  (BEN)  上載 (UAT$)
+11:18:27  (BEN)  上載 (UAT$) BM00000226 發送成功!  
+ 短訊內容：
+ SUN Mobile：HK$10回贈！新客戶成功啟動「拍住賞」有HK$10回贈！立即使用你的NFC SIM 卡下載「拍住賞」應用程式並啟動就可享優惠。優惠受條款及細則約束。查詢/取消28880000
+ Unicode Msg: 00530055004E0020004D006F00620069006C0065FF1A0048004B00240031003056DE8D08FF0165B05BA262366210529F555F52D5300C62CD4F4F8CDE300D67090048004B00240031003056DE8D08FF017ACB53734F7F75284F607684004E00460043002000530049004D002053614E0B8F09300C62CD4F4F8CDE300D61C975287A0B5F0F4E26555F52D55C3153EF4EAB512A60E03002512A60E053D7689D6B3E53CA7D3052477D04675F300267E58A62002F53D66D8800320038003800380030003000300030
+ 發送號碼： 
+92297004,92297033,54040954,61705724
+11:18:27  (BEN)  上載 (UAT$) 完成.
+
+11:18:29  (BEN) 上載 TNG CUSTOMER LIST UAT.XLS成功! （No RemoteService）
+11:31:13  BEN login success.
+
+11:31:23  (BEN)  開始上載 TNG CUSTOMER LIST UAT.XLS！
+11:31:27  (BEN)  上載 (UAT$)
+11:31:28 352  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297004/content/
+11:31:29 095  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297033/content/
+11:31:29 331  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/54040954/content/
+11:31:29 550  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/61705724/content/
+
+11:36:19  (BEN)  開始上載 TNG CUSTOMER LIST UAT.XLS！
+11:36:28  (BEN)  上載 (UAT$)
+11:36:43 303  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297004/content/
+11:36:43 470  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297033/content/
+11:36:43 636  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/54040954/content/
+11:36:43 802  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/61705724/content/
+11:38:06  BEN login success.
+
+11:38:14  (BEN)  開始上載 TNG CUSTOMER LIST UAT4.XLS！
+11:38:29  (BEN)  上載 (UAT$)
+11:42:47 433  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297004/content/P0046:Tap&Go rebate $10
+11:42:47 600  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297033/content/P0046:Tap&Go rebate $10
+11:42:47 766  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/54040954/content/P0046:Tap&Go rebate $10
+11:42:47 932  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/61705724/content/P0046:Tap&Go rebate $10
+11:45:57  BEN login success.
+
+11:46:04  (BEN)  開始上載 TNG CUSTOMER LIST UAT.XLS！
+11:46:06  (BEN)  上載 (UAT$)
+
+11:46:30  (BEN)  開始上載 TNG CUSTOMER LIST UAT.XLS！
+11:46:30  (BEN)  上載 (UAT$)
+11:50:05  BEN login success.
+
+11:50:11  (BEN)  開始上載 TNG CUSTOMER LIST UAT.XLS！
+11:50:12  (BEN)  上載 (UAT$)
+11:51:43  BEN login success.
+
+11:51:48  (BEN)  開始上載 TNG CUSTOMER LIST UAT.XLS！
+11:51:49  (BEN)  上載 (UAT$)
+11:52:39  BEN login success.
+
+11:52:45  (BEN)  開始上載 TNG CUSTOMER LIST UAT.XLS！
+11:52:46  (BEN)  上載 (UAT$)
+11:52:51 349  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297004/content/
+11:52:51 Received error.
+11:53:52 931  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297033/content/
+11:53:53 Received error.
+11:53:53 196  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/54040954/content/
+11:53:53 Received error.
+11:53:53 418  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/61705724/content/
+11:53:53 Received error.
+11:55:32  BEN login success.
+
+11:55:37  (BEN)  開始上載 TNG CUSTOMER LIST UAT.XLS！
+11:55:39  (BEN)  上載 (UAT$)
+11:56:28  BEN login success.
+
+11:56:32  (BEN)  開始上載 TNG CUSTOMER LIST UAT.XLS！
+11:56:33  (BEN)  上載 (UAT$)
+11:56:35  (BEN)  停止上載 TNG CUSTOMER LIST UAT.XLS !
+
+11:56:44  (BEN)  開始上載 TNG CUSTOMER LIST UAT4.XLS！
+11:56:46  (BEN)  上載 (UAT$)
+11:56:48 246  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297004/content/P0046:Tap&Go rebate $10
+11:56:48 Received:{"status":100,"data":"Added: P0046:Tap&Go rebate $10"}
+11:56:54 037  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297033/content/P0046:Tap&Go rebate $10
+11:56:54 Received:{"status":100,"data":"Added: P0046:Tap&Go rebate $10"}
+11:56:54 309  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/54040954/content/P0046:Tap&Go rebate $10
+11:56:54 Received:{"status":100,"data":"Added: P0046:Tap&Go rebate $10"}
+11:56:54 578  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/61705724/content/P0046:Tap&Go rebate $10
+11:56:54 Received:{"status":100,"data":"Added: P0046:Tap&Go rebate $10"}
+11:57:11  BEN login success.
+
+11:57:16  (BEN)  開始上載 TNG CUSTOMER LIST UAT4.XLS！
+11:57:17  (BEN)  上載 (UAT$)
+11:57:18 960  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297004/content/P0046:Tap&Go rebate $10
+11:57:20 960  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297033/content/P0046:Tap&Go rebate $10
+11:57:22 501  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/54040954/content/P0046:Tap&Go rebate $10
+11:57:22 667  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/61705724/content/P0046:Tap&Go rebate $10
+
+11:57:32  (BEN)  開始上載 TNG CUSTOMER LIST UAT.XLS！
+11:57:32  (BEN)  上載 (UAT$)
+11:57:34  (BEN)  停止上載 TNG CUSTOMER LIST UAT.XLS !
+
+11:57:39  (BEN)  開始上載 TAPNGO_MRT_20160808V.XLSX！
+11:57:43  (BEN)  上載 ('Customer List$')
+11:57:44  (BEN)  停止上載 TAPNGO_MRT_20160808V.XLSX !
+
+11:58:04  (BEN)  開始上載 TAPNGO_MRT_20160808.XLSX！
+11:58:04  (BEN)  上載 ('Customer List$')
+11:58:05  (BEN)  停止上載 TAPNGO_MRT_20160808.XLSX !
+
+11:58:14  (BEN)  開始上載 TAPNGO_MRT_20160808V.XLSX！
+11:58:14  (BEN)  上載 ('Customer List$')
+11:58:15  (BEN)  停止上載 TAPNGO_MRT_20160808V.XLSX !
+
+11:58:24  (BEN)  開始上載 TAPNGO_MRT_20160808V.XLSX！
+11:58:34  (BEN)  上載 ('Customer List$')
+11:59:07  (BEN)  停止上載 TAPNGO_MRT_20160808V.XLSX !
+
+11:59:20  (BEN)  開始上載 TAPNGO_MRT_20160808.XLSX！
+11:59:28  (BEN)  上載 ('Customer List$')
+11:59:38  (BEN)  停止上載 TAPNGO_MRT_20160808.XLSX !
+
+12:00:58  (BEN)  開始上載 XL0000170V_NEW.XLSX！
+12:01:01  (BEN)  上載 (UAT$)
+12:01:08  (BEN)  停止上載 XL0000170V_NEW.XLSX !
+
+12:01:28  (BEN)  開始上載 XL0000170V_NEW.XLSX！
+12:01:35  (BEN)  上載 (UAT$)
+12:01:54  (BEN)  停止上載 XL0000170V_NEW.XLSX !
+
+12:02:08  (BEN)  開始上載 XL0000170V_NEW.XLS！
+12:02:09  (BEN)  上載 ('Customer List$')
+12:02:17  (BEN)  停止上載 XL0000170V_NEW.XLS !
+12:02:43  BEN login success.
+
+12:02:53  (BEN)  開始上載 XL0000170V_NEW.XLS！
+12:02:54  (BEN)  上載 ('Customer List$')
+12:02:55  (BEN)  停止上載 XL0000170V_NEW.XLS !
+
+12:03:03  (BEN)  開始上載 XL0000170V_NEW_09131201.XLSX！
+12:03:04  (BEN)  上載 (UAT$)
+12:03:05 247  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/51150882/content/P0045:Tap&Go rebate $10
+12:03:05 435  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/98805317/content/P0045:Tap&Go rebate $10
+
+12:03:44  (BEN)  開始上載 TNG CUSTOMER LIST UAT.XLS！
+12:03:49  (BEN)  上載 (UAT$)
+12:03:55 156  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297004/content/
+12:03:55 326  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297033/content/
+12:03:55 492  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/54040954/content/
+12:03:55 658  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/61705724/content/
+
+12:04:01  (BEN)  開始上載 TNG CUSTOMER LIST UAT4.XLS！
+12:04:02  (BEN)  上載 (UAT$)
+12:04:02 874  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297004/content/P0046:Tap&Go rebate $10
+12:04:03 040  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/92297033/content/P0046:Tap&Go rebate $10
+12:04:03 206  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/54040954/content/P0046:Tap&Go rebate $10
+12:04:03 372  (BEN)  上載 (UAT$)  URL:http://128.128.2.109:8080/rbwi/services/addAccountAction/61705724/content/P0046:Tap&Go rebate $10

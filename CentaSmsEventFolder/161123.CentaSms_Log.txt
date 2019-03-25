@@ -1,0 +1,68 @@
+﻿12:26:58  BEN login success.
+14:28:24  ( )   Time out ,please re-login.
+17:07:14  BEN login success.
+
+17:07:54  (BEN)  開始上載Agent Sms 091015144393341.JPG！
+17:07:55  (BEN)  停止上載 091015144393341.JPG, 請上傳正確格式文件!
+
+17:08:11  (BEN)  開始上載Agent Sms IOS-63.JPG！
+17:08:11  (BEN)  停止上載 IOS-63.JPG, 請上傳正確格式文件!
+17:52:47  BEN login success.
+17:53:49  (BEN) BM00032139  
+ 短訊內容：
+ 
+ Unicode Msg: 
+ 
+ 發送號碼： 
+ 轉台號碼： 
+17:53:51  (BEN) 發送SMS 成功! （No RemoteService）
+17:54:14  BEN login success.
+17:54:50  BEN login success.
+17:55:39  (BEN) BM00032140  
+ 短訊內容：
+ 
+ Unicode Msg: 
+ 
+ 發送號碼： 
+ 轉台號碼： 
+17:55:41  (BEN) 發送SMS 成功! （No RemoteService）
+17:55:41  (BEN) BM00032141  
+ 短訊內容：
+ 
+ Unicode Msg: 
+ 
+ 發送號碼： 
+ 轉台號碼： 
+17:55:43  (BEN) 發送SMS 成功! （No RemoteService）
+17:55:44  (BEN) BM00032142  
+ 短訊內容：
+ 
+ Unicode Msg: 
+ 
+ 發送號碼： 
+ 轉台號碼： 
+17:55:46  (BEN) 發送SMS 成功! （No RemoteService）
+17:55:46  (BEN) BM00032143  
+ 短訊內容：
+ 
+ Unicode Msg: 
+ 
+ 發送號碼： 
+ 轉台號碼： 
+17:55:48  (BEN) 發送SMS 成功! （No RemoteService）
+17:55:49  (BEN) BM00032144  
+ 短訊內容：
+ 
+ Unicode Msg: 
+ 
+ 發送號碼： 
+ 轉台號碼： 
+17:55:51  (BEN) 發送SMS 成功! （No RemoteService）
+17:56:17  (BEN) BM00032145  
+ 短訊內容：
+ 
+ Unicode Msg: 
+ 
+ 發送號碼： 
+ 轉台號碼： 
+17:56:19  (BEN) 發送SMS 成功! （No RemoteService）

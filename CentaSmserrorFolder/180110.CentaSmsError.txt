@@ -1,0 +1,217 @@
+﻿10:44:07  (BEN)   Upload: ACC_1C2N.XLS  Error: FirebirdSql.Data.FirebirdClient.FbException: Error reading data from the connection. ---> Error reading data from the connection.
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbTransaction.Commit()
+   at FirebirdSql.Data.FirebirdClient.FbCommand.CommitImplicitTransaction()
+   at FirebirdSql.Data.FirebirdClient.FbCommand.DiscardImplicitTransaction()
+   at FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteReader(CommandBehavior behavior)
+   at FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.GroupMembers.GroupMemberRepeatInfo(String guid) in e:\Project\WebProject\WIN2008\WebSms\BLL\GroupMembers.cs:line 557
+   at CENTASMS.Doload.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\Doload.cs:line 368
+10:44:08  (BEN)   Upload: ACC_1C2N.XLS Action,  Error: FirebirdSql.Data.FirebirdClient.FbException: Unable to complete network request to host "127.0.0.1". ---> Unable to complete network request to host "127.0.0.1".
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbConnectionInternal.Connect()
+   at FirebirdSql.Data.FirebirdClient.FbConnectionPool.Create()
+   at FirebirdSql.Data.FirebirdClient.FbConnectionPool.CheckOut()
+   at FirebirdSql.Data.FirebirdClient.FbConnection.Open()
+   at CENTASMS.BLL.GroupMembers.DeleteGroupMemberInfo(String guid) in e:\Project\WebProject\WIN2008\WebSms\BLL\GroupMembers.cs:line 571
+   at CENTASMS.Doload.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\Doload.cs:line 809
+10:44:09  (BEN)   Upload: ACC_1C2N.XLS Action,  Error: FirebirdSql.Data.FirebirdClient.FbException: Unable to complete network request to host "127.0.0.1". ---> Unable to complete network request to host "127.0.0.1".
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbConnectionInternal.Connect()
+   at FirebirdSql.Data.FirebirdClient.FbConnectionPool.Create()
+   at FirebirdSql.Data.FirebirdClient.FbConnectionPool.CheckOut()
+   at FirebirdSql.Data.FirebirdClient.FbConnection.Open()
+   at CENTASMS.BLL.GroupMembers.DeleteGroupMemberInfo(String guid) in e:\Project\WebProject\WIN2008\WebSms\BLL\GroupMembers.cs:line 571
+   at CENTASMS.Doload.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\Doload.cs:line 809
+10:44:10  (BEN)   Upload: ACC_1C2N.XLS Action,  Error: FirebirdSql.Data.FirebirdClient.FbException: Unable to complete network request to host "127.0.0.1". ---> Unable to complete network request to host "127.0.0.1".
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbConnectionInternal.Connect()
+   at FirebirdSql.Data.FirebirdClient.FbConnectionPool.Create()
+   at FirebirdSql.Data.FirebirdClient.FbConnectionPool.CheckOut()
+   at FirebirdSql.Data.FirebirdClient.FbConnection.Open()
+   at CENTASMS.BLL.GroupMembers.DeleteGroupMemberInfo(String guid) in e:\Project\WebProject\WIN2008\WebSms\BLL\GroupMembers.cs:line 571
+   at CENTASMS.Doload.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\Doload.cs:line 809
+10:59:48 Upload: MSGNOPL38.XLSX  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.DoSmsLoad.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:line 89
+11:00:08 Upload: MSGANDACTION38.XLSX  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.DoSmsLoad.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:line 89
+11:00:43 Upload: MSGANDACTION38.XLSX  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.DoSmsLoad.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:line 89
+11:00:59 Upload: MSGANDACTION38.XLSX  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.DoSmsLoad.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:line 89
+11:02:14 Upload: MSGNOPL38.XLSX  Error: System.Exception: 請上傳正確格式文件
+   at CENTASMS.DoSmsLoad.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:line 303
+2018/01/10 11:02:39   SmsMsgActionData  FirebirdSql.Data.FirebirdClient.FbException: Dynamic SQL Error
+SQL error code = -204
+Table unknown
+SMS_MSG_ACTION
+At line 1, column 15 ---> Dynamic SQL Error
+SQL error code = -204
+Table unknown
+SMS_MSG_ACTION
+At line 1, column 15
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) in e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:line 805
+11:02:42   SendWinMsg  System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8804
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   at System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   at CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) in e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:line 171
+11:02:44   SendWinMsgAction  System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8814
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   at System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   at CENTASMS.DAL.ConfigManager.SendWinMsgAction(ArrayList Batchids) in e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:line 214
+11:03:48 Upload: MSGANDACTION38.XLSX  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.DoSmsLoad.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:line 89
+11:05:13 Upload: MSGANDACTION38.XLSX  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.DoSmsLoad.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:line 89
+11:06:50 Upload: ACC_1C2N.XLSX  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.Doload.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\Doload.cs:line 196
+11:07:27 Upload: ACC_1C2N.XLSX  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.DoSmsLoad.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:line 89
+11:08:21 Upload: ACC_1C2N.XLSX  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.DoSmsLoad.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:line 89
+11:10:15 Upload: ACC_1C2N.XLSX  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.Doload.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\Doload.cs:line 196
+11:10:50 Upload: ACC_1C2N.XLSX  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.Doload.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\Doload.cs:line 196
+11:12:31 Upload: ACC_1C2N.XLS  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.Doload.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\Doload.cs:line 196
+11:14:25 Upload: ACC_1C2N.XLSX  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.Doload.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\Doload.cs:line 196
+11:41:22 Upload: ACC_1C2N.XLSX  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.Doload.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\Doload.cs:line 196
+11:42:18 Upload: ACC_1C2N.XLSX  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.Doload.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\Doload.cs:line 196
+11:46:10 Upload: ACC_1C2N.XLSX  Error: System.Data.OleDb.OleDbException: 找不到可安裝的 ISAM。
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at CENTASMS.Doload.InsertUploadData() in e:\Project\WebProject\WIN2008\WebSms\Doload.cs:line 196

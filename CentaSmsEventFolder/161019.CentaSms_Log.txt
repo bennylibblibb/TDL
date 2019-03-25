@@ -1,0 +1,318 @@
+﻿09:44:45  BEN login success.
+09:46:05  ( BEN)  驗證碼錯誤！
+09:46:12  BEN login success.
+10:18:38  BEN login success.
+10:20:50  BEN login success.
+10:21:32  BEN login success.
+10:23:35  ( BEN)  驗證碼錯誤！
+10:23:41  BEN login success.
+10:25:25  BEN login success.
+10:27:31  BEN login success.
+10:28:13  BEN login success.
+10:28:36  BEN login success.
+10:33:04  BEN login success.
+10:33:45  BEN login success.
+10:35:23  BEN login success.
+10:38:23  BEN login success.
+10:39:48  BEN login success.
+10:40:22  BEN login success.
+10:41:03  BEN login success.
+10:41:56  BEN login success.
+10:42:38  BEN login success.
+10:43:21  BEN login success.
+10:43:46  BEN login success.
+10:44:26  BEN login success.
+10:45:54  BEN login success.
+10:49:00  BEN login success.
+10:50:48  BEN login success.
+10:51:31  BEN login success.
+10:52:50  BEN login success.
+11:01:02  ( BEN)  驗證碼錯誤！
+11:01:10  BEN login success.
+11:02:53  BEN login success.
+11:05:23  BEN login success.
+11:05:54  BEN login success.
+11:07:49  BEN login success.
+11:15:05  ( BEN)  驗證碼錯誤！
+11:15:10  ( BEN)  驗證碼錯誤！
+11:15:17  BEN login success.
+11:17:18  ( BEN)  驗證碼錯誤！
+11:17:25  ( BEN)  驗證碼錯誤！
+11:17:31  ( BEN)  驗證碼錯誤！
+11:17:39  BEN login success.
+11:19:14  BEN login success.
+11:24:45  BEN login success.
+11:29:37  BEN login success.
+11:31:16  ( BEN)  驗證碼錯誤！
+11:31:21  BEN login success.
+11:33:23  BEN login success.
+11:40:40  BEN login success.
+12:14:19  BEN login success.
+12:16:43  BEN login success.
+12:20:49  BEN login success.
+12:21:08  BEN login success.
+2016/10/19 12:21:24  (BEN)  更新預設短訊內容: testing3 至 testing3 並設為默認！
+12:24:56  ( BEN)  Invalid UserName or Password,Login Failure！
+12:25:01  BEN login success.
+12:32:19  BEN login success.
+12:33:09  BEN login success.
+12:39:24  BEN login success.
+12:40:35  BEN login success.
+12:42:26  BEN login success.
+12:49:00  ( BEN)  驗證碼錯誤！
+12:49:07  ( BEN)  驗證碼錯誤！
+12:49:13  BEN login success.
+13:05:11  BEN login success.
+13:10:34  ( BEN)  驗證碼錯誤！
+13:18:50  ( BEN)  Invalid UserName or Password,Login Failure！
+13:18:56  BEN login success.
+13:19:56  (BEN) BM00000236  
+ 短訊內容：
+ Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For 62890174 control, CSL’s agents can only send out 4 SMS templates.
+ Unicode Msg: 0045007800740065006E0074002000740068006500200053004D00530020004700610074006500770061007900200050006C006100740066006F0072006D00200074006F002000430053004C201900730020006100670065006E007400730020007400680061007400200074006800650079002000630061006E0020006100630063006500730073002000760069006100200069006E007400650072006E00650074002000770069007400680020005300700065006300690066006900630020004C006F00670069006E002000490044002E0046006F007200200036003200380039003000310037003400200063006F006E00740072006F006C002C002000430053004C201900730020006100670065006E00740073002000630061006E0020006F006E006C0079002000730065006E00640020006F007500740020003400200053004D0053002000740065006D0070006C0061007400650073002E
+ 發送號碼： 
+62890174
+13:19:58  (BEN) 發送SMS 成功! （No RemoteService）
+13:22:43  BEN login success.
+13:23:57  BEN login success.
+13:27:17  BEN login success.
+13:28:18  (BEN) BM00000237  
+ 短訊內容：
+ Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For 52890172 control, CSL’s agents can only send out 4 SMS templates.
+ Unicode Msg: 0045007800740065006E0074002000740068006500200053004D00530020004700610074006500770061007900200050006C006100740066006F0072006D00200074006F002000430053004C201900730020006100670065006E007400730020007400680061007400200074006800650079002000630061006E0020006100630063006500730073002000760069006100200069006E007400650072006E00650074002000770069007400680020005300700065006300690066006900630020004C006F00670069006E002000490044002E0046006F007200200035003200380039003000310037003200200063006F006E00740072006F006C002C002000430053004C201900730020006100670065006E00740073002000630061006E0020006F006E006C0079002000730065006E00640020006F007500740020003400200053004D0053002000740065006D0070006C0061007400650073002E
+ 
+ 發送號碼： 52890172
+13:28:20  (BEN) 發送SMS 成功! （No RemoteService）
+13:30:41  ( BEN)  驗證碼錯誤！
+13:30:44  ( BEN)  驗證碼錯誤！
+13:30:51  BEN login success.
+13:31:48  (BEN) BM00000238  
+ 短訊內容：
+ Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For 83432342 control, CSL’s agents can only send out 4 SMS templates.
+ Unicode Msg: 
+ 0045007800740065006E0074002000740068006500200053004D00530020004700610074006500770061007900200050006C006100740066006F0072006D00200074006F002000430053004C201900730020006100670065006E007400730020007400680061007400200074006800650079002000630061006E0020006100630063006500730073002000760069006100200069006E007400650072006E00650074002000770069007400680020005300700065006300690066006900630020004C006F00670069006E002000490044002E0046006F007200200038003300340033003200330034003200200063006F006E00740072006F006C002C002000430053004C201900730020006100670065006E00740073002000630061006E0020006F006E006C0079002000730065006E00640020006F007500740020003400200053004D0053002000740065006D0070006C0061007400650073002E
+ 發送號碼： 83432342
+13:31:50  (BEN) 發送SMS 成功! （No RemoteService）
+13:36:23  BEN login success.
+13:52:56  BEN login success.
+13:53:18  BEN login success.
+13:54:33  BEN login success.
+13:57:36  ( BEN)  Invalid UserName or Password,Login Failure！
+13:57:41  ( BEN)  驗證碼錯誤！
+13:57:48  BEN login success.
+13:59:09  BEN login success.
+14:02:16  BEN login success.
+14:06:39  ( BEN)  驗證碼錯誤！
+14:06:44  ( BEN)  驗證碼錯誤！
+14:06:46  ( BEN)  驗證碼錯誤！
+14:06:55  BEN login success.
+2016/10/19 14:07:02  (BEN)  預設短訊內容: aaaaaaaaaa 並設為默認！
+2016/10/19 14:07:37  (BEN)  預設短訊內容: bbbbbbbbbbbbbbbbbb ！
+14:12:56  BEN login success.
+14:16:27  BEN login success.
+14:18:07  BEN login success.
+14:18:35  ( BEN)  驗證碼錯誤！
+14:18:43  BEN login success.
+14:19:32  BEN login success.
+14:20:43  (BEN) BM00000239  
+ 短訊內容：
+ bbbbbbbbbbbbbbbbbb
+ Unicode Msg: 
+ 006200620062006200620062006200620062006200620062006200620062006200620062
+ 發送號碼： 42334324
+ 轉台號碼： 34534545
+14:20:46  (BEN) 發送SMS 成功! （No RemoteService）
+14:33:52  BEN login success.
+14:35:50  BEN login success.
+14:40:08  BEN login success.
+14:41:51  BEN login success.
+14:42:17  BEN login success.
+14:44:19  BEN login success.
+14:45:38  BEN login success.
+14:48:11  BEN login success.
+14:48:49  BEN login success.
+14:52:37  BEN login success.
+14:56:42  ( BEN)  Invalid UserName or Password,Login Failure！
+14:56:49  BEN login success.
+2016/10/19 14:57:03  (BEN)  更新預設短訊內容: bbbbbbbbbbbbbbbbbb 至 bbbbbbb(X1)bbbbbbbbbb ！
+14:58:00  ( BEN)  Invalid UserName or Password,Login Failure！
+14:58:07  ( BEN)  驗證碼錯誤！
+14:58:14  ( BEN)  驗證碼錯誤！
+14:58:22  BEN login success.
+14:59:14  BEN login success.
+15:00:16  ( BEN)  Invalid UserName or Password,Login Failure！
+15:00:23  BEN login success.
+15:00:55  ( BEN)  驗證碼錯誤！
+15:01:02  BEN login success.
+15:01:51  BEN login success.
+2016/10/19 15:02:08  (BEN)  更新預設短訊內容: bbbbbbb(X1)bbbbbbbbbb 至 bbbbbbb<X1>bbbbbbbbbb ！
+2016/10/19 15:02:15  (BEN)  更新預設短訊內容: bbbbbbb&lt;X1&gt;bbbbbbbbbb 至 bbbbbbb<X1>bbbbbbbbbb ！
+2016/10/19 15:02:34  (BEN)  更新預設短訊內容: bbbbbbb&lt;X1&gt;bbbbbbbbbb 至 bbbbbbb(X1)bbbbbbbbbb ！
+15:03:10  BEN login success.
+15:05:19  BEN login success.
+2016/10/19 15:07:40  (BEN)  刪除預設短訊內容成功！
+2016/10/19 15:07:40  (BEN)  刪除預設短訊內容成功！
+2016/10/19 15:07:48  (BEN)  預設短訊內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For 83432342 control, CSL’s agents can only send out 4 SMS templates. 並設為默認！
+2016/10/19 15:08:03  (BEN)  預設短訊內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 並設為默認！
+2016/10/19 15:08:21  (BEN)  預設短訊內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 並設為默認！
+2016/10/19 15:08:26  (BEN)  更新預設短訊內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 至 Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 並設為默認！
+2016/10/19 15:08:32  (BEN)  更新預設短訊內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 至 Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 並設為默認！
+15:09:35  (BEN) BM00000240  
+ 短訊內容：
+ Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For 62890174 control, CSL’s agents can only send out 4 SMS templates.
+ Unicode Msg: 
+ 0045007800740065006E0074002000740068006500200053004D00530020004700610074006500770061007900200050006C006100740066006F0072006D00200074006F002000430053004C201900730020006100670065006E007400730020007400680061007400200074006800650079002000630061006E0020006100630063006500730073002000760069006100200069006E007400650072006E00650074002000770069007400680020005300700065006300690066006900630020004C006F00670069006E002000490044002E0046006F007200200036003200380039003000310037003400200063006F006E00740072006F006C002C002000430053004C201900730020006100670065006E00740073002000630061006E0020006F006E006C0079002000730065006E00640020006F007500740020003400200053004D0053002000740065006D0070006C0061007400650073002E
+ 發送號碼： 62890174
+ 轉台號碼： 62890174
+15:09:37  (BEN) 發送SMS 成功! （No RemoteService）
+15:19:48  BEN login success.
+15:27:53  BEN login success.
+15:29:37  (BEN)  add user,USER_ID: AGENT01,USER_NAME:Agent01,PWD:agent01,SHAREDGP_RIGHT:有,USER_EMAIL:,DEPARTMENT:test.
+
+15:30:01  BEN logout success.
+15:30:13  AGENT01 login success.
+15:39:41  AGENT01 login success.
+15:40:59  BEN login success.
+15:41:14  ( BEN)  驗證碼錯誤！
+15:41:19  ( BEN)  驗證碼錯誤！
+15:41:30  AGENT01 login success.
+15:41:58  AGENT01 logout success.
+15:42:06  ( BEN)  驗證碼錯誤！
+15:42:10  BEN login success.
+15:52:24  AGENT01 login success.
+2016/10/19 15:52:32  (AGENT01)  預設短訊內容: 213123 並設為默認！
+2016/10/19 15:52:43  (AGENT01)  更新預設短訊,標題:1 至 SMS4; 內容: 213123 至 SMS4213123 並設為默認！
+2016/10/19 15:53:07  (AGENT01)  更新預設短訊,標題:SMS3 至 SMS3; 內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 至 Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. ！
+2016/10/19 15:53:16  (AGENT01)  更新預設短訊,標題:SMS3 至 SMS3; 內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 至 Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 並設為默認！
+2016/10/19 15:53:24  (AGENT01)  預設短訊內容: SDF 並設為默認！
+2016/10/19 15:55:28  (AGENT01)  預設短訊內容: ASDF 並設為默認！
+2016/10/19 15:55:32  (AGENT01)  刪除預設短訊內容成功！
+2016/10/19 15:55:33  (AGENT01)  刪除預設短訊內容成功！
+2016/10/19 15:55:59  (AGENT01)  更新預設短訊,標題:SMS2 至 SMS2; 內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 至 Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 並設為默認！
+2016/10/19 15:56:03  (AGENT01)  更新預設短訊,標題:SMS4 至 SMS4; 內容: SMS4213123 至 SMS4213123 ！
+2016/10/19 15:56:13  (AGENT01)  更新預設短訊,標題:SMS1 至 SMS1; 內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For 83432342 control, CSL’s agents can only send out 4 SMS templates. 至 Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For 83432342 control, CSL’s agents can only send out 4 SMS templates. 並設為默認！
+15:57:54  BEN login success.
+15:57:57  BEN logout success.
+15:58:03  AGENT01 login success.
+16:05:16  BEN login success.
+16:05:18  BEN logout success.
+16:05:27  ( AGENT01)  驗證碼錯誤！
+16:05:37  AGENT01 login success.
+16:07:04  BEN login success.
+16:07:06  BEN logout success.
+16:07:13  ( AGENT01)  驗證碼錯誤！
+16:07:19  AGENT01 login success.
+2016/10/19 16:08:14  (AGENT01)  更新預設短訊,標題:SMS3 至 SMS3; 內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 至 Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 並設為默認！
+16:09:08  (AGENT01) BM00000241  
+ 短訊內容：
+ Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For 32423432 control, CSL’s agents can only send out 4 SMS templates.
+ Unicode Msg: 
+ 0045007800740065006E0074002000740068006500200053004D00530020004700610074006500770061007900200050006C006100740066006F0072006D00200074006F002000430053004C201900730020006100670065006E007400730020007400680061007400200074006800650079002000630061006E0020006100630063006500730073002000760069006100200069006E007400650072006E00650074002000770069007400680020005300700065006300690066006900630020004C006F00670069006E002000490044002E0046006F007200200033003200340032003300340033003200200063006F006E00740072006F006C002C002000430053004C201900730020006100670065006E00740073002000630061006E0020006F006E006C0079002000730065006E00640020006F007500740020003400200053004D0053002000740065006D0070006C0061007400650073002E
+ 發送號碼： 32423432
+ 轉台號碼： 32423432
+16:09:11  (AGENT01) 發送SMS 成功! （No RemoteService）
+16:12:19  ( BEN)  驗證碼錯誤！
+16:12:29  ( AGENT01)  驗證碼錯誤！
+16:12:33  AGENT01 login success.
+16:13:34  (AGENT01) BM00000242  
+ 短訊內容：
+ Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For 45345443 control, CSL’s agents can only send out 4 SMS templates.
+ Unicode Msg: 
+ 0045007800740065006E0074002000740068006500200053004D00530020004700610074006500770061007900200050006C006100740066006F0072006D00200074006F002000430053004C201900730020006100670065006E007400730020007400680061007400200074006800650079002000630061006E0020006100630063006500730073002000760069006100200069006E007400650072006E00650074002000770069007400680020005300700065006300690066006900630020004C006F00670069006E002000490044002E0046006F007200200034003500330034003500340034003300200063006F006E00740072006F006C002C002000430053004C201900730020006100670065006E00740073002000630061006E0020006F006E006C0079002000730065006E00640020006F007500740020003400200053004D0053002000740065006D0070006C0061007400650073002E
+ 發送號碼： 45345443
+ 轉台號碼： 45345443
+16:13:36  (AGENT01) 發送SMS 成功! （No RemoteService）
+16:20:59  ( BEN)  Invalid UserName or Password,Login Failure！
+16:21:05  BEN login success.
+16:21:28  BEN logout success.
+16:21:38  AGENT01 login success.
+16:27:46  AGENT01 login success.
+16:28:01  AGENT01 logout success.
+16:48:51  AGENT01 login success.
+16:51:19  ( BEN)  驗證碼錯誤！
+16:51:25  ( BEN)  驗證碼錯誤！
+16:51:31  BEN login success.
+16:51:41  BEN logout success.
+16:51:49  AGENT01 login success.
+16:57:05  AGENT01 login success.
+16:58:50  AGENT01 logout success.
+16:58:58  ( BEN)  Invalid UserName or Password,Login Failure！
+16:59:06  ( BEN)  驗證碼錯誤！
+16:59:12  BEN login success.
+17:04:16  BEN login success.
+17:04:24  BEN logout success.
+17:04:34  ( AGENT01)  Invalid UserName or Password,Login Failure！
+17:04:41  ( AGENT01)  驗證碼錯誤！
+17:04:50  AGENT01 login success.
+17:04:53  AGENT01 logout success.
+17:05:00  ( BEN)  驗證碼錯誤！
+17:05:11  ( BEN)  驗證碼錯誤！
+17:05:17  BEN login success.
+17:05:25  BEN logout success.
+17:05:31  ( AGENT01)  驗證碼錯誤！
+17:05:38  AGENT01 login success.
+17:05:58  AGENT01 logout success.
+17:06:06  AGENT01 login success.
+17:06:49  AGENT01 login success.
+17:10:17  ( BEN)  驗證碼錯誤！
+17:10:23  BEN login success.
+17:11:59  ( AGENT01)  驗證碼錯誤！
+17:12:05  AGENT01 login success.
+17:14:18  AGENT01 login success.
+17:14:50  AGENT01 login success.
+17:16:03  BEN login success.
+17:16:42  BEN login success.
+17:16:49  BEN logout success.
+17:16:54  AGENT01 login success.
+17:18:44  AGENT01 logout success.
+17:18:53  AGENT01 login success.
+17:19:58  AGENT01 login success.
+17:23:13  AGENT01 login success.
+17:28:06  BEN login success.
+17:28:17  BEN logout success.
+17:31:07  AGENT01 login success.
+17:31:52  AGENT01 login success.
+17:34:32  BEN login success.
+17:34:59  BEN login success.
+17:35:22  AGENT01 login success.
+17:39:53  AGENT01 login success.
+17:42:16  BEN login success.
+17:42:32  BEN logout success.
+17:42:40  AGENT01 login success.
+17:43:36  (AGENT01) BM00000243  
+ 短訊內容：
+ Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For 3243243 control, CSL’s agents can only send out 4 SMS templates.
+ Unicode Msg: 
+ 0045007800740065006E0074002000740068006500200053004D00530020004700610074006500770061007900200050006C006100740066006F0072006D00200074006F002000430053004C201900730020006100670065006E007400730020007400680061007400200074006800650079002000630061006E0020006100630063006500730073002000760069006100200069006E007400650072006E00650074002000770069007400680020005300700065006300690066006900630020004C006F00670069006E002000490044002E0046006F00720020003300320034003300320034003300200063006F006E00740072006F006C002C002000430053004C201900730020006100670065006E00740073002000630061006E0020006F006E006C0079002000730065006E00640020006F007500740020003400200053004D0053002000740065006D0070006C0061007400650073002E
+ 發送號碼： 3243243
+ 轉台號碼： 3243243
+17:43:38  (AGENT01) 發送SMS 成功! （No RemoteService）
+17:44:08  AGENT01 logout success.
+17:44:15  ( BEN)  驗證碼錯誤！
+17:44:22  ( BEN)  驗證碼錯誤！
+17:44:27  BEN login success.
+17:45:00  AGENT01 login success.
+17:46:27  BEN login success.
+17:46:47  AGENT01 login success.
+17:47:19  AGENT01 logout success.
+17:48:17  AGENT01 login success.
+17:48:26  AGENT01 logout success.
+17:48:35  AGENT01 login success.
+17:49:02  AGENT01 login success.
+17:52:51  AGENT01 login success.
+17:52:54  AGENT01 logout success.
+17:58:05  AGENT01 login success.
+17:58:51  AGENT01 login success.
+18:03:52  AGENT01 login success.
+18:08:38  AGENT01 login success.
+18:09:42  AGENT01 login success.
+18:10:52  (AGENT01) BM00000244  
+ 短訊內容：
+ Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For 66666666 control, CSL’s agents can only send out 4 SMS templates.
+ Unicode Msg: 
+ 0045007800740065006E0074002000740068006500200053004D00530020004700610074006500770061007900200050006C006100740066006F0072006D00200074006F002000430053004C201900730020006100670065006E007400730020007400680061007400200074006800650079002000630061006E0020006100630063006500730073002000760069006100200069006E007400650072006E00650074002000770069007400680020005300700065006300690066006900630020004C006F00670069006E002000490044002E0046006F007200200036003600360036003600360036003600200063006F006E00740072006F006C002C002000430053004C201900730020006100670065006E00740073002000630061006E0020006F006E006C0079002000730065006E00640020006F007500740020003400200053004D0053002000740065006D0070006C0061007400650073002E
+ 發送號碼： 23423423
+ 轉台號碼： 66666666
+18:10:54  (AGENT01) 發送SMS 成功! （No RemoteService）
+18:13:56  AGENT01 login success.
+18:21:58  AGENT01 login success.

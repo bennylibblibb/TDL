@@ -1,0 +1,1321 @@
+﻿2016/11/03 16:21:07 CreateSmsMsg   System.ArgumentException: 列“CBATCHID”不属于表 SMS_MSG_1。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 58
+2016/11/03 16:21:07 CreateSmsMsg   System.ArgumentException: 列“CBATCHID”不属于表 SMS_MSG_1。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 58
+2016/11/03 16:21:07 CreateSmsMsg   System.ArgumentException: 列“CBATCHID”不属于表 SMS_MSG_1。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 58
+16:21:09   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/03 16:24:24 CreateSmsMsg   System.ArgumentException: 列“CBATCHID”不属于表 SMS_MSG_1。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 58
+2016/11/03 16:25:07   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:25:08 CreateSmsMsg   System.ArgumentException: 列“CBATCHID”不属于表 SMS_MSG_1。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 58
+2016/11/03 16:25:08   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:25:08 CreateSmsMsg   System.ArgumentException: 列“CBATCHID”不属于表 SMS_MSG_1。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 58
+2016/11/03 16:25:08   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+16:25:10   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/03 16:26:21 CreateSmsMsg   System.ArgumentException: 列“CBATCHID”不属于表 SMS_MSG_1。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 58
+2016/11/03 16:26:21   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:26:21 CreateSmsMsg   System.ArgumentException: 列“CBATCHID”不属于表 SMS_MSG_1。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 58
+2016/11/03 16:26:21   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:26:22 CreateSmsMsg   System.ArgumentException: 列“CBATCHID”不属于表 SMS_MSG_1。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 58
+2016/11/03 16:26:22   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+16:26:24   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/03 16:28:40 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:28:42   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:28:42 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:28:42   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:28:42 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:28:42   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+16:28:43   SendWinMsg  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+   在 System.Runtime.Remoting.Proxies.RemotingProxy.CallProcessMessage(IMessageSink ms, IMessage reqMsg, ArrayWithSize proxySinks, Thread currentThread, Context currentContext, Boolean bSkippingContextChain)
+   在 System.Runtime.Remoting.Proxies.RemotingProxy.InternalInvoke(IMethodCallMessage reqMcmMsg, Boolean useDispatchMessage, Int32 callType)
+   在 System.Runtime.Remoting.Proxies.RemotingProxy.Invoke(IMessage reqMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+16:28:43 Upload: SMS LIST_NONUSIM_OPT-IN 4G HANDSET_2ND ROUND_20160920.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 177
+   在 CENTASMS.DoSmsLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:行号 194
+2016/11/03 16:29:08 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:29:10   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:29:11 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:29:11   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:29:11 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:29:11   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+16:29:12   SendWinMsg  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+   在 System.Runtime.Remoting.Proxies.RemotingProxy.CallProcessMessage(IMessageSink ms, IMessage reqMsg, ArrayWithSize proxySinks, Thread currentThread, Context currentContext, Boolean bSkippingContextChain)
+   在 System.Runtime.Remoting.Proxies.RemotingProxy.InternalInvoke(IMethodCallMessage reqMcmMsg, Boolean useDispatchMessage, Int32 callType)
+   在 System.Runtime.Remoting.Proxies.RemotingProxy.Invoke(IMessage reqMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+16:29:12 Upload: SMS LIST_NONUSIM_OPT-IN 4G HANDSET_2ND ROUND_20160920.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 177
+   在 CENTASMS.DoSmsLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:行号 194
+2016/11/03 16:29:56 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:29:56   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:29:56 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:29:56   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:29:56 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:29:56   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+16:29:58   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/03 16:30:12 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:30:15   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:30:16 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:30:16   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:30:16 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:30:16   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+16:30:18   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/03 16:30:46 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:30:49   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:30:49 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:30:49   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:30:49 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:30:49   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+16:30:51   SendWinMsg  System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+   在 System.Runtime.Remoting.Proxies.RemotingProxy.CallProcessMessage(IMessageSink ms, IMessage reqMsg, ArrayWithSize proxySinks, Thread currentThread, Context currentContext, Boolean bSkippingContextChain)
+   在 System.Runtime.Remoting.Proxies.RemotingProxy.InternalInvoke(IMethodCallMessage reqMcmMsg, Boolean useDispatchMessage, Int32 callType)
+   在 System.Runtime.Remoting.Proxies.RemotingProxy.Invoke(IMessage reqMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+16:30:51 Upload: SMS LIST_NONUSIM_OPT-IN 4G HANDSET_2ND ROUND_20160920.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 177
+   在 CENTASMS.DoSmsLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:行号 194
+2016/11/03 16:31:46 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:31:49   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:31:49 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:31:49   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:31:49 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:31:49   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+16:31:51   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/03 16:32:54 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:32:54   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:32:54 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:32:54   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:32:54 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:32:54   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+16:32:56   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/03 16:39:26 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:39:26   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:39:26 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:39:26   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:39:27 CreateSmsMsg   System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 57
+2016/11/03 16:39:27   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+16:39:29   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/03 16:43:25   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:45:30   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:45:33   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+16:45:35   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/03 16:47:14   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:47:34   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:47:36   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+16:47:38   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/03 16:49:53   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:49:53   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+2016/11/03 16:49:53   SmsMsgActionData  System.InvalidCastException: The parameter passed was not a FbParameter.
+   在 FirebirdSql.Data.FirebirdClient.FbParameterCollection.Add(Object value)
+   在 CENTASMS.BLL.SmsMsgsAction.GetInsertCommand() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 770
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 804
+16:49:55   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/03 16:51:20   SmsMsgActionData  FirebirdSql.Data.FirebirdClient.FbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_362" on table "SMS_MSG_ACTION" ---> violation of PRIMARY or UNIQUE KEY constraint "INTEG_362" on table "SMS_MSG_ACTION"
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 805
+2016/11/03 16:51:23   SmsMsgActionData  FirebirdSql.Data.FirebirdClient.FbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_362" on table "SMS_MSG_ACTION" ---> violation of PRIMARY or UNIQUE KEY constraint "INTEG_362" on table "SMS_MSG_ACTION"
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 805
+16:51:25   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/03 16:52:17   SmsMsgActionData  FirebirdSql.Data.FirebirdClient.FbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_362" on table "SMS_MSG_ACTION" ---> violation of PRIMARY or UNIQUE KEY constraint "INTEG_362" on table "SMS_MSG_ACTION"
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 805
+2016/11/03 16:53:07   SmsMsgActionData  FirebirdSql.Data.FirebirdClient.FbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_362" on table "SMS_MSG_ACTION" ---> violation of PRIMARY or UNIQUE KEY constraint "INTEG_362" on table "SMS_MSG_ACTION"
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 805
+2016/11/03 16:53:36   SmsMsgActionData  FirebirdSql.Data.FirebirdClient.FbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_362" on table "SMS_MSG_ACTION" ---> violation of PRIMARY or UNIQUE KEY constraint "INTEG_362" on table "SMS_MSG_ACTION"
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 805
+16:53:38   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+16:56:33   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+17:06:05   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+17:06:26   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+17:06:47   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+17:10:40   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/03 17:11:32   SmsMsgActionData  System.Threading.ThreadAbortException: 正在中止线程。
+   在 FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 805
+17:11:32 Upload: SMS LIST_NONUSIM_OPT-IN 4G HANDSET_2ND ROUND_20160920.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:行号 194
+17:12:53   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+17:15:42   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/03 17:16:05   SmsMsgActionData  System.Threading.ThreadAbortException: 正在中止线程。
+   在 FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgsAction.InsertSmsMsg(SmsMsgActionData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 805
+17:16:05 Upload: SMS LIST_NONUSIM_OPT-IN 4G HANDSET_2ND ROUND_20160920.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:行号 194
+17:16:20   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+17:17:12   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+17:18:24   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+17:20:11   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+17:20:42   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+17:43:19   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+17:43:44   SendWinMsgAction  System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Runtime.Remoting.Channels.SocketStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(Byte[] buffer)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadAndMatchPreamble()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadVersionAndOperation(UInt16& operation)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.ReadHeaders()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+18:05:10   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+18:05:48   SendWinMsgAction  System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Runtime.Remoting.Channels.SocketStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(Byte[] buffer)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadAndMatchPreamble()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadVersionAndOperation(UInt16& operation)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.ReadHeaders()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+18:06:29   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+18:06:34   SendWinMsgAction  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8814
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+18:06:47   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+18:07:58   SendWinMsgAction  System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Runtime.Remoting.Channels.SocketStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(Byte[] buffer)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadAndMatchPreamble()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadVersionAndOperation(UInt16& operation)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.ReadHeaders()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+18:09:51   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+18:10:51   SendWinMsgAction  System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Runtime.Remoting.Channels.SocketStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(Byte[] buffer)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadAndMatchPreamble()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadVersionAndOperation(UInt16& operation)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.ReadHeaders()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+18:14:08   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+18:14:42   SendWinMsgAction  System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Runtime.Remoting.Channels.SocketStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(Byte[] buffer)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadAndMatchPreamble()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadVersionAndOperation(UInt16& operation)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.ReadHeaders()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+18:16:54   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+18:18:25   SendWinMsgAction  System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Runtime.Remoting.Channels.SocketStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(Byte[] buffer)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadAndMatchPreamble()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadVersionAndOperation(UInt16& operation)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.ReadHeaders()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+18:18:42   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+18:19:18   SendWinMsgAction  System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Runtime.Remoting.Channels.SocketStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(Byte[] buffer)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadAndMatchPreamble()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadVersionAndOperation(UInt16& operation)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.ReadHeaders()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+18:19:59   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+18:20:26   SendWinMsgAction  System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Runtime.Remoting.Channels.SocketStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(Byte[] buffer)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadAndMatchPreamble()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadVersionAndOperation(UInt16& operation)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.ReadHeaders()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+18:20:34   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+18:21:09   SendWinMsgAction  System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Runtime.Remoting.Channels.SocketStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(Byte[] buffer)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadAndMatchPreamble()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadVersionAndOperation(UInt16& operation)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.ReadHeaders()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+18:21:20   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+18:21:52   SendWinMsgAction  System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Runtime.Remoting.Channels.SocketStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(Byte[] buffer)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadAndMatchPreamble()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadVersionAndOperation(UInt16& operation)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.ReadHeaders()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+18:22:06   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+18:22:51   SendWinMsgAction  System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Runtime.Remoting.Channels.SocketStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(Byte[] buffer)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadAndMatchPreamble()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadVersionAndOperation(UInt16& operation)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.ReadHeaders()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+18:23:35   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+18:24:01   SendWinMsgAction  System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Runtime.Remoting.Channels.SocketStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(Byte[] buffer)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadAndMatchPreamble()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadVersionAndOperation(UInt16& operation)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.ReadHeaders()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+18:24:22   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+18:25:09   SendWinMsgAction  System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Runtime.Remoting.Channels.SocketStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(Byte[] buffer)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadAndMatchPreamble()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadVersionAndOperation(UInt16& operation)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.ReadHeaders()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+18:29:28   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+18:31:26   SendWinMsgAction  System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Runtime.Remoting.Channels.SocketStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(Byte[] buffer)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadAndMatchPreamble()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadVersionAndOperation(UInt16& operation)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.ReadHeaders()
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191

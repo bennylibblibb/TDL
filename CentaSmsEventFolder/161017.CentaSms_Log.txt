@@ -1,0 +1,16 @@
+﻿12:20:13  BEN login success.
+12:21:07  (ben)<br>驗證碼錯誤！<br>！
+12:21:35  (ben)<br>Login Failure！<br>！
+12:21:48  (ben)<br>驗證碼錯誤！<br>！
+12:22:01  (ben)<br>Login Failure！<br>！
+12:24:15  (beh)驗證碼錯誤！
+12:24:22  (ben)Login Failure！
+12:24:28  (ben)Login Failure！
+12:24:36  (ben)Login Failure！
+12:24:46  (ben)Login Failure！
+12:25:10  (ben)Login Failure！
+12:26:04  (ben)Login Failure！
+12:26:25  BEN login success.
+12:26:27  BEN logout success.
+17:38:32  BEN login success.
+19:38:32  ( )   Time out ,please re-login.

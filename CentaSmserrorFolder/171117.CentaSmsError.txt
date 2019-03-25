@@ -1,0 +1,2 @@
+﻿18:05:44 Upload: EX07_MRT_SMS_20171117.XLS  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:行号 302

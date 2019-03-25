@@ -1,0 +1,6 @@
+﻿16:43:08  BEN login success.
+16:53:59  BEN login success.
+17:00:06  ( BEN)  驗證碼錯誤！
+17:00:12  BEN login success.
+17:09:22  BEN login success.
+17:10:27  BEN login success.

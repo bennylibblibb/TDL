@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{04B9DCEE-27F8-46CE-B513-151DC589655B}</ProjectGuid>
+    <SccProjectName>"%24/WebSms", UIEAAAAA</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>WebSms</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WebSms</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <SccAuxPath>
+    </SccAuxPath>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Anthem, Version=1.5.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Anthem.dll</HintPath>
+    </Reference>
+    <Reference Include="FirebirdSql.Data.FirebirdClient">
+      <HintPath>..\..\..\test\aspweb\ApnsWeb\bin\FirebirdSql.Data.FirebirdClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Runtime.Remoting">
+      <Name>System.Runtime.Remoting</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="Win32Message, Version=1.0.1490.29950, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Win32Message.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UserMaintenance.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserMaintenance.resx</DependentUpon>
+    </Compile>
+    <Content Include="CalendarUtrl\calendar.asp" />
+    <Content Include="CalendarUtrl\calendar.htm" />
+    <Content Include="CalendarUtrl\calendar.js" />
+    <Content Include="CalendarUtrl\chdate.asp" />
+    <Content Include="CalendarUtrl\form.inc" />
+    <Content Include="CalendarUtrl\main.css" />
+    <Content Include="CalendarUtrl\Popup.js" />
+    <Content Include="CalendarUtrl\showcal.asp" />
+    <Content Include="CentaSmsStyle.css" />
+    <Content Include="login_left.gif" />
+    <Content Include="mango_logo_title.gif" />
+    <Content Include="MmsTool.aspx" />
+    <Content Include="new_ad2_0725.gif" />
+    <Content Include="resource\bars.gif" />
+    <Content Include="resource\CentaSmsLogo.JPG" />
+    <Content Include="resource\green.bmp" />
+    <Content Include="resource\images_41.gif" />
+    <Content Include="resource\indicator.gif" />
+    <Content Include="resource\login_left.gif" />
+    <Content Include="resource\mango_logo_title.gif" />
+    <Content Include="resource\new_ad2_0725.gif" />
+    <Content Include="resource\spacer.gif" />
+    <Content Include="resource\yellow.bmp" />
+    <Content Include="UploadImages.aspx" />
+    <Content Include="UploadSmsActionRefresh.aspx" />
+    <Content Include="UploadSmsAgentRefresh.aspx" />
+    <Content Include="UploadSmsRefresh.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Compile Include="AlertSmsData.cs">
+      <DependentUpon>AlertSmsData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLL\GroupMembers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLL\Groups.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLL\SmsActions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLL\SmsMsgHists.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLL\SmsMsgReceHists.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLL\SmsMsgReces.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLL\SmsMsgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLL\SmsMsgSchReces.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLL\SmsMsgSchs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLL\SmsSchContents.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLL\SmsSchedules.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLL\Users.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckCode.cs">
+      <DependentUpon>CheckCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommonPage.cs">
+      <DependentUpon>CommonPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\Constant.cs" />
+    <Compile Include="Common\Files.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\ResourceHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\ConfigManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\GroupData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAL\GroupMemberData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAL\SmsActionData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAL\SmsMsgData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAL\SmsMsgHistData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAL\SmsMsgReceData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAL\SmsMsgReceHistData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAL\SmsMsgSchData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAL\SmsMsgSchReceData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAL\SmsSchContentData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAL\SmsScheduleData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAL\UserData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Default.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Doload.cs" />
+    <Compile Include="DoSmsActionLoad.cs" />
+    <Compile Include="DoSmsAgentLoad.cs" />
+    <Compile Include="DoSmsLoad.cs" />
+    <Compile Include="Global.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GroupAdmin.cs">
+      <DependentUpon>GroupAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InputSendByTime.cs">
+      <DependentUpon>InputSendByTime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberOfGroup.cs">
+      <DependentUpon>MemberOfGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberofSent.cs">
+      <DependentUpon>MemberofSent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MmsTool.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Refresh.cs">
+      <DependentUpon>Refresh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SchSendload.cs" />
+    <Compile Include="SendByGroup.cs">
+      <DependentUpon>SendByGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SendFrame.cs">
+      <DependentUpon>SendFrame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sendload.cs" />
+    <Compile Include="SendRefresh.cs">
+      <DependentUpon>SendRefresh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StatSms.cs">
+      <DependentUpon>StatSms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadImages.aspx.cs">
+      <DependentUpon>UploadImages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadImages.aspx.designer.cs">
+      <DependentUpon>UploadImages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadRefresh.cs">
+      <DependentUpon>UploadRefresh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadSmsActionRefresh.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadSmsAgentRefresh.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadSmsRefresh.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\GroupTabs.cs">
+      <DependentUpon>GroupTabs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\MenuTabs.cs">
+      <DependentUpon>MenuTabs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\SendTabs.cs">
+      <DependentUpon>SendTabs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\SignIn.cs">
+      <DependentUpon>SignIn.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\TabItem.cs" />
+    <Compile Include="UserControl\UserTabs.cs">
+      <DependentUpon>UserTabs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaintenance.cs">
+      <DependentUpon>UserMaintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CentaSmserrorFolder\" />
+    <Folder Include="CentaSmsEventFolder\" />
+    <Folder Include="CentaSmsUploadFolder\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AlertSmsData.aspx" />
+    <None Include="ChangePassword.aspx" />
+    <None Include="CheckCode.aspx" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="CommonPage.aspx" />
+    <None Include="Default.aspx" />
+    <None Include="Global.asax" />
+    <None Include="GroupAdmin.aspx" />
+    <None Include="index.aspx" />
+    <None Include="InputSendByTime.aspx" />
+    <None Include="Logout.aspx" />
+    <None Include="MemberOfGroup.aspx" />
+    <None Include="MemberofSent.aspx" />
+    <None Include="Refresh.aspx" />
+    <None Include="SendByGroup.aspx" />
+    <None Include="SendFrame.aspx" />
+    <None Include="SendRefresh.aspx" />
+    <None Include="StatSms.aspx" />
+    <None Include="UploadRefresh.aspx" />
+    <None Include="UserControl\GroupTabs.ascx" />
+    <None Include="UserControl\MenuTabs.ascx" />
+    <None Include="UserControl\SendTabs.ascx" />
+    <None Include="UserControl\SignIn.ascx" />
+    <None Include="UserControl\UserTabs.ascx" />
+    <None Include="UserMaintenance.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UserMaintenance.resx">
+      <DependentUpon>UserMaintenance.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UserMaintenance.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer20.EXE</StartProgram>
+    <StartArguments>WebDev.WebServer /port:8080 /path:"d:\CSLMms\CSLMmsWeb" /vpath:/CSLMmsWeb</StartArguments>
+    <StartWorkingDirectory>d:\CSLMms\CSLMmsWeb</StartWorkingDirectory>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>20434</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:8080/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+</Project>

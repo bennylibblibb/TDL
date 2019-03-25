@@ -1,0 +1,126 @@
+﻿15:12:06   SendWinMsg  System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8804
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   at System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   at CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) in e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:line 171
+15:13:53   SmsMsgHistData  FirebirdSql.Data.FirebirdClient.FbException: arithmetic exception, numeric overflow, or string truncation
+string right truncation ---> arithmetic exception, numeric overflow, or string truncation
+string right truncation
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgHists.InsertSmsMsgHist(SmsMsgHistData smsmsg) in e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgHists.cs:line 168
+15:14:47   SmsMsgHistData  FirebirdSql.Data.FirebirdClient.FbException: arithmetic exception, numeric overflow, or string truncation
+string right truncation ---> arithmetic exception, numeric overflow, or string truncation
+string right truncation
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgHists.InsertSmsMsgHist(SmsMsgHistData smsmsg) in e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgHists.cs:line 168
+15:17:19   SmsMsgHistData  FirebirdSql.Data.FirebirdClient.FbException: arithmetic exception, numeric overflow, or string truncation
+string right truncation ---> arithmetic exception, numeric overflow, or string truncation
+string right truncation
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgHists.InsertSmsMsgHist(SmsMsgHistData smsmsg) in e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgHists.cs:line 168
+15:18:18   SmsMsgHistData  FirebirdSql.Data.FirebirdClient.FbException: arithmetic exception, numeric overflow, or string truncation
+string right truncation ---> arithmetic exception, numeric overflow, or string truncation
+string right truncation
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgHists.InsertSmsMsgHist(SmsMsgHistData smsmsg) in e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgHists.cs:line 168
+15:19:28   SmsMsgHistData  FirebirdSql.Data.FirebirdClient.FbException: arithmetic exception, numeric overflow, or string truncation
+string right truncation ---> arithmetic exception, numeric overflow, or string truncation
+string right truncation
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgHists.InsertSmsMsgHist(SmsMsgHistData smsmsg) in e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgHists.cs:line 168
+15:20:18   SmsMsgHistData  FirebirdSql.Data.FirebirdClient.FbException: arithmetic exception, numeric overflow, or string truncation
+string right truncation ---> arithmetic exception, numeric overflow, or string truncation
+string right truncation
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgHists.InsertSmsMsgHist(SmsMsgHistData smsmsg) in e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgHists.cs:line 168
+15:23:46   SmsMsgHistData  FirebirdSql.Data.FirebirdClient.FbException: arithmetic exception, numeric overflow, or string truncation
+string right truncation ---> arithmetic exception, numeric overflow, or string truncation
+string right truncation
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgHists.InsertSmsMsgHist(SmsMsgHistData smsmsg) in e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgHists.cs:line 168
+15:44:17   SmsMsgHistData  FirebirdSql.Data.FirebirdClient.FbException: arithmetic exception, numeric overflow, or string truncation
+string right truncation ---> arithmetic exception, numeric overflow, or string truncation
+string right truncation
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgHists.InsertSmsMsgHist(SmsMsgHistData smsmsg) in e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgHists.cs:line 168
+15:44:42   SmsMsgHistData  FirebirdSql.Data.FirebirdClient.FbException: arithmetic exception, numeric overflow, or string truncation
+string right truncation ---> arithmetic exception, numeric overflow, or string truncation
+string right truncation
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgHists.InsertSmsMsgHist(SmsMsgHistData smsmsg) in e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgHists.cs:line 168
+15:44:59   SendWinMsg  System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8804
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   at System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   at CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) in e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:line 171
+15:48:48   SendWinMsg  System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8804
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   at System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   at CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) in e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:line 171

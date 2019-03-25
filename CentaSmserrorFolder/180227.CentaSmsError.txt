@@ -1,0 +1,7 @@
+﻿2018/02/27 13:07:09   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) in e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:line 562

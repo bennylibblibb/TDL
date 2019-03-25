@@ -1,0 +1,1503 @@
+﻿09:22:59   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+09:24:37   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+09:31:05   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+09:31:07   SendWinMsgAction  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8814
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+09:34:05   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+09:34:08   SendWinMsgAction  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8814
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+09:37:13 Upload ACTION: SMS LIST_NONUSIM_OPT-IN 4G HANDSET_2ND ROUND_20160920_11031716_11041016_11071823_11071828.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsActionLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 189
+09:39:31   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+09:39:33   SendWinMsgAction  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8814
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+09:54:53 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+10:39:41   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+10:39:43   SendWinMsgAction  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8814
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+10:40:06 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+10:48:36 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+10:53:12 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+10:55:16   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+10:58:09 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+10:59:01 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+10:59:15 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+11:01:11 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+11:07:46 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+11:09:47   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+11:11:07 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+11:11:12 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+11:11:23 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+11:11:44   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+11:12:03   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+11:13:24 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+11:15:43 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+11:16:19 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+11:16:38 Upload: SMS_NOV CONTRACT END_UAT_20150929_V2.XLS  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+2016/11/08 11:20:55 CreateSmsMsg   System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.BLL.SmsMsgReceHists..ctor() 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgReceHists.cs:行号 14
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 155
+11:20:55 Upload: SMS LIST_NONUSIM_OPT-IN 4G HANDSET_2ND ROUND_20160920_11031716.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 218
+11:34:57   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+11:37:19   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/08 13:04:39   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:40   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:40   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:40   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:40   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:41   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:41   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:41   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:41   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:42   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:42   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:42   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:42   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:43   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:43   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:43   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:43   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:43   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:44   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:44   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:45   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:45   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:45   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:45   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:45   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:46   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:46   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:46   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:46   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:47   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:47   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:47   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:47   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:48   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:48   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:49   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:49   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:49   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:49   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:50   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:50   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:50   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:51   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:51   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:51   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:52   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:52   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:52   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:52   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:53   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:53   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:53   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:53   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:53   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:54   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:54   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:54   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:55   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:55   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:55   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:55   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:56   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:56   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:56   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:56   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:57   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:57   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:57   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:57   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:58   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:58   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:58   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:58   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:59   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:59   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:59   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:59   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:04:59   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:00   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:00   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:00   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:01   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:01   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:01   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:01   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:01   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:02   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:02   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:02   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:03   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:03   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:03   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:03   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:04   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:04   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:04   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:04   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:04   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:05   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:05   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:05   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:05   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:06   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:06   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:06   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:06   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:06   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:07   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:08   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:08   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:08   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:09   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:09   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:09   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:09   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:10   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:10   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:10   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:05:10   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+13:07:20 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+13:07:21 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+13:07:21 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+13:07:22 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+13:07:22 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+2016/11/08 13:12:45   SmsMsgData  System.Data.OleDb.OleDbException: invalid request handle
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+13:12:45  DeletelSmsData Callback   DELETE FROM  SMS_MSG_1   WHERE CBATCHID='BM00022986' System.Data.OleDb.OleDbException: Dynamic SQL Error
+-SQL error code = -804
+-SQLDA missing or incorrect version, or incorrect number/type of variables
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 CENTASMS.BLL.SmsMsgs.DeletelSmsData(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 343
+2016/11/08 13:12:46   SmsMsgData  System.Data.OleDb.OleDbException: invalid request handle
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+13:12:46  DeletelSmsData Callback   DELETE FROM  SMS_MSG_1   WHERE CBATCHID='BM00022986' System.Data.OleDb.OleDbException: Dynamic SQL Error
+-SQL error code = -804
+-SQLDA missing or incorrect version, or incorrect number/type of variables
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 CENTASMS.BLL.SmsMsgs.DeletelSmsData(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 343
+13:14:53   UserData LoadUserByUSER_ID  BEN System.Threading.ThreadAbortException: 正在中止线程。
+   在 Microsoft.Win32.SafeNativeMethods.OutputDebugString(String message)
+   在 System.Diagnostics.DefaultTraceListener.internalWrite(String message)
+   在 System.Diagnostics.DefaultTraceListener.Write(String message, Boolean useLogFile)
+   在 System.Diagnostics.DefaultTraceListener.WriteLine(String message, Boolean useLogFile)
+   在 System.Diagnostics.DefaultTraceListener.WriteLine(String message)
+   在 System.Diagnostics.TraceListener.WriteLine(String message, String category)
+   在 System.Diagnostics.TraceInternal.WriteLine(String message, String category)
+   在 System.Diagnostics.Trace.WriteLine(String message, String category)
+   在 FirebirdSql.Common.TraceHelper.WriteLine(String format, Object[] args)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.LogCommand()
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.Prepare(Boolean returnsSet)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteCommand(CommandBehavior behavior, Boolean returnsSet)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteReader(CommandBehavior behavior)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.Users.LoadUserByUSER_ID(String user_id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\Users.cs:行号 286
+2016/11/08 13:14:53 CreateSmsMsg   System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.BLL.Users.LoadUserByUSER_ID(String user_id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\Users.cs:行号 292
+   在 CENTASMS.BLL.Users.UserExtraGroup(String username) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\Users.cs:行号 375
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 46
+13:14:53 Upload: SMS LIST_NONUSIM_OPT-IN 4G HANDSET_2ND ROUND_20160920_11031716.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 218
+13:19:00   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+2016/11/08 13:25:43   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:25:44   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:25:45   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:25:46   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:25:46   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:25:46   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:25:47   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:25:47   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:25:48   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+2016/11/08 13:25:48   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+13:25:48  DeletelSmsData Callback   DELETE FROM   SMS_MSG_RECEIVER_1    WHERE CBATCHID='BM00026588' System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Data.Common.SafeNativeMethods.SetErrorInfo(Int32 dwReserved, IntPtr pIErrorInfo)
+   在 System.Data.OleDb.OleDbConnection.ProcessResults(OleDbHResult hresult, OleDbConnection connection, Object src)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   在 CENTASMS.BLL.SmsMsgs.DeletelSmsData(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 346
+2016/11/08 13:25:48 CreateSmsMsg   System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.BLL.SmsMsgs.DeletelSmsData(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 363
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 170
+13:25:48 Upload: SMS LIST_NONUSIM_OPT-IN 4G HANDSET_2ND ROUND_20160920_11031716.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 218
+13:50:24 Upload: SAMPLE LIST OF SMS 2.XLSX  Error: System.Exception: 請上傳正確格式文件
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 222
+13:52:16   SmsMsgHistData  System.Threading.ThreadAbortException: 正在中止线程。
+   在 FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgHists.InsertSmsMsgHist(SmsMsgHistData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgHists.cs:行号 168
+2016/11/08 13:52:16 CreateSmsMsg   System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.BLL.SmsMsgHists.InsertSmsMsgHist(SmsMsgHistData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgHists.cs:行号 174
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 125
+13:52:16 Upload: SMS LIST_NONUSIM_OPT-IN 4G HANDSET_2ND ROUND_20160920_11031716.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsAgentLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsAgentLoad.cs:行号 218
+2016/11/08 13:52:33   SmsMsgData  System.Data.OleDb.OleDbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_131" on table "SMS_MSG_1"
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 562
+13:52:35   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+13:59:58   SmsMsgHistData  System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgHists.InsertSmsMsgHist(SmsMsgHistData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgHists.cs:行号 168
+14:28:12   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+14:28:14   SendWinMsgAction  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8814
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+14:29:09   SmsMsgReceHistData  System.Threading.ThreadAbortException: 正在中止线程。
+   在 FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgReceHists.InsertSmsMsgReceHist(SmsMsgReceHistData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgReceHists.cs:行号 122
+2016/11/08 14:29:09 CreateSmsMsg   System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.BLL.SmsMsgReceHists.InsertSmsMsgReceHist(SmsMsgReceHistData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgReceHists.cs:行号 128
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 155
+14:29:09 Upload: SMS LIST_NONUSIM_OPT-IN 4G HANDSET_2ND ROUND_20160920_11031716.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:行号 223
+14:31:33   SmsMsgReceHistData  System.Threading.ThreadAbortException: 正在中止线程。
+   在 FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   在 System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   在 CENTASMS.BLL.SmsMsgReceHists.InsertSmsMsgReceHist(SmsMsgReceHistData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgReceHists.cs:行号 122
+2016/11/08 14:31:33 CreateSmsMsg   System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.BLL.SmsMsgReceHists.InsertSmsMsgReceHist(SmsMsgReceHistData smsmsg) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgReceHists.cs:行号 128
+   在 CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsMsgs.cs:行号 155
+14:31:33 Upload: SMS LIST_NONUSIM_OPT-IN 4G HANDSET_2ND ROUND_20160920_11031716.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsLoad.cs:行号 223
+14:32:22   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+14:32:24   SendWinMsgAction  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8814
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191
+14:32:59   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+14:33:01   SendWinMsgAction  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8814
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsgAction(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 191

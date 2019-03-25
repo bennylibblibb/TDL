@@ -1,0 +1,23 @@
+﻿10:49:10  ( BEN)  驗證碼錯誤！
+10:49:17  ( BEN)  Invalid UserName or Password,Login Failure！
+10:50:41  ( BEN)  驗證碼錯誤！
+10:50:54  ( BEN)  Invalid UserName or Password,Login Failure！
+10:51:00  ( BEN)  驗證碼錯誤！
+10:51:07  ( BEN)  Invalid UserName or Password,Login Failure！
+11:00:49  ( BEN)  Invalid UserName or Password,Login Failure！
+11:01:06  ( BEN)  Invalid UserName or Password,Login Failure！
+11:03:14  ( BEN)  Invalid UserName or Password,Login Failure！
+11:10:41  ( BEN)  Invalid UserName or Password,Login Failure！
+11:24:24  ( BEN)  Invalid UserName or Password,Login Failure！
+11:30:26  ( BEN)  Invalid UserName or Password,Login Failure！
+11:31:34  ( BEN)  Invalid UserName or Password,Login Failure！
+11:33:07  ( BEN)  Invalid UserName or Password,Login Failure！
+12:08:23  BEN login success.
+12:10:32  BEN login success.
+12:13:54  BEN login success.
+12:32:07  ( BEN)  Invalid UserName or Password,Login Failure！
+12:32:17  BEN login success.
+12:55:03  ( BEN)  Invalid UserName or Password,Login Failure！
+12:55:14  ( BEN)  Invalid UserName or Password,Login Failure！
+12:55:49  ( BEN)  驗證碼錯誤！
+12:55:56  BEN login success.

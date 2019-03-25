@@ -1,0 +1,82 @@
+﻿11:46:01  BEN login success.
+11:47:31  BEN login success.
+11:48:44  BEN login success.
+12:17:32  BEN login success.
+12:18:08  BEN login success.
+12:25:20  BEN login success.
+12:35:05  BEN login success.
+12:36:18  BEN login success.
+12:37:32  BEN login success.
+12:38:34  BEN login success.
+12:39:33  BEN login success.
+12:43:30  ( BEN)  驗證碼錯誤！
+12:43:35  BEN login success.
+12:44:38  BEN login success.
+13:03:40  ( TDLUSER)  Invalid UserName or Password,Login Failure！
+13:03:54  ( TDLUSER)  Invalid UserName or Password,Login Failure！
+13:04:07  BEN login success.
+13:06:52  ( BEN)  Invalid UserName or Password,Login Failure！
+13:06:57  BEN login success.
+13:07:07  ( BEN)  開始發送訊息！
+13:07:10  Callback(DELETE)   BM00000232 
+13:07:10  ( BEN)  即時發送失敗,請重發！
+
+13:13:02  BEN login success.
+13:13:09  ( BEN)   This login name is already in use by a different user,please re-login.
+13:13:25  ( )   This login name is already in use by a different user,please re-login.
+13:13:25  BEN login success.
+13:18:54  BEN login success.
+13:25:49  BEN login success.
+13:27:22  BEN login success.
+13:33:20  BEN login success.
+16:56:37  BEN login success.
+16:56:51  SYSOPR login success.
+16:59:00  BEN login success.
+17:16:50  SYSOPR login success.
+17:19:15  SYSOPR login success.
+17:19:45  SYSOPR logout success.
+17:19:51  SYSOPR login success.
+17:21:44  SYSOPR login success.
+17:27:37  SYSOPR login success.
+17:30:42  SYSOPR login success.
+17:30:55 SYSOPR 更新密碼 1234 to 123.
+
+17:35:34  ( SYSOPR)  Invalid UserName or Password,Login Failure！
+17:35:47  SYSOPR login success.
+17:36:20  ( SYSOPR)  驗證碼錯誤！
+17:36:27  SYSOPR login success.
+17:40:04  SYSOPR login success.
+17:40:35  SYSOPR login success.
+17:42:22  SYSOPR login success.
+17:42:46  SYSOPR login success.
+17:45:25  SYSOPR login success.
+17:46:42  SYSOPR logout success.
+17:48:44  BEN login success.
+17:56:00  (BEN)  add user,USER_ID: BEN1,USER_NAME:ben1,PWD:123,SHAREDGP_RIGHT:有,USER_EMAIL:,DEPARTMENT:mis.
+
+17:59:29  (BEN)  add user,USER_ID: BEN2,USER_NAME:ben2,PWD:123,SHAREDGP_RIGHT:有,USER_EMAIL:,DEPARTMENT:mis.
+
+17:59:53  BEN logout success.
+18:00:05  BEN2 login success.
+18:16:16  SYSOPR login success.
+18:17:00  BEN login success.
+18:17:46  ( BEN)  驗證碼錯誤！
+18:17:54  BEN login success.
+18:20:17  (BEN)  delete user  BEN2.
+
+18:20:25  BEN logout success.
+18:20:37  BEN1 login success.
+18:20:52 BEN1 更新密碼 123 to 1234.
+
+18:20:55  BEN1 logout success.
+18:21:03  BEN login success.
+18:21:07  BEN logout success.
+18:21:27  ( BEN1)  Invalid UserName or Password,Login Failure！
+18:21:35  ( BEN1)  Invalid UserName or Password,Login Failure！
+18:21:45  BEN1 login success.
+18:21:50  BEN1 logout success.
+18:21:58  BEN login success.
+18:28:01  BEN login success.
+18:30:51  BEN login success.
+18:56:02  BEN login success.
+20:56:05  ( )   Time out ,please re-login.

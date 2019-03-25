@@ -1,0 +1,49 @@
+﻿09:21:02  ( )   Time out ,please re-login.
+09:21:02  BEN login success.
+11:17:48  BEN login success.
+11:19:27  BEN login success.
+11:21:00  BEN login success.
+11:22:22  BEN logout success.
+11:34:19  BEN login success.
+11:36:46  ( BEN)  開始發送訊息！
+11:37:32  Callback(DELETE)   BM00000007 
+11:37:32  ( BEN)  即時發送失敗,請重發！
+
+11:40:38  BEN login success.
+11:41:01  ( BEN)  開始發送訊息！
+11:41:32  ( BEN)  設置即時發送成功! （RemoteService）ID:BM00000007  
+ 短訊內容：
+ testing
+ 發送號碼： 
+81111111[MST10(私人組別)],   88888888,   81111111[A(共享組別)],   66666666,   88888888,   
+11:41:32  ( BEN)  結束即時發送訊息！
+
+11:45:19  ( BEN)  開始發送訊息！
+11:45:21  ( BEN)  設置即時發送成功! （RemoteService）ID:BM00000008  
+ 短訊內容：
+ 2
+ 發送號碼： 
+81111111[MST10(私人組別)],   88888888,   81111111[A(共享組別)],   66666666,   88888888,   
+11:45:21  ( BEN)  結束即時發送訊息！
+
+11:46:16  BEN login success.
+11:46:35  ( BEN)  開始發送訊息！
+11:46:36  ( BEN)  設置即時發送成功! （RemoteService）ID:BM00000009  
+ 短訊內容：
+ 3
+ 發送號碼： 
+81111111[A(共享組別)],   66666666,   81111111[MST10(私人組別)],   88888888,   66666666,   
+11:46:36  ( BEN)  結束即時發送訊息！
+
+11:47:43  BEN login success.
+11:48:05  ( BEN)  開始發送訊息！
+11:48:51  ( BEN)  設置即時發送成功! （RemoteService）ID:BM00000010  
+ 短訊內容：
+ 3
+ 發送號碼： 
+81111111[MST10(私人組別)],   66666666,   81111111[A(共享組別)],   88888888,   66666666,   
+11:48:51  ( BEN)  結束即時發送訊息！
+
+12:01:57  BEN login success.
+12:10:07  BEN login success.
+12:14:34  BEN login success.

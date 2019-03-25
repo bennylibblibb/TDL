@@ -1,0 +1,6 @@
+﻿11:37:32   SmsMsgReceHistData  FirebirdSql.Data.FirebirdClient.FbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_65" on table "SMS_MSGRCV_HIST" ---> violation of PRIMARY or UNIQUE KEY constraint "INTEG_65" on table "SMS_MSGRCV_HIST"
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgReceHists.InsertSmsMsgReceHist(SmsMsgReceHistData smsmsg) in E:\Project\CentaSms\WebSms\BLL\SmsMsgReceHists.cs:line 122

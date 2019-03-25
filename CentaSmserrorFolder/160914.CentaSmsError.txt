@@ -1,0 +1,33 @@
+﻿13:55:26 Upload: TNG CUSTOMER LIST 20160914.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsActionLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 189
+13:57:37 Received error:System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   在 System.Net.ConnectStream.ProcessWriteCallDone(ConnectionReturnResult returnResult)
+   在 System.Net.HttpWebRequest.WriteCallDone(ConnectStream stream, ConnectionReturnResult returnResult)
+   在 System.Net.ConnectStream.CallDone(ConnectionReturnResult returnResult)
+   在 System.Net.ConnectStream.CloseInternal(Boolean internalCall, Boolean aborting)
+   在 System.Net.ConnectStream.System.Net.ICloseEx.CloseEx(CloseExState closeState)
+   在 System.Net.ConnectStream.CloseInternal(Boolean internalCall)
+   在 System.Net.HttpWebRequest.EndWriteHeaders_Part2()
+   在 System.Net.HttpWebRequest.EndWriteHeaders(Boolean async)
+   在 System.Net.HttpWebRequest.WriteHeadersCallback(WebExceptionStatus errorStatus, ConnectStream stream, Boolean async)
+   在 System.Net.ConnectStream.WriteHeaders(Boolean async)
+   在 System.Net.HttpWebRequest.EndSubmitRequest()
+   在 System.Net.HttpWebRequest.SetRequestSubmitDone(ConnectStream submitStream)
+   在 System.Net.Connection.CompleteStartRequest(Boolean onSubmitThread, HttpWebRequest request, TriState needReConnect)
+   在 System.Net.Connection.SubmitRequest(HttpWebRequest request)
+   在 System.Net.ServicePoint.SubmitRequest(HttpWebRequest request, String connName)
+   在 System.Net.HttpWebRequest.SubmitRequest(ServicePoint servicePoint)
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 449
+13:57:37 Upload: TNG CUSTOMER LIST 20160914.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsActionLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 189
+14:01:59 Upload: TNG CUSTOMER LIST 20160914.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsActionLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 189
+14:20:29 Upload: TNG CUSTOMER LIST 20160914.XLS  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsActionLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 189

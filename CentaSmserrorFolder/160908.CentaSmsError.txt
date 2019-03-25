@@ -1,0 +1,56 @@
+﻿16:28:39 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:28:40 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:28:54 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:28:58 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:28:59 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:29:00 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:29:03 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:29:09 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:29:12 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:29:26 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:29:29 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:29:30 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:29:33 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:29:35 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:29:36 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:29:51 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:29:54 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:30:08 Received error:System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 CENTASMS.DoSmsActionLoad.Send(String url) 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 436
+16:30:10 Upload: TAPNGO_MRT_20160808V.XLSX  Error: System.Threading.ThreadAbortException: 正在中止线程。
+   在 CENTASMS.DoSmsActionLoad.InsertUploadData() 位置 e:\Project\WebProject\WIN2008\WebSms\DoSmsActionLoad.cs:行号 181

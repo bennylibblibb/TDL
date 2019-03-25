@@ -1,0 +1,19 @@
+﻿16:54:29   SmsMsgReceData  System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Runtime.InteropServices.GCHandle.InternalCompareExchange(IntPtr handle, Object value, Object oldValue, Boolean isPinned)
+   at System.WeakReference.set_Target(Object value)
+   at System.Data.ProviderBase.DbConnectionInternal.MakeNonPooledObject(Object owningObject, DbConnectionPoolCounters performanceCounters)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.Odbc.OdbcConnection.Open()
+   at System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   at System.Data.Common.DbDataAdapter.UpdateConnectionOpen(IDbConnection connection, StatementType statementType, IDbConnection[] connections, ConnectionState[] connectionStates, Boolean useSelectConnectionState)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgReces.InsertSmsMsgRece(SmsMsgReceData smsmsg) in E:\Project\CentaSms\WebSms\BLL\SmsMsgReces.cs:line 90
+2015/09/01 16:54:29CreateSmsMsg   System.Threading.ThreadAbortException: Thread was being aborted.
+   at CENTASMS.BLL.SmsMsgReces.InsertSmsMsgRece(SmsMsgReceData smsmsg) in E:\Project\CentaSms\WebSms\BLL\SmsMsgReces.cs:line 96
+   at CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) in E:\Project\CentaSms\WebSms\BLL\SmsMsgs.cs:line 136
+16:54:29 Upload: SMS_OCT CONTRACT END_20150831_V2.XLS  Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at CENTASMS.DoSmsLoad.InsertUploadData() in E:\Project\CentaSms\WebSms\DoSmsLoad.cs:line 102

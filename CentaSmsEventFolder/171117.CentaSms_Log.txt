@@ -1,0 +1,13 @@
+﻿18:03:37  ( BEN)  驗證碼錯誤！
+18:03:44  ( BEN)  驗證碼錯誤！
+18:03:50  BEN login success.
+
+18:04:08  (BEN)  開始上載Sms EX07_MRT_SMS_20171117.XLS！
+18:04:24  (BEN)  上載 ('$1$')
+18:05:44  (BEN)  停止上載 EX07_MRT_SMS_20171117.XLS !
+18:08:28  BEN login success.
+
+18:08:40  (BEN)  開始上載Sms K38_MRT_20170922_SMS.XLSX！
+18:08:48  (BEN)  上載 ('$1$')
+18:12:22  ( BEN)  驗證碼錯誤！
+18:12:29  BEN login success.

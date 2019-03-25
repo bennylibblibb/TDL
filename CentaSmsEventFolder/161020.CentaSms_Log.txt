@@ -1,0 +1,83 @@
+﻿09:24:20  BEN login success.
+09:24:38  BEN logout success.
+09:24:53  AGENT01 login success.
+09:28:23  AGENT01 logout success.
+09:28:33  ( BEN)  Invalid UserName or Password,Login Failure！
+09:28:44  ( BEN)  驗證碼錯誤！
+09:29:16  BEN login success.
+2016/10/20 09:29:24  (BEN)  更新預設短訊,標題:SMS3 至 SMS3; 內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 至 Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 並設為默認！
+09:31:16  BEN login success.
+09:33:10  ( BEN)  Invalid UserName or Password,Login Failure！
+09:33:15  BEN login success.
+09:33:22  BEN logout success.
+09:33:33  AGENT01 login success.
+09:34:32  BEN login success.
+09:35:27  AGENT01 login success.
+09:36:47  ( AGENT01)  驗證碼錯誤！
+09:36:57  AGENT01 login success.
+09:38:50  BEN login success.
+09:40:49  (BEN) BM00000245  
+ 短訊內容：
+ Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For 34243 control, CSL’s agents can only send out 4 SMS templates.
+ Unicode Msg: 
+ 0045007800740065006E0074002000740068006500200053004D00530020004700610074006500770061007900200050006C006100740066006F0072006D00200074006F002000430053004C201900730020006100670065006E007400730020007400680061007400200074006800650079002000630061006E0020006100630063006500730073002000760069006100200069006E007400650072006E00650074002000770069007400680020005300700065006300690066006900630020004C006F00670069006E002000490044002E0046006F007200200033003400320034003300200063006F006E00740072006F006C002C002000430053004C201900730020006100670065006E00740073002000630061006E0020006F006E006C0079002000730065006E00640020006F007500740020003400200053004D0053002000740065006D0070006C0061007400650073002E
+ 發送號碼： 34243
+ 轉台號碼： 34243
+09:40:51  (BEN) 發送SMS 成功! （No RemoteService）
+09:46:40  BEN login success.
+09:48:33  BEN login success.
+09:49:27  BEN login success.
+09:50:20  ( AGENT01)  Invalid UserName or Password,Login Failure！
+09:50:31  AGENT01 login success.
+09:52:29  AGENT01 login success.
+09:52:45  AGENT01 login success.
+09:55:15  ( BEN)  Invalid UserName or Password,Login Failure！
+09:55:19  BEN login success.
+09:56:59  ( AGENT01)  驗證碼錯誤！
+09:57:05  AGENT01 login success.
+09:57:17  AGENT01 login success.
+10:19:09  BEN login success.
+10:43:36  AGENT01 login success.
+10:44:08  ( AGENT01)  驗證碼錯誤！
+10:44:18  AGENT01 login success.
+10:45:00  AGENT01 login success.
+10:46:56  AGENT01 login success.
+10:47:33  AGENT01 login success.
+10:48:03  AGENT01 login success.
+10:51:46  BEN login success.
+10:54:35  BEN logout success.
+10:54:43  AGENT01 login success.
+10:55:02  ( AGENT01)  驗證碼錯誤！
+10:55:11  ( AGENT01)  Invalid UserName or Password,Login Failure！
+10:55:15  ( AGENT01)  Invalid UserName or Password,Login Failure！
+10:55:22  AGENT01 login success.
+10:56:18  AGENT01 logout success.
+10:56:23  ( BEN)  驗證碼錯誤！
+10:56:28  BEN login success.
+2016/10/20 10:58:51  (BEN)  更新預設短訊,標題:SMS3 至 SMS3; 內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 至 Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 並設為默認！
+2016/10/20 10:58:56  (BEN)  更新預設短訊,標題:SMS3 至 SMS3; 內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 至 Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 並設為默認！
+16:56:13  ( BEN)  Invalid UserName or Password,Login Failure！
+16:56:23  ( BEN)  Invalid UserName or Password,Login Failure！
+16:56:29  ( BEN)  Invalid UserName or Password,Login Failure！
+16:56:45  BEN login success.
+17:15:18  BEN login success.
+17:16:19  BEN login success.
+2016/10/20 17:23:20  (BEN)  更新預設短訊,標題:SMS4 至 SMS4; 內容: SMS4213123 至 SUM Mobile: 多謝你選用4G隨心用數據服務計劃, 請於7天內帶同香港居民身份証及3個月內有效之地址証明正本到門市,屆時我們的職員將會為你辦理服務號碼MRT的攜號轉台手續。服務計劃詳情http://m.sunmobile.com.hk/ad/plan/ ！
+2016/10/20 17:23:36  (BEN)  更新預設短訊,標題:SMS2 至 SMS2; 內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 至 想上網無拘無束，睇片下載更順暢，立即為服務號碼:MRT登記4G高速數據計劃，首3.5GB最高下載速度42Mbps，其後數據用量速度上限384kbps，話音通話3700分鐘，月費只需$166，承諾期12個月。心動不如行動，登記熱線(CSDL - CSN)，受條款及細則約束。服務計劃詳情http://m.sunmobile.com.hk/ad/plan/ ！
+2016/10/20 17:23:53  (BEN)  更新預設短訊,標題:SMS3 至 SMS3; 內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 至 想上網無拘無束，睇片下載更順暢，立即為服務號碼:MRT登記4G高速數據計劃，首3.5GB最高下載速度42Mbps，其後數據用量速度上限384kbps，話音通話3700分鐘，月費只需$166，承諾期12個月。心動不如行動，登記熱線(CSDL - CSN)，受條款及細則約束。服務計劃詳情http://m.sunmobile.com.hk/ad/plan/ 並設為默認！
+2016/10/20 17:24:52  (BEN)  更新預設短訊,標題:SMS1 至 SMS1; 內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For 83432342 control, CSL’s agents can only send out 4 SMS templates. 至 SUM Mobile: 多謝你選用4G隨心用數據服務計劃, 請於7天內帶同香港居民身份証及3個月內有效之地址証明正本到門市,屆時我們的職員將會為你辦理服務號碼MRT的攜號轉台手續。服務計劃詳情http://m.sunmobile.com.hk/ad/plan/ ！
+2016/10/20 17:25:46  (BEN)  更新預設短訊,標題:SMS4 至 SMS4; 內容: SUM Mobile: 多謝你選用4G隨心用數據服務計劃, 請於7天內帶同香港居民身份証及3個月內有效之地址証明正本到門市,屆時我們的職員將會為你辦理服務號碼MRT的攜號轉台手續。服務計劃詳情http://m.sunmobile.com.hk/ad/plan/ 至 多謝你選用SUM Mobile流動通訊服務, 你的服務號碼:MRT之流動通訊服務協議及SIM卡將會由專人送遞給你。我們將於3天內有專人致電與你確認送件日期, 時間及地址。如有查詢，請致電(CSDL - CSN)。 ！
+2016/10/20 17:26:06  (BEN)  更新預設短訊,標題:SMS3 至 SMS3; 內容: 想上網無拘無束，睇片下載更順暢，立即為服務號碼:MRT登記4G高速數據計劃，首3.5GB最高下載速度42Mbps，其後數據用量速度上限384kbps，話音通話3700分鐘，月費只需$166，承諾期12個月。心動不如行動，登記熱線(CSDL - CSN)，受條款及細則約束。服務計劃詳情http://m.sunmobile.com.hk/ad/plan/ 至 想上網無拘無束，睇片下載更順暢，立即為服務號碼:MRT登記4G高速數據計劃，首3.5GB最高下載速度42Mbps，其後數據用量速度上限384kbps，話音通話3700分鐘，月費只需$166，承諾期12個月。心動不如行動，登記熱線(CSDL - CSN)，受條款及細則約束。服務計劃詳情http://m.sunmobile.com.hk/ad/plan/ 並設為默認！
+2016/10/20 17:26:24  (BEN)  更新預設短訊,標題:SMS2 至 SMS2; 內容: 想上網無拘無束，睇片下載更順暢，立即為服務號碼:MRT登記4G高速數據計劃，首3.5GB最高下載速度42Mbps，其後數據用量速度上限384kbps，話音通話3700分鐘，月費只需$166，承諾期12個月。心動不如行動，登記熱線(CSDL - CSN)，受條款及細則約束。服務計劃詳情http://m.sunmobile.com.hk/ad/plan/ 至 想上網無拘無束，睇片下載更順暢，立即為服務號碼:MRT登記4G高速數據計劃，首3.5GB最高下載速度42Mbps，其後數據用量速度上限384kbps，話音通話3700分鐘，月費只需$166，承諾期12個月。心動不如行動，登記熱線(CSDL - CSN)，受條款及細則約束。服務計劃詳情http://m.sunmobile.com.hk/ad/plan/ ！
+2016/10/20 17:26:43  (BEN)  更新預設短訊,標題:SMS1 至 SMS1; 內容: SUM Mobile: 多謝你選用4G隨心用數據服務計劃, 請於7天內帶同香港居民身份証及3個月內有效之地址証明正本到門市,屆時我們的職員將會為你辦理服務號碼MRT的攜號轉台手續。服務計劃詳情http://m.sunmobile.com.hk/ad/plan/ 至 SUM Mobile: 多謝你選用4G隨心用數據服務計劃, 請於7天內帶同香港居民身份証及3個月內有效之地址証明正本到門市,屆時我們的職員將會為你辦理服務號碼MRT的攜號轉台手續。服務計劃詳情http://m.sunmobile.com.hk/ad/plan/ ！
+17:29:10  BEN login success.
+17:31:00  BEN login success.
+17:32:23  BEN login success.
+17:37:58  BEN login success.
+17:38:45  ( BEN)  驗證碼錯誤！
+17:38:52  BEN login success.
+17:40:22  ( BEN)  Invalid UserName or Password,Login Failure！
+17:40:28  BEN login success.
+2016/10/20 17:42:07  (BEN)  更新預設短訊,標題:SMS2 至 SMS2; 內容: 想上網無拘無束，睇片下載更順暢，立即為服務號碼:MRT登記4G高速數據計劃，首3.5GB最高下載速度42Mbps，其後數據用量速度上限384kbps，話音通話3700分鐘，月費只需$166，承諾期12個月。心動不如行動，登記熱線(CSDL - CSN)，受條款及細則約束。服務計劃詳情http://m.sunmobile.com.hk/ad/plan/ 至 想上網無拘無束，睇片下載更順暢，立即為服務號碼:MRT登記4G高速數據計劃，首GB最高下載速度42Mbps，其後數據用量速度上限384kbps，話音通話3700分鐘，月費只需$166，承諾期12個月。心動不如行動，登記熱線(CSDL - CSN)，受條款及細則約束。服務計劃詳情http://m.sunmobile.com.hk/ad/plan/ ！
+2016/10/20 17:42:14  (BEN)  更新預設短訊,標題:SMS1 至 SMS1; 內容: SUM Mobile: 多謝你選用4G隨心用數據服務計劃, 請於7天內帶同香港居民身份証及3個月內有效之地址証明正本到門市,屆時我們的職員將會為你辦理服務號碼MRT的攜號轉台手續。服務計劃詳情http://m.sunmobile.com.hk/ad/plan/ 至 SUM Mobile: 多謝你選用4G隨心用數據服務計劃, 請於7天內帶同香港居民身份証及3個月內有效之地址証明正本到門市,屆時我們的職員將會為你辦理服務號碼MRT的攜號轉台手續。服務計劃詳情http://m.sunmobile.com.hk/ad/plan/ ！
+17:46:15  AGENT01 login success.

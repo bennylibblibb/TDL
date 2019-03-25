@@ -1,0 +1,15 @@
+﻿11:39:54  BEN login success.
+11:41:12  ( BEN)  驗證碼錯誤！
+11:41:17  ( BEN)  驗證碼錯誤！
+11:41:28  BEN login success.
+11:42:45  ( BEN)  開始發送訊息！
+11:43:36  ( BEN)  設置即時發送成功! （No RemoteService）ID:BM00032161  
+ 短訊內容：
+ sadfsdf
+ Unicode Msg: 0073006100640066007300640066
+ 發送號碼：
+ 62890174,   
+11:43:36  ( BEN)  結束即時發送訊息！
+
+11:50:32  BEN login success.
+11:57:50  BEN login success.

@@ -1,0 +1,102 @@
+﻿14:27:39  BEN login success.
+
+14:28:02  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:28:23  (BEN)  停止上載 K50_MRT_VICTOR_09211255.CSV, 請上傳正確格式文件!
+14:28:23  Execute sql:delete from  GROUP_MEMBER_INFO where  GUID=''
+
+
+14:28:48  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:28:50  (BEN)  停止上載 K50_MRT_VICTOR_09211255.CSV, 請上傳正確格式文件!
+14:28:50  Execute sql:delete from  GROUP_MEMBER_INFO where  GUID=''
+
+
+14:29:31  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:29:33  (BEN)  停止上載 K50_MRT_VICTOR_09211255.CSV, 請上傳正確格式文件!
+14:29:33  Execute sql:delete from  GROUP_MEMBER_INFO where  GUID=''
+
+
+14:29:47  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:29:49  (BEN)  停止上載 K50_MRT_VICTOR_09211255.CSV, 請上傳正確格式文件!
+14:29:49  Execute sql:delete from  GROUP_MEMBER_INFO where  GUID=''
+
+14:31:30  BEN login success.
+
+14:31:39  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:32:00  (BEN)  停止上載 K50_MRT_VICTOR_09211255.CSV, 請上傳正確格式文件!
+14:32:00  Execute sql:delete from  GROUP_MEMBER_INFO where  GUID=''
+
+14:32:24  BEN login success.
+
+14:32:33  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:33:40  (BEN)  停止上載 K50_MRT_VICTOR_09211255.CSV, 請上傳正確格式文件!
+14:33:41  Execute sql:delete from  GROUP_MEMBER_INFO where  GUID=''
+
+14:33:53  BEN login success.
+
+14:34:03  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:40:19  Execute sql:INSERT INTO GROUP_MEMBER_INFO (GUID, IITEM_NO, CGROUP_NAME,CMEMBER_NAME, CMOBILENO) VALUES (@GUID, @IITEM_NO,@CGROUP_NAME, @CMEMBER_NAME,@CMOBILENO)
+14:40:19  Inserted data to GROUP_MEMBER_INFO.45732
+14:41:54  BEN login success.
+
+14:42:03  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:42:08  (BEN)  停止上載 K50_MRT_VICTOR_09211255.CSV, 請上傳正確格式文件!
+14:42:09  Execute sql:delete from  GROUP_MEMBER_INFO where  GUID=''
+
+
+14:42:41  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:44:01  BEN login success.
+
+14:44:12  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:44:47  BEN login success.
+
+14:44:56  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:45:01  (BEN)  停止上載 K50_MRT_VICTOR_09211255.CSV, 請上傳正確格式文件!
+14:45:01  Execute sql:delete from  GROUP_MEMBER_INFO where  GUID=''
+
+14:45:33  BEN login success.
+
+14:45:43  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:47:12  (BEN)  上傳K50_MRT_VICTOR_09211255.CSV,請稍后再試！
+14:47:13  Execute sql:delete from  GROUP_MEMBER_INFO where  GUID='87909a390efe439b8f7158789b39730a'
+
+14:47:14  (BEN)  上傳K50_MRT_VICTOR_09211255.CSV,請稍后再試！
+14:47:15  Execute sql:delete from  GROUP_MEMBER_INFO where  GUID='bb7ef0b85e564822a8a100696aec46bf'
+
+14:47:23  BEN login success.
+
+14:47:30  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:48:03  BEN login success.
+
+14:48:11  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:48:22  (BEN)  停止上載 K50_MRT_VICTOR_09211255.CSV, 請上傳正確格式文件!
+14:48:23  Execute sql:delete from  GROUP_MEMBER_INFO where  GUID=''
+
+14:49:09  (BEN)  上傳K50_MRT_VICTOR_09211255.CSV,請稍后再試！
+14:49:09  Execute sql:delete from  GROUP_MEMBER_INFO where  GUID='5a4d17b107c54c948198308d13cbc20f'
+
+14:49:20  BEN login success.
+
+14:49:28  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:50:38  (BEN)  停止上載 K50_MRT_VICTOR_09211255.CSV, 請上傳正確格式文件!
+14:50:38  Execute sql:delete from  GROUP_MEMBER_INFO where  GUID=''
+
+14:51:51  BEN login success.
+
+14:51:59  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:53:03  BEN login success.
+
+14:53:12  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:55:20  (BEN)  上傳K50_MRT_VICTOR_09211255.CSV,請稍后再試！
+14:55:51  BEN login success.
+
+14:56:04  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+14:57:21  BEN login success.
+
+14:57:39  (BEN)  開始上載 K50_MRT_VICTOR_09211255.CSV！
+15:45:33  Execute sql:INSERT INTO GROUP_MEMBER_INFO (GUID, IITEM_NO, CGROUP_NAME,CMEMBER_NAME, CMOBILENO) VALUES (@GUID, @IITEM_NO,@CGROUP_NAME, @CMEMBER_NAME,@CMOBILENO)
+15:45:33  Inserted data to GROUP_MEMBER_INFO.45732
+15:45:44  Execute sql:INSERT INTO GROUP_MEMBER_INFO (GUID, IITEM_NO, CGROUP_NAME,CMEMBER_NAME, CMOBILENO) VALUES (@GUID, @IITEM_NO,@CGROUP_NAME, @CMEMBER_NAME,@CMOBILENO)
+15:45:44  Inserted data to GROUP_MEMBER_INFO.45732
+16:57:41  ( BEN)   Time out ,please re-login.
+17:37:34  BEN login success.
+18:02:18  BEN logout success.

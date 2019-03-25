@@ -1,0 +1,173 @@
+﻿09:27:39  BEN login success.
+09:28:09  (BEN)  update user,USER_ID: TDLUSER,USER_NAME:TDLUSER,PWD:123,SHAREDGP_RIGHT:有,USER_EMAIL:,DEPARTMENT:MIS
+to USER_ID: TDLUSER,USER_NAME:TDLUSER,PWD:,SHAREDGP_RIGHT:有,USER_EMAIL:LEE@163.COM,DEPARTMENT:MIS.
+
+09:30:07  BEN login success.
+09:32:07  BEN login success.
+09:32:45  BEN logout success.
+09:33:18  BEN login success.
+09:35:42  BEN login success.
+09:36:26  BEN logout success.
+09:36:45  BEN login success.
+09:39:17  BEN login success.
+09:46:48  BEN logout success.
+09:47:16  BEN login success.
+09:47:25  BEN logout success.
+09:47:37  BEN login success.
+10:08:46  BEN logout success.
+10:08:58  BEN login success.
+10:26:24  BEN logout success.
+10:26:32  ( SYSOPR)  Invalid UserName or Password,Login Failure！
+10:26:39  BEN login success.
+10:26:49  BEN logout success.
+10:35:04  BEN login success.
+10:51:13  BEN login success.
+10:53:35  BEN login success.
+10:55:56  BEN logout success.
+10:56:08  ( BEN)  驗證碼錯誤！
+10:56:14  BEN login success.
+10:56:28  BEN logout success.
+10:56:41  ( BEN)  驗證碼錯誤！
+10:56:48  BEN login success.
+10:58:25  BEN login success.
+11:02:59  BEN login success.
+11:15:41  BEN logout success.
+11:15:50  BEN login success.
+11:36:40  BEN login success.
+11:37:08  BEN logout success.
+11:37:16  ( BEN)  Invalid UserName or Password,Login Failure！
+11:37:22  BEN login success.
+11:49:03  BEN logout success.
+11:49:12  BEN login success.
+12:16:51  BEN logout success.
+12:16:58  BEN login success.
+12:18:05  BEN logout success.
+12:18:12  BEN login success.
+12:20:50  BEN logout success.
+12:20:59  BEN login success.
+12:23:03  ( SYSOPR)  Invalid UserName or Password,Login Failure！
+12:23:11  BEN login success.
+12:27:37  BEN logout success.
+12:27:44  BEN login success.
+12:48:26  BEN logout success.
+12:48:37  BEN login success.
+12:49:54  BEN logout success.
+14:00:16  BEN login success.
+14:09:02  BEN login success.
+14:09:10  BEN logout success.
+14:09:20  BEN login success.
+14:11:09  BEN login success.
+14:11:19  BEN logout success.
+14:11:28  BEN login success.
+14:14:45  BEN logout success.
+14:14:55  BEN login success.
+14:15:05  BEN logout success.
+14:15:14  ( BEN)  驗證碼錯誤！
+14:15:21  BEN login success.
+14:15:27 BEN 更新密碼 123 to 123.
+
+14:15:30 BEN 更新密碼 123 to 1234.
+
+14:15:31 BEN 更新密碼 1234 to 1234.
+
+14:15:37 BEN 更新密碼 1234 to 1234.
+
+14:15:38  BEN logout success.
+14:15:48  ( BEN)  Invalid UserName or Password,Login Failure！
+14:15:58  BEN login success.
+14:16:07 BEN 更新密碼 1234 to 123.
+
+14:16:08  BEN logout success.
+14:16:14  BEN login success.
+14:16:22  BEN logout success.
+14:17:24  BEN login success.
+14:17:42 BEN 更新密碼 123 to 123.
+
+14:19:01  BEN logout success.
+14:21:04  BEN login success.
+14:21:08  BEN logout success.
+14:23:55  BEN login success.
+14:24:01  BEN logout success.
+14:24:47  ( BEN)  驗證碼錯誤！
+14:24:55  BEN login success.
+14:25:02  BEN logout success.
+14:25:58  BEN login success.
+14:26:01  BEN logout success.
+14:27:17  BEN login success.
+14:27:23  BEN logout success.
+14:30:00  ( SYSOPR)  Invalid UserName or Password,Login Failure！
+14:30:22  BEN login success.
+14:30:29  BEN logout success.
+14:43:56  ( SYSOPR)  Invalid UserName or Password,Login Failure！
+14:44:03  BEN login success.
+14:44:18  BEN logout success.
+15:11:12  BEN login success.
+15:11:14  BEN logout success.
+15:12:46  BEN login success.
+15:13:21  BEN login success.
+15:13:24  BEN logout success.
+15:13:32  BEN login success.
+15:25:03  BEN logout success.
+15:44:50  BEN login success.
+16:10:23  ( BEN)  Invalid UserName or Password,Login Failure！
+16:10:29  BEN login success.
+16:15:15  ( BEN)  驗證碼錯誤！
+16:15:27  BEN login success.
+16:15:30  BEN logout success.
+16:15:38  BEN login success.
+16:18:03  BEN login success.
+16:30:01  BEN login success.
+16:31:43  BEN logout success.
+16:31:51  BEN login success.
+16:35:47  BEN logout success.
+16:35:55  BEN login success.
+16:42:06  BEN login success.
+16:42:13  BEN logout success.
+16:42:19  BEN login success.
+16:42:23  BEN logout success.
+16:42:30  BEN login success.
+16:44:59  BEN logout success.
+16:45:07  BEN login success.
+16:45:10  BEN logout success.
+16:45:16  BEN login success.
+16:46:09  BEN login success.
+16:48:05  BEN login success.
+16:48:52  BEN login success.
+17:27:44  BEN login success.
+17:32:50  BEN login success.
+17:51:50  BEN login success.
+17:57:16  BEN login success.
+17:57:34  ( BEN)  驗證碼錯誤！
+17:57:41  BEN login success.
+18:03:16  BEN login success.
+18:03:35  BEN logout success.
+18:03:42  BEN login success.
+18:09:20  ( BEN)  驗證碼錯誤！
+18:09:26  BEN login success.
+18:09:38  BEN logout success.
+18:09:45  ( BEN)  Invalid UserName or Password,Login Failure！
+18:09:52  BEN login success.
+18:11:59  BEN login success.
+18:15:11  BEN login success.
+18:15:53  ( BEN)   This login name is already in use by a different user,please re-login.
+18:15:56  ( )   This login name is already in use by a different user,please re-login.
+18:16:03  ( )   This login name is already in use by a different user,please re-login.
+18:16:03  BEN login success.
+18:16:15  (BEN)  新增私人組別 A ！
+18:16:28  BEN logout success.
+18:16:35  BEN login success.
+18:18:43  ( BEN)   This login name is already in use by a different user,please re-login.
+18:19:53  BEN logout success.
+18:19:59  BEN login success.
+18:20:21  (BEN)  新增私人組別 b ！
+18:31:44  BEN login success.
+18:33:58  BEN login success.
+18:36:26  BEN login success.
+18:40:52  BEN logout success.
+18:41:00  BEN login success.
+18:48:34  BEN login success.
+18:48:49  (BEN)  新增聯絡人 Group2 sdf sfasfsdf ！
+18:51:06  BEN logout success.
+18:51:17  BEN login success.
+18:56:26  BEN logout success.
+20:46:38  ( )   Time out ,please re-login.

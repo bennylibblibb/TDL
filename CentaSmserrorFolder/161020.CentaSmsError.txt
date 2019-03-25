@@ -1,0 +1,213 @@
+﻿09:39:02   SmsSchContentData.LoadActionByCondition  FirebirdSql.Data.FirebirdClient.FbException: Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42 ---> Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteReader(CommandBehavior behavior)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.SmsSchContents.LoadSmsSchContentByID(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsSchContents.cs:行号 294
+09:40:51   SendWinMsg  System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8804
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   在 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket()
+   在 System.Runtime.Remoting.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 RemoteService.Win32.Win32Message.Broadcast(String sBroadcast)
+   在 CENTASMS.DAL.ConfigManager.SendWinMsg(String Batchid) 位置 e:\Project\WebProject\WIN2008\WebSms\DAL\ConfigManager.cs:行号 170
+09:48:40   SmsSchContentData.LoadActionByCondition  FirebirdSql.Data.FirebirdClient.FbException: Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 1, column 43
+? ---> Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 1, column 43
+?
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteReader(CommandBehavior behavior)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.SmsSchContents.LoadSmsSchContentByID(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsSchContents.cs:行号 294
+09:48:45   SmsSchContentData.LoadActionByCondition  FirebirdSql.Data.FirebirdClient.FbException: Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 1, column 43
+? ---> Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 1, column 43
+?
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteReader(CommandBehavior behavior)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.SmsSchContents.LoadSmsSchContentByID(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsSchContents.cs:行号 294
+09:49:03   SmsSchContentData.LoadActionByCondition  FirebirdSql.Data.FirebirdClient.FbException: Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 1, column 43
+? ---> Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 1, column 43
+?
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteReader(CommandBehavior behavior)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.SmsSchContents.LoadSmsSchContentByID(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsSchContents.cs:行号 294
+09:49:31   SmsSchContentData.LoadActionByCondition  FirebirdSql.Data.FirebirdClient.FbException: Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42 ---> Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteReader(CommandBehavior behavior)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.SmsSchContents.LoadSmsSchContentByID(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsSchContents.cs:行号 294
+09:50:36   SmsSchContentData.LoadActionByCondition  FirebirdSql.Data.FirebirdClient.FbException: Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42 ---> Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteReader(CommandBehavior behavior)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.SmsSchContents.LoadSmsSchContentByID(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsSchContents.cs:行号 294
+09:50:46   SmsSchContentData.LoadActionByCondition  FirebirdSql.Data.FirebirdClient.FbException: Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42 ---> Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteReader(CommandBehavior behavior)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.SmsSchContents.LoadSmsSchContentByID(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsSchContents.cs:行号 294
+09:52:52   SmsSchContentData.LoadActionByCondition  FirebirdSql.Data.FirebirdClient.FbException: Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42 ---> Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteReader(CommandBehavior behavior)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.SmsSchContents.LoadSmsSchContentByID(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsSchContents.cs:行号 294
+09:52:56   SmsSchContentData.LoadActionByCondition  FirebirdSql.Data.FirebirdClient.FbException: Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42 ---> Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteReader(CommandBehavior behavior)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.SmsSchContents.LoadSmsSchContentByID(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsSchContents.cs:行号 294
+09:53:16   SmsSchContentData.LoadActionByCondition  FirebirdSql.Data.FirebirdClient.FbException: Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42 ---> Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteReader(CommandBehavior behavior)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.SmsSchContents.LoadSmsSchContentByID(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsSchContents.cs:行号 294
+09:53:35   SmsSchContentData.LoadActionByCondition  FirebirdSql.Data.FirebirdClient.FbException: Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42 ---> Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteReader(CommandBehavior behavior)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.SmsSchContents.LoadSmsSchContentByID(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsSchContents.cs:行号 294
+09:54:26   SmsSchContentData.LoadActionByCondition  FirebirdSql.Data.FirebirdClient.FbException: Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42 ---> Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 42
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteReader(CommandBehavior behavior)
+   在 FirebirdSql.Data.FirebirdClient.FbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.SmsSchContents.LoadSmsSchContentByID(String id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\SmsSchContents.cs:行号 294
+16:56:13   UserData LoadUserByUSER_ID  BEN FirebirdSql.Data.FirebirdClient.FbException: Unable to complete network request to host "127.0.0.1". ---> Unable to complete network request to host "127.0.0.1".
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbConnectionInternal.Connect()
+   在 FirebirdSql.Data.FirebirdClient.FbConnectionPool.Create()
+   在 FirebirdSql.Data.FirebirdClient.FbConnectionPool.CheckOut()
+   在 FirebirdSql.Data.FirebirdClient.FbConnection.Open()
+   在 System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.Users.LoadUserByUSER_ID(String user_id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\Users.cs:行号 286
+16:56:23   UserData LoadUserByUSER_ID  BEN FirebirdSql.Data.FirebirdClient.FbException: Unable to complete network request to host "127.0.0.1". ---> Unable to complete network request to host "127.0.0.1".
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbConnectionInternal.Connect()
+   在 FirebirdSql.Data.FirebirdClient.FbConnectionPool.Create()
+   在 FirebirdSql.Data.FirebirdClient.FbConnectionPool.CheckOut()
+   在 FirebirdSql.Data.FirebirdClient.FbConnection.Open()
+   在 System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.Users.LoadUserByUSER_ID(String user_id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\Users.cs:行号 286
+16:56:29   UserData LoadUserByUSER_ID  BEN FirebirdSql.Data.FirebirdClient.FbException: Unable to complete network request to host "127.0.0.1". ---> Unable to complete network request to host "127.0.0.1".
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 FirebirdSql.Data.FirebirdClient.FbConnectionInternal.Connect()
+   在 FirebirdSql.Data.FirebirdClient.FbConnectionPool.Create()
+   在 FirebirdSql.Data.FirebirdClient.FbConnectionPool.CheckOut()
+   在 FirebirdSql.Data.FirebirdClient.FbConnection.Open()
+   在 System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CENTASMS.BLL.Users.LoadUserByUSER_ID(String user_id) 位置 e:\Project\WebProject\WIN2008\WebSms\BLL\Users.cs:行号 286

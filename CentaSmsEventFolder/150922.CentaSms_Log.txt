@@ -1,0 +1,54 @@
+﻿15:44:21  BEN login success.
+15:55:19  BEN login success.
+16:03:41  BEN login success.
+16:05:43  BEN login success.
+16:06:12  BEN login success.
+16:07:26  BEN login success.
+16:11:32  BEN login success.
+16:21:20  BEN login success.
+16:21:50  (BEN)  更新私人組別名稱 MST11 至 MST10！
+16:22:02  (BEN)  新增共享組別 A ！
+16:22:07  (BEN)  更新共享組別名稱 A 至 A1！
+16:24:54  (BEN)  更新共享組別名稱 A1 至 A！
+16:24:59  (BEN)  更新私人組別名稱 MST10 至 MST10！
+16:26:02  (BEN)  新增共享組別 B ！
+16:26:05  (BEN)  刪除共享組別 B ！
+16:41:42  BEN login success.
+16:42:03  BEN login success.
+16:45:33  BEN login success.
+16:46:43  BEN login success.
+16:46:56  (BEN)  更新私人組別名稱 MST10 至 MST11！
+17:14:34  BEN login success.
+17:16:07  ( BEN)  開始發送訊息！
+17:16:34  BEN login success.
+17:16:53  (BEN)  新增私人組別 MST10 ！
+17:17:22  (BEN)  新增聯絡人 MST10 M1 81111111 ！
+17:17:36  (BEN)  新增聯絡人 A A1 61111111 ！
+17:18:12  (BEN)  更新聯絡人 A A1 61111111 至 A A1 81111111！
+17:20:35  ( BEN)  開始發送訊息！
+17:22:46  Callback(DELETE)   BM00000005 
+17:22:46  ( BEN)  即時發送失敗,請重發！
+
+17:24:22  BEN login success.
+17:30:34  ( BEN)  開始發送訊息！
+17:34:32  BEN login success.
+17:35:00  BEN login success.
+17:35:23  ( BEN)  開始發送訊息！
+17:41:00  BEN login success.
+17:42:30  ( BEN)  開始發送訊息！
+17:45:43  Callback(DELETE)   BM00000007 
+17:45:43  ( BEN)  即時發送失敗,請重發！
+
+17:49:20  ( BEN)  開始發送訊息！
+17:49:22  ( BEN)  即時發送失敗,請重發！
+
+17:50:17  BEN login success.
+17:50:34  ( BEN)  開始發送訊息！
+17:53:41  Callback(DELETE)   BM00000007 
+17:53:41  ( BEN)  即時發送失敗,請重發！
+
+18:27:53  BEN login success.
+18:28:28  ( BEN)  開始發送訊息！
+18:28:46  ( BEN)  即時發送失敗,請重發！
+
+20:28:29  ( )   Time out ,please re-login.

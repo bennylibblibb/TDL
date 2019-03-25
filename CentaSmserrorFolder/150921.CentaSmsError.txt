@@ -1,0 +1,55 @@
+﻿14:27:14   UserData LoadUserByUSER_ID  BEN FirebirdSql.Data.FirebirdClient.FbException: Unable to complete network request to host "127.0.0.1". ---> Unable to complete network request to host "127.0.0.1".
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbConnectionInternal.Connect()
+   at FirebirdSql.Data.FirebirdClient.FbConnectionPool.Create()
+   at FirebirdSql.Data.FirebirdClient.FbConnectionPool.CheckOut()
+   at FirebirdSql.Data.FirebirdClient.FbConnection.Open()
+   at System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at CENTASMS.BLL.Users.LoadUserByUSER_ID(String user_id) in E:\Project\CentaSms\WebSms\BLL\Users.cs:line 286
+14:28:23 Upload: K50_MRT_VICTOR_09211255.CSV  Error: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CENTASMS.Doload.InsertUploadData() in E:\Project\CentaSms\WebSms\Doload.cs:line 239
+14:28:50 Upload: K50_MRT_VICTOR_09211255.CSV  Error: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CENTASMS.Doload.InsertUploadData() in E:\Project\CentaSms\WebSms\Doload.cs:line 239
+14:29:33 Upload: K50_MRT_VICTOR_09211255.CSV  Error: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CENTASMS.Doload.InsertUploadData() in E:\Project\CentaSms\WebSms\Doload.cs:line 239
+14:29:49 Upload: K50_MRT_VICTOR_09211255.CSV  Error: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CENTASMS.Doload.InsertUploadData() in E:\Project\CentaSms\WebSms\Doload.cs:line 239
+14:32:00 Upload: K50_MRT_VICTOR_09211255.CSV  Error: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CENTASMS.Doload.InsertUploadData() in E:\Project\CentaSms\WebSms\Doload.cs:line 239
+14:33:40 Upload: K50_MRT_VICTOR_09211255.CSV  Error: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CENTASMS.Doload.InsertUploadData() in E:\Project\CentaSms\WebSms\Doload.cs:line 239
+14:42:08 Upload: K50_MRT_VICTOR_09211255.CSV  Error: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CENTASMS.Doload.InsertUploadData() in E:\Project\CentaSms\WebSms\Doload.cs:line 239
+14:45:01 Upload: K50_MRT_VICTOR_09211255.CSV  Error: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CENTASMS.Doload.InsertUploadData() in E:\Project\CentaSms\WebSms\Doload.cs:line 239
+14:47:12  (BEN)   Upload: K50_MRT_VICTOR_09211255.CSV  Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.GroupMembers.InsertMemberInfo(DataSet data) in E:\Project\CentaSms\WebSms\BLL\GroupMembers.cs:line 467
+   at CENTASMS.Doload.InsertUploadData() in E:\Project\CentaSms\WebSms\Doload.cs:line 345
+14:47:14  (BEN)   Upload: K50_MRT_VICTOR_09211255.CSV  Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.GroupMembers.InsertMemberInfo(DataSet data) in E:\Project\CentaSms\WebSms\BLL\GroupMembers.cs:line 467
+   at CENTASMS.Doload.InsertUploadData() in E:\Project\CentaSms\WebSms\Doload.cs:line 345
+14:48:22 Upload: K50_MRT_VICTOR_09211255.CSV  Error: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CENTASMS.Doload.InsertUploadData() in E:\Project\CentaSms\WebSms\Doload.cs:line 240
+14:49:09  (BEN)   Upload: K50_MRT_VICTOR_09211255.CSV  Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.GroupMembers.InsertMemberInfo(DataSet data) in E:\Project\CentaSms\WebSms\BLL\GroupMembers.cs:line 467
+   at CENTASMS.Doload.InsertUploadData() in E:\Project\CentaSms\WebSms\Doload.cs:line 346
+14:50:38 Upload: K50_MRT_VICTOR_09211255.CSV  Error: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CENTASMS.Doload.InsertUploadData() in E:\Project\CentaSms\WebSms\Doload.cs:line 243
+14:55:20  (BEN)   Upload: K50_MRT_VICTOR_09211255.CSV  Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.GroupMembers.InsertMemberInfo(DataSet data) in E:\Project\CentaSms\WebSms\BLL\GroupMembers.cs:line 467
+   at CENTASMS.Doload.InsertUploadData() in E:\Project\CentaSms\WebSms\Doload.cs:line 344

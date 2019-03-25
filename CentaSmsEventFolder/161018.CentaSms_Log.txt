@@ -1,0 +1,32 @@
+﻿14:16:55  BEN login success.
+2016/10/18 14:17:14  (BEN)  預設短訊內容: testing 並設為默認！
+2016/10/18 14:17:26  (BEN)  預設短訊內容: testing2 並設為默認！
+2016/10/18 14:17:44  (BEN)  預設短訊內容: testing3 ！
+2016/10/18 14:17:51  (BEN)  預設短訊內容: testing4 並設為默認！
+2016/10/18 14:26:23  (BEN)  刪除預設短訊內容成功！
+2016/10/18 14:26:32  (BEN)  更新預設短訊內容: testing2 至 testing2 並設為默認！
+2016/10/18 15:04:17  (BEN)  預設短訊內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For xxxxxxxx control, CSL’s agents can only send out 4 SMS templates. 並設為默認！
+2016/10/18 15:05:02  (BEN)  預設短訊內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For xxxxxxxx control, CSL’s agents can only send out 4 SMS templates.ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ！
+2016/10/18 15:05:21  (BEN)  預設短訊內容: dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd ！
+2016/10/18 15:05:26  (BEN)  刪除預設短訊內容成功！
+2016/10/18 15:05:29  (BEN)  刪除預設短訊內容成功！
+2016/10/18 15:25:30  (BEN)  更新預設短訊內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For xxxxxxxx control, CSL’s agents can only send out 4 SMS templates. 至 Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1)control, CSL’s agents can only send out 4 SMS templates. 並設為默認！
+2016/10/18 15:25:56  (BEN)  更新預設短訊內容: Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1)control, CSL’s agents can only send out 4 SMS templates. 至 Extent the SMS Gateway Platform to CSL’s agents that they can access via internet with Specific Login ID.For (X1) control, CSL’s agents can only send out 4 SMS templates. 並設為默認！
+15:37:25  BEN login success.
+15:39:21  BEN login success.
+15:43:51  BEN login success.
+15:59:37  BEN login success.
+16:08:02  BEN login success.
+16:10:16  BEN login success.
+16:18:58  BEN login success.
+16:22:58  BEN login success.
+16:24:54  ( BEN)  驗證碼錯誤！
+16:25:00  BEN login success.
+16:25:26  BEN login success.
+16:27:02  BEN login success.
+16:28:10  ( BEN)  驗證碼錯誤！
+16:28:16  ( BEN)  驗證碼錯誤！
+16:28:22  BEN login success.
+16:32:01  BEN login success.
+16:34:41  BEN login success.
+19:02:36  ( )   Time out ,please re-login.

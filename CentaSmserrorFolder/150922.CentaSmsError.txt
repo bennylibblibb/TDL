@@ -1,0 +1,132 @@
+﻿2015/09/22 17:16:29CreateSmsMsg   System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Data.DataTable.AcceptChanges()
+   at System.Data.DataSet.AcceptChanges()
+   at CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) in E:\Project\CentaSms\WebSms\BLL\SmsMsgs.cs:line 571
+   at CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) in E:\Project\CentaSms\WebSms\BLL\SmsMsgs.cs:line 122
+17:16:29  設置即時發送失敗!   System.Threading.ThreadAbortException: Thread was being aborted.
+   at CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) in E:\Project\CentaSms\WebSms\BLL\SmsMsgs.cs:line 175
+   at CENTASMS.Sendload.InsertSendData() in E:\Project\CentaSms\WebSms\Sendload.cs:line 235
+2015/09/22 17:21:56   SmsMsgData  System.Data.Odbc.OdbcException: ERROR [23000] [INTERSOLV][ODBC InterBase driver][InterBase]violation of PRIMARY or UNIQUE KEY constraint "INTEG_147" on table "SMS_MSG_1"
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) in E:\Project\CentaSms\WebSms\BLL\SmsMsgs.cs:line 559
+17:33:51   SmsMsgReceData  System.Data.Odbc.OdbcException: ERROR [23000] [INTERSOLV][ODBC InterBase driver][InterBase]violation of PRIMARY or UNIQUE KEY constraint "INTEG_151" on table "SMS_MSG_RECEIVER_1"
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgReces.InsertSmsMsgRece(SmsMsgReceData smsmsg) in E:\Project\CentaSms\WebSms\BLL\SmsMsgReces.cs:line 90
+17:34:21  DeletelSmsData Callback   Delete error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Runtime.InteropServices.GCHandle.InternalCompareExchange(IntPtr handle, Object value, Object oldValue, Boolean isPinned)
+   at System.WeakReference.set_Target(Object value)
+   at System.Data.ProviderBase.DbConnectionInternal.MakeNonPooledObject(Object owningObject, DbConnectionPoolCounters performanceCounters)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.Odbc.OdbcConnection.Open()
+   at CENTASMS.BLL.SmsMsgs.DeletelSmsData(String id) in E:\Project\CentaSms\WebSms\BLL\SmsMsgs.cs:line 337
+2015/09/22 17:34:21CreateSmsMsg   System.Threading.ThreadAbortException: Thread was being aborted.
+   at CENTASMS.BLL.SmsMsgs.DeletelSmsData(String id) in E:\Project\CentaSms\WebSms\BLL\SmsMsgs.cs:line 360
+   at CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) in E:\Project\CentaSms\WebSms\BLL\SmsMsgs.cs:line 167
+17:34:21  設置即時發送失敗!   System.Threading.ThreadAbortException: Thread was being aborted.
+   at CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) in E:\Project\CentaSms\WebSms\BLL\SmsMsgs.cs:line 175
+   at CENTASMS.Sendload.InsertSendData() in E:\Project\CentaSms\WebSms\Sendload.cs:line 235
+17:41:04   SmsMsgReceData  System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Runtime.InteropServices.GCHandle.InternalCompareExchange(IntPtr handle, Object value, Object oldValue, Boolean isPinned)
+   at System.WeakReference.set_Target(Object value)
+   at System.Data.ProviderBase.DbConnectionInternal.MakeNonPooledObject(Object owningObject, DbConnectionPoolCounters performanceCounters)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.Odbc.OdbcConnection.Open()
+   at System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   at System.Data.Common.DbDataAdapter.UpdateConnectionOpen(IDbConnection connection, StatementType statementType, IDbConnection[] connections, ConnectionState[] connectionStates, Boolean useSelectConnectionState)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgReces.InsertSmsMsgRece(SmsMsgReceData smsmsg) in E:\Project\CentaSms\WebSms\BLL\SmsMsgReces.cs:line 90
+2015/09/22 17:41:04CreateSmsMsg   System.Threading.ThreadAbortException: Thread was being aborted.
+   at CENTASMS.BLL.SmsMsgReces.InsertSmsMsgRece(SmsMsgReceData smsmsg) in E:\Project\CentaSms\WebSms\BLL\SmsMsgReces.cs:line 96
+   at CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) in E:\Project\CentaSms\WebSms\BLL\SmsMsgs.cs:line 152
+17:41:04  設置即時發送失敗!   System.Threading.ThreadAbortException: Thread was being aborted.
+   at CENTASMS.BLL.SmsMsgs.CreateSmsMsg(String csmsmsg, String ctype, Int32 ipriority, String create_date, ArrayList cmoblieno, String csender, String strcaller, Int32 imsglen, Int32 ismsmsgno, Int32 imobiletotal, String& cbatchid) in E:\Project\CentaSms\WebSms\BLL\SmsMsgs.cs:line 175
+   at CENTASMS.Sendload.InsertSendData() in E:\Project\CentaSms\WebSms\Sendload.cs:line 235
+17:44:43   SmsMsgReceData  System.Data.Odbc.OdbcException: ERROR [23000] [INTERSOLV][ODBC InterBase driver][InterBase]violation of PRIMARY or UNIQUE KEY constraint "INTEG_151" on table "SMS_MSG_RECEIVER_1"
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgReces.InsertSmsMsgRece(SmsMsgReceData smsmsg) in E:\Project\CentaSms\WebSms\BLL\SmsMsgReces.cs:line 90
+2015/09/22 17:49:22   SmsMsgData  System.Data.Odbc.OdbcException: ERROR [HYC00] [INTERSOLV][ODBC InterBase driver]Optional feature not implemented.
+ERROR [HY000] [INTERSOLV][ODBC InterBase driver][InterBase]I/O error for file "E:\Project\TSOP\TSOPrint\TSOPrint\database\CENTASMS_DB.GDB", Error while trying to open file, unknown Win32 error 32
+ERROR [IM006] [INTERSOLV][ODBC InterBase driver]Driver's SQLSetConnectAttr failed.
+ERROR [01S00] [INTERSOLV][ODBC InterBase driver]Invalid attribute in connection string: Server.
+ERROR [HYC00] [INTERSOLV][ODBC InterBase driver]Optional feature not implemented.
+ERROR [HY000] [INTERSOLV][ODBC InterBase driver][InterBase]I/O error for file "E:\Project\TSOP\TSOPrint\TSOPrint\database\CENTASMS_DB.GDB", Error while trying to open file, unknown Win32 error 32
+ERROR [IM006] [INTERSOLV][ODBC InterBase driver]Driver's SQLSetConnectAttr failed.
+ERROR [01S00] [INTERSOLV][ODBC InterBase driver]Invalid attribute in connection string: Server.
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) in E:\Project\CentaSms\WebSms\BLL\SmsMsgs.cs:line 559
+17:49:22  DeletelSmsData Callback   Delete error: System.Data.Odbc.OdbcException: ERROR [HYC00] [INTERSOLV][ODBC InterBase driver]Optional feature not implemented.
+ERROR [HY000] [INTERSOLV][ODBC InterBase driver][InterBase]I/O error for file "E:\Project\TSOP\TSOPrint\TSOPrint\database\CENTASMS_DB.GDB", Error while trying to open file, unknown Win32 error 32
+ERROR [IM006] [INTERSOLV][ODBC InterBase driver]Driver's SQLSetConnectAttr failed.
+ERROR [01S00] [INTERSOLV][ODBC InterBase driver]Invalid attribute in connection string: Server.
+ERROR [HYC00] [INTERSOLV][ODBC InterBase driver]Optional feature not implemented.
+ERROR [HY000] [INTERSOLV][ODBC InterBase driver][InterBase]I/O error for file "E:\Project\TSOP\TSOPrint\TSOPrint\database\CENTASMS_DB.GDB", Error while trying to open file, unknown Win32 error 32
+ERROR [IM006] [INTERSOLV][ODBC InterBase driver]Driver's SQLSetConnectAttr failed.
+ERROR [01S00] [INTERSOLV][ODBC InterBase driver]Invalid attribute in connection string: Server.
+   at System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   at System.Data.Odbc.OdbcConnectionHandle..ctor(OdbcConnection connection, OdbcConnectionString constr, OdbcEnvironmentHandle environmentHandle)
+   at System.Data.Odbc.OdbcConnectionOpen..ctor(OdbcConnection outerConnection, OdbcConnectionString connectionOptions)
+   at System.Data.Odbc.OdbcConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.Odbc.OdbcConnection.Open()
+   at CENTASMS.BLL.SmsMsgs.DeletelSmsData(String id) in E:\Project\CentaSms\WebSms\BLL\SmsMsgs.cs:line 337
+17:52:41   SmsMsgReceHistData  FirebirdSql.Data.FirebirdClient.FbException: violation of PRIMARY or UNIQUE KEY constraint "INTEG_65" on table "SMS_MSGRCV_HIST" ---> violation of PRIMARY or UNIQUE KEY constraint "INTEG_65" on table "SMS_MSGRCV_HIST"
+   --- End of inner exception stack trace ---
+   at FirebirdSql.Data.FirebirdClient.FbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgReceHists.InsertSmsMsgReceHist(SmsMsgReceHistData smsmsg) in E:\Project\CentaSms\WebSms\BLL\SmsMsgReceHists.cs:line 122
+2015/09/22 18:28:42   SmsMsgData  System.Data.Odbc.OdbcException: ERROR [HYC00] [INTERSOLV][ODBC InterBase driver]Optional feature not implemented.
+ERROR [HY000] [INTERSOLV][ODBC InterBase driver][InterBase]Unable to complete network request to host "127.0.0.1"., Failed to establish a connection., unknown Win32 error 10061
+ERROR [IM006] [INTERSOLV][ODBC InterBase driver]Driver's SQLSetConnectAttr failed.
+ERROR [01S00] [INTERSOLV][ODBC InterBase driver]Invalid attribute in connection string: Server.
+ERROR [HYC00] [INTERSOLV][ODBC InterBase driver]Optional feature not implemented.
+ERROR [HY000] [INTERSOLV][ODBC InterBase driver][InterBase]Unable to complete network request to host "127.0.0.1"., Failed to establish a connection., unknown Win32 error 10061
+ERROR [IM006] [INTERSOLV][ODBC InterBase driver]Driver's SQLSetConnectAttr failed.
+ERROR [01S00] [INTERSOLV][ODBC InterBase driver]Invalid attribute in connection string: Server.
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
+   at System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
+   at System.Data.Common.DbDataAdapter.Update(DataSet dataSet, String srcTable)
+   at CENTASMS.BLL.SmsMsgs.InsertSmsMsg(SmsMsgData smsmsg) in E:\Project\CentaSms\WebSms\BLL\SmsMsgs.cs:line 559
+18:28:46  DeletelSmsData Callback   Delete error: System.Data.Odbc.OdbcException: ERROR [HYC00] [INTERSOLV][ODBC InterBase driver]Optional feature not implemented.
+ERROR [HY000] [INTERSOLV][ODBC InterBase driver][InterBase]Unable to complete network request to host "127.0.0.1"., Failed to establish a connection., unknown Win32 error 10061
+ERROR [IM006] [INTERSOLV][ODBC InterBase driver]Driver's SQLSetConnectAttr failed.
+ERROR [01S00] [INTERSOLV][ODBC InterBase driver]Invalid attribute in connection string: Server.
+ERROR [HYC00] [INTERSOLV][ODBC InterBase driver]Optional feature not implemented.
+ERROR [HY000] [INTERSOLV][ODBC InterBase driver][InterBase]Unable to complete network request to host "127.0.0.1"., Failed to establish a connection., unknown Win32 error 10061
+ERROR [IM006] [INTERSOLV][ODBC InterBase driver]Driver's SQLSetConnectAttr failed.
+ERROR [01S00] [INTERSOLV][ODBC InterBase driver]Invalid attribute in connection string: Server.
+   at System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   at System.Data.Odbc.OdbcConnectionHandle..ctor(OdbcConnection connection, OdbcConnectionString constr, OdbcEnvironmentHandle environmentHandle)
+   at System.Data.Odbc.OdbcConnectionOpen..ctor(OdbcConnection outerConnection, OdbcConnectionString connectionOptions)
+   at System.Data.Odbc.OdbcConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.Odbc.OdbcConnection.Open()
+   at CENTASMS.BLL.SmsMsgs.DeletelSmsData(String id) in E:\Project\CentaSms\WebSms\BLL\SmsMsgs.cs:line 337
