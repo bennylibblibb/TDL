@@ -129,23 +129,25 @@
                              ArrayList cmoblieAction = new ArrayList();
                              string strMobileAction = "";
                              string strMobile = "";
-                             //if (dataSet.Tables[0].Rows.Count < 2)
-                             //{
-                             //    continue;
-                             //}
-                             if (dataSet.Tables[0].Columns.Count < 4 && DoAction == true)
-                             {
-                                 if (dataSet.Tables[0].Rows.Count < 2)
-                                 {
-                                     continue;
-                                 }
-                                 else
-                                 {
-                                     error = true;
-                                     throw (new Exception("請上傳正確格式文件"));
-                                 }
-                                 // break;
-                             }
+                            //if (dataSet.Tables[0].Rows.Count < 2)
+                            //{
+                            //    continue;
+                            //}
+                            if (dataSet.Tables[0].Columns.Count < 4 && DoAction == true)
+                            {
+                                //25/03/2019 
+                                //if (dataSet.Tables[0].Rows.Count <2)
+                                if (dataSet.Tables[0].Rows.Count < 1)
+                                {
+                                    continue;
+                                }
+                                else
+                                {
+                                    error = true;
+                                    throw (new Exception("請上傳正確格式文件"));
+                                }
+                                // break;
+                            }
 
                             foreach (DataRow dr in dataSet.Tables[0].Rows)
                             {

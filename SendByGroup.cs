@@ -37,6 +37,7 @@
         protected Anthem.Button btnAgentSend;
         protected System.Web.UI.WebControls.CheckBox chkDefault;
         protected System.Web.UI.WebControls.CheckBox chkAction;
+        protected System.Web.UI.WebControls.CheckBox chkAction2;
         private IFormatProvider culture = new CultureInfo("en-GB", true);
         protected Anthem.DataGrid dgData2;
         protected Anthem.DataGrid dgSchedule;
@@ -72,6 +73,7 @@
         protected System.Web.UI.WebControls.Panel plMsgData;
         protected System.Web.UI.WebControls.Panel plSendHist;
         protected System.Web.UI.WebControls.Panel plUploadSms;
+        protected System.Web.UI.WebControls.Panel plUploadSms2;
         protected System.Web.UI.WebControls.Panel plUploadSmsAction;
         protected System.Web.UI.WebControls.Panel plAgentSMS;
         protected System.Web.UI.WebControls.Panel plUploadSmsAgent;
@@ -111,6 +113,10 @@
         protected HtmlInputButton Submit1;
         protected HtmlInputButton Submit2;
         protected HtmlInputButton subUploadAgentSms;
+        protected HtmlInputButton SubmitSms2;
+
+        protected HtmlInputFile btnUploadModeSms2;
+        protected Anthem.Label lbUploadResultSms2;
 
         protected HtmlInputFile btnUploadMode;
         protected Anthem.Label lbUploadResult;
@@ -119,12 +125,14 @@
         protected HtmlInputFile btnUploadMode3;
         protected Anthem.Label lbUploadResult3;
         protected System.Web.UI.WebControls.RequiredFieldValidator rfvUplaod;
-        protected Anthem.Label lbrfvUpload;
+        protected Anthem.Label lbrfvUpload;  
+              protected Anthem.Label lbrfvUploadSms2;
         protected System.Web.UI.WebControls.RequiredFieldValidator rfvUplaod2;
         protected System.Web.UI.WebControls.RequiredFieldValidator rfvUplaod3;
         protected Anthem.Label lbrfvUpload2;
         protected Anthem.Label lbrfvUpload3;
         protected DoSmsLoad doSmsLoad;
+        protected DoSmsLoad2 doSmsLoad2;
         protected DoSmsActionLoad doSmsActionLoad;
         protected DoSmsAgentLoad doSmsAgentLoad;
         protected Anthem.DropDownList dplUploadAgentSmsNum;
@@ -1385,6 +1393,7 @@
             this.dgData2.UpdateCommand += new DataGridCommandEventHandler(this.dgData2_UpdateCommand);
             this.dgData2.CancelCommand += new DataGridCommandEventHandler(this.dgData2_CancelCommand);
             this.dgData2.EditCommand += new DataGridCommandEventHandler(this.dgData2_EditCommand);
+            this.SubmitSms2.ServerClick += new EventHandler(this.SubmitSms2_ServerClick);
             this.Submit1.ServerClick += new EventHandler(this.Submit1_ServerClick);
             this.Submit2.ServerClick += new EventHandler(this.Submit2_ServerClick);
             this.dplAgentSmsNum.SelectedIndexChanged += new EventHandler(this.dpldplAgentSmsNum_SelectedIndexChanged);
@@ -1394,6 +1403,108 @@
 
             base.Load += new EventHandler(this.Page_Load);
         }
+
+        private void SubmitSms2_ServerClick(object sender, EventArgs e)
+        {
+            //string SmsUploadFolder = AppFlag.CentaSmsBatchUploadFolder ;
+            string strFileName = this.btnUploadModeSms2.PostedFile.FileName.ToUpper();
+            string strName = Path.GetFileName(strFileName).ToUpper();
+            string path = AppDomain.CurrentDomain.BaseDirectory.ToString() + AppFlag.CentaSmsBatchUploadFolder + strName;
+
+
+            bool bUpload = true;
+            string str4 = "";
+            if (strName != "")
+            {
+                try
+                {
+                    if (!Directory.Exists(AppDomain.CurrentDomain.BaseDirectory.ToString() + AppFlag.CentaSmsBatchUploadFolder))
+                    {
+                        Directory.CreateDirectory(AppDomain.CurrentDomain.BaseDirectory.ToString() + AppFlag.CentaSmsBatchUploadFolder);
+                    }
+                    if (File.Exists(path))
+                    {
+
+                        if (strFileName.LastIndexOf("XLS") == strFileName.Length - 3)
+                        {
+                            path = AppDomain.CurrentDomain.BaseDirectory.ToString() + AppFlag.CentaSmsBatchUploadFolder + strName.Substring(0, strName.LastIndexOf(".XLS")) + "_" + DateTime.Now.ToString("MMddHHmm") + ".XLS";
+                        }
+                        else if (strFileName.LastIndexOf("XLSX") == strFileName.Length - 4)
+                        {
+                            path = AppDomain.CurrentDomain.BaseDirectory.ToString() + AppFlag.CentaSmsBatchUploadFolder + strName.Substring(0, strName.LastIndexOf(".XLSX")) + "_" + DateTime.Now.ToString("MMddHHmm") + ".XLSX";
+                        }
+                        else
+                        {
+                            path = AppDomain.CurrentDomain.BaseDirectory.ToString() + AppFlag.CentaSmsBatchUploadFolder + strName + "_" + DateTime.Now.ToString("MMddHHmm");
+                        }
+                    }
+                    this.btnUploadModeSms2.PostedFile.SaveAs(path);
+
+                }
+                catch (Exception exception)
+                {
+                    bUpload = false;
+                    str4 = strName + " Error: " + exception.ToString();
+                }
+                Files.CicsWriteLog("\r\n" + DateTime.Now.ToString("HH:mm:ss") + "  (" + this.Context.User.Identity.Name + ")  開始上載Sms2 " + strName + "！");
+                if (bUpload)
+                {
+                    try
+                    {
+                        if (this.doSmsLoad2.State != 1)
+                        {
+                            SmsActions actions = new SmsActions();
+                            SmsActionData data = new SmsActionData();
+                            string strStartTime = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.fff");
+                            DataRow row = data.Tables["SMS_ACTIONS"].NewRow();
+                            row["CSMS_ACTION_CONTENT"] = strName;
+                            row["CSMS_ACTION_TYPE"] = "SMS2";
+                            row["CSMS_ACTION_STATUS"] = "進行中";
+                            row["CACTION_HANDLER"] = this.Context.User.Identity.Name;
+                            row["ACTION_STARTTIME"] = strStartTime;
+                            row["ACTION_ENDTIME"] = "";
+                            row["ACTION_REMARKS"] = "";
+                            data.Tables["SMS_ACTIONS"].Rows.Add(row);
+                            if (actions.InsertAction(data))
+                            {
+                                this.doSmsLoad2.strcondtion = strStartTime;
+                                this.doSmsLoad2.dolbUploadResult = "";
+                                this.doSmsLoad2.dolbUser = this.Context.User.Identity.Name;
+                                this.doSmsLoad2.FileName = strName;
+                                this.doSmsLoad2.dobtnUploadMode = path;
+                                this.doSmsLoad2.DoAction = this.chkAction2.Checked;
+                                this.div_load.Visible = true;
+                                this.Page.RegisterStartupScript("", "<script>location.href=location.href;</script>");
+                                this.doSmsLoad2.Runload();
+                            }
+                        }
+                    }
+                    catch (Exception exp)
+                    {
+                        Files.CicsWriteError(DateTime.Now.ToString("HH:mm:ss") + "  (" + this.Context.User.Identity.Name + ")  Uploaded Sms2 " + strName + " Error: " + exp.ToString());
+                        Files.CicsWriteLog(DateTime.Now.ToString("HH:mm:ss") + "  (" + this.Context.User.Identity.Name + ")  停止上載Sms2 " + strName + "！");
+                    }
+                }
+                else
+                {
+                    this.doSmsLoad2.dolbUploadResult = (Session["LanguageEn"] == "en-US") ? "Upload Sms2 failed！" : "上載Sms2失敗";// "上載失敗 ！";
+                    Files.CicsWriteError(DateTime.Now.ToString("HH:mm:ss") + "  (" + this.Context.User.Identity.Name + ")  Upload Sms2" + str4);
+                    Files.CicsWriteLog(DateTime.Now.ToString("HH:mm:ss") + "  (" + this.Context.User.Identity.Name + ")  上載失敗,停止上載Sms2 " + strName + "！");
+                    this.lbUploadResultSms2.UpdateAfterCallBack = true;
+                }
+                this.lbrfvUploadSms2.Visible = false;
+                this.lbrfvUploadSms2.UpdateAfterCallBack = true;
+            }
+            else
+            {
+                this.lbrfvUploadSms2.Visible = true;
+                this.lbrfvUploadSms2.UpdateAfterCallBack = true;
+                this.lbUploadResultSms2.Text = "";
+                this.lbUploadResultSms2.UpdateAfterCallBack = true;
+            }
+        }
+
+
         private void subUploadAgentSms_ServerClick(object sender, EventArgs e)
         {   //string SmsUploadFolder = AppFlag.CentaSmsBatchUploadFolder ;
             string strFileName = this.btnUploadMode3.PostedFile.FileName.ToUpper();
@@ -2193,6 +2304,7 @@
                                 this.plMsgData.Visible = true;
                                 this.plSendLogion.Visible = false;
                                 this.plUploadSms.Visible = false;
+                                     this.plUploadSms2.Visible = false;
                                 this.plUploadSmsAction.Visible = false;
                                 this.plAgentSMS.Visible = false;
                                 this.plUploadSmsAgent.Visible = false;
@@ -2205,6 +2317,7 @@
                                 this.plCallHist.Visible = false;
                                 this.plDefineScheduleMsg.Visible = false;
                                 this.plUploadSms.Visible = false;
+                                this.plUploadSms2.Visible = false;
                                 this.plUploadSmsAction.Visible = false;
                                 this.plAgentSMS.Visible = true;
                                 this.plUploadSmsAgent.Visible = false;
@@ -2231,6 +2344,7 @@
                                 this.plMsgData.Visible = true;
                                 this.plSendLogion.Visible = false;
                                 this.plUploadSms.Visible = false;
+                                     this.plUploadSms2.Visible = false;
                                 this.plUploadSmsAction.Visible = false;
                                 this.plAgentSMS.Visible = false;
                                 this.plUploadSmsAgent.Visible = false;
@@ -2243,6 +2357,7 @@
                                 this.plCallHist.Visible = false;
                                 this.plDefineScheduleMsg.Visible = false;
                                 this.plUploadSms.Visible = false;
+                                this.plUploadSms2.Visible = false;
                                 this.plUploadSmsAction.Visible = false;
                                 this.plAgentSMS.Visible = false;
                                 this.plUploadSmsAgent.Visible = true;
@@ -2280,6 +2395,7 @@
                                 this.plMsgData.Visible = true;
                                 this.plSendLogion.Visible = false;
                                 this.plUploadSms.Visible = false;
+                                this.plUploadSms2.Visible = false;
                                 this.plUploadSmsAction.Visible = false;
                                 this.plAgentSMS.Visible = false;
                                 this.plUploadSmsAgent.Visible = false;
@@ -2299,6 +2415,7 @@
                                     this.plMsgData.Visible = false;
                                     this.plSendLogion.Visible = false;
                                     this.plUploadSms.Visible = false;
+                                         this.plUploadSms2.Visible = false;
                                     this.plUploadSmsAction.Visible = false;
                                     this.plAgentSMS.Visible = false;
                                     if (Users.UserExtraGroup(this.lbUser.Text))
@@ -2332,6 +2449,7 @@
                                 this.plMsgData.Visible = false;
                                 this.plSendLogion.Visible = false;
                                 this.plUploadSms.Visible = false;
+                                this.plUploadSms2.Visible = false;
                                 this.plUploadSmsAction.Visible = false;
                                 this.plAgentSMS.Visible = false;
                                 this.plUploadSmsAgent.Visible = false;
@@ -2348,6 +2466,7 @@
                                 this.plCallHist.Visible = false;
                                 this.plDefineScheduleMsg.Visible = false;
                                 this.plUploadSms.Visible = true;
+                                this.plUploadSms2.Visible = false;
                                 this.plUploadSmsAction.Visible = false;
                                 this.plAgentSMS.Visible = false;
                                 this.plUploadSmsAgent.Visible = false;
@@ -2369,6 +2488,7 @@
                                 this.plCallHist.Visible = false;
                                 this.plDefineScheduleMsg.Visible = false;
                                 this.plUploadSms.Visible = false;
+                                this.plUploadSms2.Visible = false;
                                 this.plUploadSmsAction.Visible = true;
                                 this.plAgentSMS.Visible = false;
                                 this.plUploadSmsAgent.Visible = false;
@@ -2382,6 +2502,7 @@
                                 //    this.doSmsLoad = (DoSmsLoad)this.Session["doSmsLoad"];
                                 //}
                                 break;
+
                             case "6":
                                 this.plSendLogion.Visible = false;
                                 this.plSendMsg.Visible = false;
@@ -2390,6 +2511,30 @@
                                 this.plCallHist.Visible = false;
                                 this.plDefineScheduleMsg.Visible = false;
                                 this.plUploadSms.Visible = false;
+                                this.plUploadSms2.Visible = true;
+                                this.plUploadSmsAction.Visible = false;
+                                this.plAgentSMS.Visible = false;
+                                this.plUploadSmsAgent.Visible = false;
+                                //if (this.Session["doSmsLoad"] == null)
+                                //{
+                                //    this.doSmsLoad = new DoSmsLoad();
+                                //    this.Session["doSmsLoad"] = this.doSmsLoad;
+                                //}
+                                //else
+                                //{
+                                //    this.doSmsLoad = (DoSmsLoad)this.Session["doSmsLoad"];
+                                //}
+                                break;
+
+                            case "7":
+                                this.plSendLogion.Visible = false;
+                                this.plSendMsg.Visible = false;
+                                this.plMsgData.Visible = false;
+                                this.plSendHist.Visible = false;
+                                this.plCallHist.Visible = false;
+                                this.plDefineScheduleMsg.Visible = false;
+                                this.plUploadSms.Visible = false;
+                                this.plUploadSms2.Visible = false;
                                 this.plUploadSmsAction.Visible = false;
                                 this.plAgentSMS.Visible = true;
                                 this.plUploadSmsAgent.Visible = false;
@@ -2404,7 +2549,7 @@
                                 //    this.doSmsLoad = (DoSmsLoad)this.Session["doSmsLoad"];
                                 //}
                                 break;
-                            case "7":
+                            case "8":
                                 this.plSendLogion.Visible = false;
                                 this.plSendMsg.Visible = false;
                                 this.plMsgData.Visible = false;
@@ -2412,6 +2557,7 @@
                                 this.plCallHist.Visible = false;
                                 this.plDefineScheduleMsg.Visible = false;
                                 this.plUploadSms.Visible = false;
+                                this.plUploadSms2.Visible = false;
                                 this.plUploadSmsAction.Visible = false;
                                 this.plAgentSMS.Visible = false;
                                 this.plUploadSmsAgent.Visible = true;
@@ -2426,7 +2572,7 @@
                                 //    this.doSmsLoad = (DoSmsLoad)this.Session["doSmsLoad"];
                                 //}
                                 break;
-                            case "8":
+                            case "9":
                                 if (AppFlag.DefineMessage)
                                 {
                                     this.plSendLogion.Visible = false;
@@ -2436,6 +2582,7 @@
                                     this.plCallHist.Visible = false;
                                     this.plDefineScheduleMsg.Visible = true;
                                     this.plUploadSms.Visible = false;
+                                    this.plUploadSms2.Visible = false;
                                     this.plUploadSmsAction.Visible = false;
                                     this.plAgentSMS.Visible = false;
                                     this.plUploadSmsAgent.Visible = false;
@@ -2473,6 +2620,7 @@
                                     this.plSendHist.Visible = false;
                                     this.plCallHist.Visible = false;
                                     this.plUploadSms.Visible = false;
+                                    this.plUploadSms2.Visible = false;
                                     this.plUploadSmsAction.Visible = false;
                                     this.plAgentSMS.Visible = false;
                                     this.plUploadSmsAgent.Visible = false;
@@ -2674,7 +2822,7 @@
                             this.doSmsActionLoad = (DoSmsActionLoad)this.Session["doSmsActionLoad"];
                         }
                     }
-                    if (str == "7")
+                    if (str == "8")
                     {
                         if (this.Session["doSmsAgentLoad"] == null)
                         {
@@ -2693,6 +2841,22 @@
                             //{
                             //    this.txtUploadAgentSmsContent.Text = this.doSmsAgentLoad.doSmsContent;
                             //}
+                        }
+                    }  
+                    if (str == "6")
+                     {
+                        if (this.Session["doSmsLoad2"] == null)
+                        {
+                            this.doSmsLoad2 = new DoSmsLoad2();
+                            this.Session["doSmsLoad2"] = this.doSmsLoad2;
+                        }
+                        else
+                        {
+                            this.doSmsLoad2 = (DoSmsLoad2)this.Session["doSmsLoad2"];
+                            if (this.doSmsLoad2.State != 0)
+                            {
+                                this.chkAction2.Checked = this.doSmsLoad2.DoAction;
+                            }
                         }
                     }
                 }
@@ -2772,10 +2936,25 @@
                             }
                         }
                     }
-                }
 
-                
+                    if (str == "6") 
+                    {
+                        if (this.Session["doSmsLoad2"] == null)
+                        {
+                            this.doSmsLoad2 = new DoSmsLoad2();
+                            this.Session["doSmsLoad2"] = this.doSmsLoad2;
+                        }
+                        else
+                        {
+                            this.doSmsLoad2 = (DoSmsLoad2)this.Session["doSmsLoad2"];
+                            if (this.doSmsLoad2.State != 0)
+                            {
+                                this.chkAction2.Checked = this.doSmsLoad2.DoAction;
+                            }
+                        }
+                    }
 
+                } 
             }
         }
 

@@ -489,6 +489,16 @@
                 else {
                 }
             }
+
+                function btnSms2Upload() {
+                if (document.getElementById("btnUploadModeSms2").value != "") {
+                    return confirm('<%= GetLocalResourceObject("SGSureSend").ToString() %>');
+                }
+                else {
+                }
+            }
+
+
             function btnSureUploadAction() {
                 if (document.getElementById("btnUploadMode2").value != "") {
                     return confirm('<%= GetLocalResourceObject("SGSureUpload").ToString() %>');
@@ -1222,10 +1232,10 @@
                                             </tr>
                                             <tr>
                                                 <td height="1" style="WIDTH: 10px"></td>
-                                                <td align="center" colspan="5" height="1" style="WIDTH: 160px;height:100%">
+                                                <td align="center" colspan="5" height="1" style="WIDTH: 400px;height:100%">
                                                     <div id="div1" runat="server">
                                                         <iframe frameborder="no" height="500px" src="UploadSmsRefresh.aspx" width="100%">
-                                                            <table border="0" bordercolor="#cccccc" cellpadding="5" cellspacing="1" class="font" height="80" style="FILTER: Alpha(opacity=80); WIDTH: 152px; HEIGHT: 42px" width="160">
+                                                            <table border="0" bordercolor="#cccccc" cellpadding="5" cellspacing="1" class="font" height="80" style="FILTER: Alpha(opacity=80); WIDTH: 400px; HEIGHT: 42px">
                                                                 <tr>
                                                                     <td style="WIDTH: 55px">
                                                                         <p>
@@ -1330,6 +1340,98 @@
 															</TR>
 														</TABLE>
 													
+												</TD>
+												<TD align="left" width="15%" height="1"></TD>
+											</TR>
+										 
+										</TABLE>
+                                    </asp:panel>
+
+                                     <asp:panel id="plUploadSms2" runat="server" Visible="False" meta:resourcekey="plUploadSmsResource1"> 
+                                    <TABLE class="tan-border02" style="WIDTH: 100%; BORDER-COLLAPSE: collapse;  HEIGHT: 100%;vertical-align:top"
+											cellSpacing="10" cellPadding="0" rules="none" align="left" border="0">
+											<TR>
+												 	<TD style="WIDTH: 10px" height="3"> </TD> 
+											</TR>
+											<TR>
+												<TD style="WIDTH: 10px" height="1"></TD>
+												<TD align="center" colSpan="3" height="1"> 
+														<TABLE id="Table4" borderColor="#edecd1" height="100%" cellSpacing="1" cellPadding="0"
+															rules="none" width="80%" align="left" border="1">
+														     <tr>
+																<td height="1" style="WIDTH: 10px"></td>
+                                                                <td align="right" height="1" style="WIDTH: 143px"></td>
+                                                                <td align="left" height="1" style="WIDTH: 118px"></td>
+                                                                <td align="left" height="1"></td>
+                                                                <td align="left" height="1" width="15%"></td>
+                                                                <td align="left" height="1" width="15%"></td>
+															</TR>
+															<tr style="display:none">
+                                                                <td align="left" height="1" valign="baseline"></td>
+                                                                <td align="right" height="1">
+                                                                    <asp:Label ID="Label9" runat="server" Font-Bold="True" meta:resourcekey="Label7Resource1" Width="112px">上傳方式 ：</asp:Label>
+                                                                </td>
+                                                                <td align="left" height="1" style="WIDTH: 118px">
+                                                                    <anthem:RadioButton ID="RadioButton5" runat="server" AutoCallBack="True" Checked="True" meta:resourcekey="rbTypeAddResource1" Text="新增上傳組別的號碼" Width="130px" />
+                                                                </td>
+                                                                <td align="left" height="1">
+                                                                    <anthem:RadioButton ID="RadioButton6" runat="server" AutoCallBack="True" meta:resourcekey="rbTypeCoverResource1" Text="上傳覆蓋組別的號碼" Width="130px" />
+                                                                </td>
+                                                                <td align="left" height="1" width="15%">
+                                                                    <anthem:Button ID="Button3" runat="server" meta:resourcekey="btnUploadResource1" Text="上傳" Visible="False" Width="52px" />
+                                                                </td>
+                                                                <td align="left" height="1" width="15%"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" colspan="2" height="23" style="HEIGHT: 23px;WIDTH: 100px;">
+                                                    <asp:Label ID="Label10" runat="server" Font-Bold="True" meta:resourcekey="Label8Resource1" Width="200px">EXCEL 附件：</asp:Label>
+                                                </td>
+                                                <td align="left" colspan="1" height="23" style="HEIGHT: 23px;WIDTH: 180px;">
+                                                    <input id="btnUploadModeSms2" runat="server" accept="application/msexcel,application/csv" type="file"></input> </td>
+                                                <td align="center" height="23" style="HEIGHT: 23px;WIDTH: 100px;">
+                                                    <asp:CheckBox ID="chkAction2" runat="server" meta:resourcekey="chkActionResource1" Text="With Account Action" Visible="True" Checked="true" Width="160px" />
+                                                </td>
+                                                <td align="left" height="23" style="HEIGHT: 23px" width="5%">
+                                                    <anthem:Label ID="lbrfvUploadSms2" runat="server" ForeColor="Red" meta:resourcekey="lbrfvUploadResource1" style="Width: 60px" Visible="False">
+                                                        *</anthem:Label>
+                                                </td>
+                                                <td align="left" height="23" style="HEIGHT: 23px" width="25%">
+                                                    <input id="SubmitSms2" runat="server" onclick="return btnSms2Upload();" style="WIDTH: 48px; HEIGHT: 24px" type="submit" value="上傳"></input> </td>
+                                            </tr>
+                                            <tr bgcolor="#edecd1" height="1">
+                                                <td height="1" style="WIDTH: 10px"></td>
+                                                <td align="right" height="1"></td>
+                                                <td align="left" colspan="3" height="1">&nbsp;&nbsp;
+                                                    <anthem:Label ID="lbUploadResultSms2" runat="server" ForeColor="Red" meta:resourcekey="lbUploadResultResource1" Visible="False" Width="100%">
+                                                    </anthem:Label>
+                                                    </td>
+                                                <td align="left" height="1"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="1" style="WIDTH: 10px"></td>
+                                                <td align="center" colspan="5" height="1" style="WIDTH: 160px;height:100%">
+                                                    <div id="div5" runat="server">
+                                                        <iframe frameborder="no" height="500px" src="UploadSmsRefresh2.aspx" width="100%">
+                                                            <table border="0" bordercolor="#cccccc" cellpadding="5" cellspacing="1" class="font" height="80" style="FILTER: Alpha(opacity=80); WIDTH: 152px; HEIGHT: 42px" width="160">
+                                                                <tr>
+                                                                    <td style="WIDTH: 55px">
+                                                                        <p>
+                                                                            <asp:Image ID="Image2" runat="server" ImageUrl="resource/indicator.gif" meta:resourcekey="imgLoadResource1" />
+                                                                        </p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <p>
+                                                                            <asp:Label ID="Label13" runat="server" ForeColor="Red" meta:resourcekey="lab_stateResource1"></asp:Label>
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </iframe>
+                                                    </div>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                            </tr>
+														</TABLE>
+													 
 												</TD>
 												<TD align="left" width="15%" height="1"></TD>
 											</TR>
@@ -1555,99 +1657,7 @@
 
                                     </asp:panel>
 
-                                      <asp:panel id="Panel1" runat="server" Visible="False" meta:resourcekey="plUploadSmsResource1"> 
-                                    <TABLE class="tan-border02" style="WIDTH: 100%; BORDER-COLLAPSE: collapse;  HEIGHT: 100%;vertical-align:top"
-											cellSpacing="10" cellPadding="0" rules="none" align="left" border="0">
-											<TR>
-												 	<TD style="WIDTH: 10px" height="3"> </TD> 
-											</TR>
-											<TR>
-												<TD style="WIDTH: 10px" height="1"></TD>
-												<TD align="center" colSpan="3" height="1"> 
-														<TABLE id="Table4" borderColor="#edecd1" height="100%" cellSpacing="1" cellPadding="0"
-															rules="none" width="80%" align="left" border="1">
-														     <tr>
-																<td height="1" style="WIDTH: 10px"></td>
-                                                                <td align="right" height="1" style="WIDTH: 143px"></td>
-                                                                <td align="left" height="1" style="WIDTH: 118px"></td>
-                                                                <td align="left" height="1"></td>
-                                                                <td align="left" height="1" width="15%"></td>
-                                                                <td align="left" height="1" width="15%"></td>
-															</TR>
-															<tr style="display:none">
-                                                                <td align="left" height="1" valign="baseline"></td>
-                                                                <td align="right" height="1">
-                                                                    <asp:Label ID="Label9" runat="server" Font-Bold="True" meta:resourcekey="Label7Resource1" Width="112px">上傳方式 ：</asp:Label>
-                                                                </td>
-                                                                <td align="left" height="1" style="WIDTH: 118px">
-                                                                    <anthem:RadioButton ID="RadioButton5" runat="server" AutoCallBack="True" Checked="True" meta:resourcekey="rbTypeAddResource1" Text="新增上傳組別的號碼" Width="130px" />
-                                                                </td>
-                                                                <td align="left" height="1">
-                                                                    <anthem:RadioButton ID="RadioButton6" runat="server" AutoCallBack="True" meta:resourcekey="rbTypeCoverResource1" Text="上傳覆蓋組別的號碼" Width="130px" />
-                                                                </td>
-                                                                <td align="left" height="1" width="15%">
-                                                                    <anthem:Button ID="Button3" runat="server" meta:resourcekey="btnUploadResource1" Text="上傳" Visible="False" Width="52px" />
-                                                                </td>
-                                                                <td align="left" height="1" width="15%"></td>
-                                            </tr>
-                                            <tr>
-                                                <td align="right" colspan="2" height="23" style="HEIGHT: 23px;WIDTH: 100px;">
-                                                    <asp:Label ID="Label10" runat="server" Font-Bold="True" meta:resourcekey="Label8Resource1" Width="200px">EXCEL 附件：</asp:Label>
-                                                </td>
-                                                <td align="left" colspan="1" height="23" style="HEIGHT: 23px;WIDTH: 180px;">
-                                                    <input id="File2" runat="server" accept="application/msexcel,application/csv" type="file"></input> </td>
-                                                <td align="center" height="23" style="HEIGHT: 23px;WIDTH: 100px;">
-                                                    <asp:CheckBox ID="CheckBox1" runat="server" meta:resourcekey="chkActionResource1" Text="With Account Action" Visible="True" Checked="true" Width="160px" />
-                                                </td>
-                                                <td align="left" height="23" style="HEIGHT: 23px" width="5%">
-                                                    <anthem:Label ID="Label11" runat="server" ForeColor="Red" meta:resourcekey="lbrfvUploadResource1" style="Width: 60px" Visible="False">
-                                                        *</anthem:Label>
-                                                </td>
-                                                <td align="left" height="23" style="HEIGHT: 23px" width="25%">
-                                                    <input id="Submit4" runat="server" onclick="return btnSureUpload();" style="WIDTH: 48px; HEIGHT: 24px" type="submit" value="上傳"></input> </td>
-                                            </tr>
-                                            <tr bgcolor="#edecd1" height="1">
-                                                <td height="1" style="WIDTH: 10px"></td>
-                                                <td align="right" height="1"></td>
-                                                <td align="left" colspan="3" height="1">&nbsp;&nbsp;
-                                                    <anthem:Label ID="Label12" runat="server" ForeColor="Red" meta:resourcekey="lbUploadResultResource1" Visible="False" Width="100%">
-                                                    </anthem:Label>
-                                                    </td>
-                                                <td align="left" height="1"></td>
-                                            </tr>
-                                            <tr>
-                                                <td height="1" style="WIDTH: 10px"></td>
-                                                <td align="center" colspan="5" height="1" style="WIDTH: 160px;height:100%">
-                                                    <div id="div5" runat="server">
-                                                        <iframe frameborder="no" height="500px" src="UploadSmsRefresh.aspx" width="100%">
-                                                            <table border="0" bordercolor="#cccccc" cellpadding="5" cellspacing="1" class="font" height="80" style="FILTER: Alpha(opacity=80); WIDTH: 152px; HEIGHT: 42px" width="160">
-                                                                <tr>
-                                                                    <td style="WIDTH: 55px">
-                                                                        <p>
-                                                                            <asp:Image ID="Image2" runat="server" ImageUrl="resource/indicator.gif" meta:resourcekey="imgLoadResource1" />
-                                                                        </p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>
-                                                                            <asp:Label ID="Label13" runat="server" ForeColor="Red" meta:resourcekey="lab_stateResource1"></asp:Label>
-                                                                        </p>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </iframe>
-                                                    </div>
-                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                                            </tr>
-														</TABLE>
-													 
-												</TD>
-												<TD align="left" width="15%" height="1"></TD>
-											</TR>
-										 
-										</TABLE>
-                                    </asp:panel>
-
-									</TD>
+                                   </TD>
 							</TR>
 						</table>
 					</td>

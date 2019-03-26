@@ -22,7 +22,7 @@
         {
             this.dgActions.CurrentPageIndex = e.NewPageIndex;
             SmsActionData data = new SmsActionData();
-            data = new SmsActions().LoadAllAction("SMS");
+            data = new SmsActions().LoadAllAction("SMS2");
             this.dgActions.DataSource = data.Tables["SMS_ACTIONS"].DefaultView;
             this.dgActions.PageSize = 5;
             this.dgActions.DataBind();
@@ -45,7 +45,7 @@
         private void lbtnView_Click(object sender, EventArgs e)
         {
             SmsActionData data = new SmsActionData();
-            data = new SmsActions().LoadAllAction("SMS");
+            data = new SmsActions().LoadAllAction("SMS2");
             this.dgActions.DataSource = data.Tables["SMS_ACTIONS"].DefaultView;
             this.dgActions.PageSize = 5;
             this.dgActions.DataBind();
@@ -62,14 +62,14 @@
         {
             try
             {
-                DoSmsLoad doload;
+                DoSmsLoad2 doload;
                 Manager.Register(this);
                 if (base.Request.IsAuthenticated && base.Request.IsAuthenticated)
                 {
-                    doload = new DoSmsLoad();
-                    if (this.Session["doSmsLoad"] != null)
+                    doload = new DoSmsLoad2();
+                    if (this.Session["doSmsLoad2"] != null)
                     {
-                        doload = (DoSmsLoad)this.Session["doSmsLoad"];
+                        doload = (DoSmsLoad2)this.Session["doSmsLoad2"];
                     }
                     switch (doload.State)
                     {
@@ -83,7 +83,7 @@
                             this.divView.Visible = false;
                             this.divStatus.Visible = true;
                             SmsActionData data = new SmsActionData();
-                            data = new SmsActions().LoadActionByCondition(doload.strcondtion,"SMS");
+                            data = new SmsActions().LoadActionByCondition(doload.strcondtion,"SMS2");
                             this.dgActions.DataSource = data.Tables["SMS_ACTIONS"].DefaultView;
                             this.dgActions.PageSize = AppFlag.iPageSize;
                             this.dgActions.DataBind();
@@ -106,7 +106,7 @@
                             this.divView.Visible = true;
                             this.divStatus.Visible = false;
                             SmsActionData data2 = new SmsActionData();
-                            data2 = new SmsActions().LoadActionByCondition(doload.strcondtion, "SMS");
+                            data2 = new SmsActions().LoadActionByCondition(doload.strcondtion, "SMS2");
                             this.dgActions.DataSource = data2.Tables["SMS_ACTIONS"].DefaultView;
                             this.dgActions.PageSize = AppFlag.iPageSize;
                             this.dgActions.DataBind();
@@ -121,7 +121,7 @@
                             this.divView.Visible = true;
                             this.divStatus.Visible = false;
                             this.lbResult.Text = "備註：Sec.: " + ((TimeSpan)(DateTime.Now - doload.StartTime)).TotalSeconds.ToString("0") + "s&nbsp;&nbsp;&nbsp;&nbsp;Per: " + doload.Percent.ToString() + "/" + doload.Total.ToString() + "  &nbsp;&nbsp;&nbsp;  Finished.";
-                            this.Session["doSmsLoad"] = null;
+                            this.Session["doSmsLoad2"] = null;
                             break;
 
                         case 5:
@@ -129,7 +129,7 @@
                             this.divView.Visible = true;
                             this.divStatus.Visible = false;
                             SmsActionData data3 = new SmsActionData();
-                            data3 = new SmsActions().LoadActionByCondition(doload.strcondtion,"SMS");
+                            data3 = new SmsActions().LoadActionByCondition(doload.strcondtion,"SMS2");
                             this.dgActions.DataSource = data3.Tables["SMS_ACTIONS"].DefaultView;
                             this.dgActions.PageSize = AppFlag.iPageSize;
                             this.dgActions.DataBind();
@@ -188,7 +188,7 @@
             Label_0493:
                 this.lbResult.Text = doload.dolbUploadResult;
             Label_04A4:
-            this.Session["doSmsLoad"] = null;
+            this.Session["doSmsLoad2"] = null;
             }
             catch (Exception exception)
             {
