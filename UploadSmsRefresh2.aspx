@@ -34,12 +34,12 @@
 								</asp:TemplateColumn>
 								<asp:TemplateColumn>
 									<HeaderStyle HorizontalAlign="Left" CssClass="grid-header" VerticalAlign="Middle"></HeaderStyle>
-									<ItemStyle Width="160px" CssClass="grid-item"></ItemStyle>
+									<ItemStyle Width="200px" CssClass="grid-item"></ItemStyle>
 									<HeaderTemplate>
 										<FONT face="新細明體">文件名稱</FONT>
 									</HeaderTemplate>
 									<ItemTemplate>
-										<asp:Label id=lbGroupNameP runat="server" Width="160px" Text='<%# DataBinder.Eval(Container, "DataItem.CSMS_ACTION_CONTENT") %>'>
+										<asp:Label id=lbGroupNameP runat="server" Width="200px" Text='<%# DataBinder.Eval(Container, "DataItem.CSMS_ACTION_CONTENT") %>'>
 										</asp:Label>
 									</ItemTemplate>
 								</asp:TemplateColumn>
